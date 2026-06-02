@@ -1,0 +1,67 @@
+name: Sync Rules from Upstream
+
+on:
+  schedule:
+    # 每周一和周四 UTC 2:00（北京时间 10:00）
+    - cron: '0 2 * * 1,4'
+  workflow_dispatch:  # 可手动触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download upstream rules
+        run: |
+          # Surge 格式（Egern + Shadowrocket 通用）
+          declare -A RULES=(
+            ["YouTube.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list"
+            ["YouTubeMusic.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTubeMusic/YouTubeMusic.list"
+            ["Netflix.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
+            ["Disney.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list"
+            ["HBO.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HBO/HBO.list"
+            ["TikTok.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list"
+            ["Spotify.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list"
+            ["Microsoft.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list"
+            ["Telegram.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list"
+            ["Twitter.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list"
+            ["WeChat.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list"
+            ["GitHub.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list"
+            # Shadowrocket 特有格式
+            ["Lan.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Lan/Lan.list"
+            ["GitLab.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/GitLab/GitLab.list"
+            ["Atlassian.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Atlassian/Atlassian.list"
+            ["China.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list"
+            ["Global.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list"
+          )
+
+          for file in "${!RULES[@]}"; do
+            echo "Downloading: $file"
+            curl -sL --connect-timeout 15 --max-time 60 "${RULES[$file]}" -o "rules/$file"
+          done
+
+      - name: Check for changes
+        id: check
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No upstream changes."
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.check.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: sync rules from upstream"
+          title: "📥 同步上游规则更新"
+          body: |
+            自动从 [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) 同步规则更新。
+
+            如有变更请检查后合并。
+          branch: sync-upstream
+          delete-branch: true
+          labels: auto-sync

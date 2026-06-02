@@ -170,12 +170,12 @@ rules:
 
   # 本地网络
   - rule_set:
-      match: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Rule/Lan.yaml
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/egern/Rule/Lan.yaml
       policy: DIRECT
 
   # 广告
   - rule_set:
-      match: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Rule/AdBlock.yaml
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/egern/Rule/AdBlock.yaml
       policy: 🛑 广告拦截
 
   # Apple 服务（直连优先）
@@ -195,46 +195,46 @@ rules:
 
   # 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/YouTube.list
       policy: 📹 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTubeMusic/YouTubeMusic.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/YouTubeMusic.list
       policy: 📹 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Netflix.list
       policy: 📹 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Disney.list
       policy: 📹 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HBO/HBO.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/HBO.list
       policy: 📹 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/TikTok.list
       policy: 📹 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Spotify.list
       policy: 📹 媒体服务
 
   # 微软服务
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Microsoft.list
       policy: Ⓜ️ 微软服务
 
   # 即时通讯
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Telegram.list
       policy: 📲 即时通讯
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Twitter.list
       policy: 📲 即时通讯
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/WeChat.list
       policy: 📲 即时通讯
 
   # 代码托管
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/GitHub.list
       policy: 🐱 代码托管
 
   # 国内 IP 直连
