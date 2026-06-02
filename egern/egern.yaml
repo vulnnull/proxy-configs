@@ -170,7 +170,7 @@ rules:
 
   # 本地网络
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/egern/Rule/Lan.yaml
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Lan.list
       policy: DIRECT
 
   # 广告
