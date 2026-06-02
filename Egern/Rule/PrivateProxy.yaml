@@ -1,9 +1,0 @@
-# 规则名称: PrivateProxy (私人代理规则)
-# 链接: https://git.transnull.cn/transnull/Egern/raw/branch/main/Rule/PrivateProxy.yaml
-# 优化时间: 2026.06.02
-domain_suffix_set:
-  # --- 私人代理域名 ---
-  - minimaxi.com
-  - minimax.chat
-  - bigmodel.cn
-  - z.ai
