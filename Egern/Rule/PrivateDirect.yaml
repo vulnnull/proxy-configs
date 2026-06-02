@@ -1,0 +1,7 @@
+# 规则名称: PrivateDirect (私人直连规则)
+# 链接: https://git.transnull.cn/transnull/Egern/raw/branch/main/Rule/PrivateDirect.yaml
+# 优化时间: 2026.06.02
+domain_suffix_set:
+  # --- 私人直连域名 ---
+  - linux.do
+  - nodeseek.com

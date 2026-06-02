@@ -1,0 +1,61 @@
+# 规则名称: Apple
+# Apple 系统级服务增强规则
+# https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Rule/Apple.yaml
+# 更新时间 2026.02.09
+
+payload:
+
+  # 一 Apple ID 核心鉴权与设备校验
+  - DOMAIN,appleid.apple.com
+  - DOMAIN,account.apple.com
+  - DOMAIN,gs.apple.com
+  - DOMAIN,deviceenrollment.apple.com
+  - DOMAIN,mdmenrollment.apple.com
+  - DOMAIN,setup.apple.com
+
+  # 二 系统激活 校验 与安全服务
+  - DOMAIN,albert.apple.com
+  - DOMAIN,identity.apple.com
+  - DOMAIN,lockdown.apple.com
+  - DOMAIN,ocsp.apple.com
+  - DOMAIN,ocsp2.apple.com
+  - DOMAIN,valid.apple.com
+
+  # 三 APNs 推送 iMessage FaceTime 基础设施
+  - DOMAIN,push.apple.com
+  - DOMAIN,api.push.apple.com
+  - DOMAIN,apns.apple.com
+  - DOMAIN-SUFFIX,push.apple.com
+
+  # 四 系统更新 固件 下载 扫描
+  - DOMAIN,swscan.apple.com
+  - DOMAIN,su.itunes.apple.com
+  - DOMAIN,swcdn.apple.com
+  - DOMAIN,swdownload.apple.com
+  - DOMAIN,fwdownload.apple.com
+  - DOMAIN,updates-http.cdn-apple.com
+  - DOMAIN,updates.cdn-apple.com
+
+  # 五 时间同步 定位 传感器与系统支持
+  - DOMAIN,time.apple.com
+  - DOMAIN,ntp.apple.com
+  - DOMAIN,locationd.apple.com
+  - DOMAIN,gs-loc.apple.com
+
+  # 六 地图 天气 Siri 系统级接口
+  - DOMAIN,maps.apple.com
+  - DOMAIN,weatherkit.apple.com
+  - DOMAIN,siri.apple.com
+  - DOMAIN-SUFFIX,geo.apple.com
+  - DOMAIN-SUFFIX,weather.apple.com
+
+  # 七 系统日志 诊断 性能统计
+  - DOMAIN,metrics.apple.com
+  - DOMAIN,diagnostics.apple.com
+  - DOMAIN,analytics.apple.com
+  - DOMAIN,crashlytics.apple.com
+
+  # 八 系统级 CDN 与公共接口兜底
+  - DOMAIN-SUFFIX,cdn.apple.com
+  - DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN-SUFFIX,apple.com

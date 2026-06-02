@@ -1,0 +1,40 @@
+# ⚠️ 终极测试 — 引用已知能用的规则文件
+http_port: 3091
+socks_port: 3092
+vif_only: true
+
+dns:
+  public_ip_lookup_url: https://ifconfig.me/ip
+  proxy_nameservers:
+    - https://doh.pub/dns-query
+  bootstrap:
+    - system
+  upstreams:
+    Default:
+      - https://doh.pub/dns-query
+  forward:
+    - wildcard: { match: '*', value: Default }
+
+policy_groups:
+  - external:
+      name: 全部节点
+      type: select
+      urls:
+        - https://sub.store/download/collection/AllServer?target=Egern
+      icon: 🌹
+      hidden: true
+  - select:
+      name: 自选策略
+      policies: [全部节点, DIRECT]
+      icon: 😜
+
+rules:
+  # 引用原版配置文件里已经能正常工作的规则
+  - rule_set:
+      match: https://raw.githubusercontent.com/vulnnull/Egern-Rules/main/Apple.list
+      policy: DIRECT
+  - rule_set:
+      match: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Rule/Lan.yaml
+      policy: DIRECT
+  - default:
+      policy: 自选策略
