@@ -65,63 +65,91 @@ policy_groups:
       name: 🇭🇰 香港节点
       policies: [全部节点]
       flatten: true
-      filter: "(?i)🇭🇰|香港|Hong\\s*Kong|\\bHKG?\\b"
+      filter: "(?i)🇭🇰|香港|Hong\\s*Kong|\\bHKG?\\b|(?:深|沪|京|广)港"
       interval: 600
       tolerance: 50
   - auto_test:
       name: 🇺🇸 美国节点
       policies: [全部节点]
       flatten: true
-      filter: "(?i)🇺🇸|美国|United\\s*States|America|\\bUSA?\\b"
+      filter: "(?i)🇺🇸|美国|United\\s*States|America|\\bUSA?\\b|洛杉矶|硅谷|西雅图|芝加哥|达拉斯|凤凰城|阿什本|纽约|迈阿密|波士顿|休斯顿|亚特兰大|拉斯维加斯|圣地亚哥|盐湖城|奥斯汀|波特兰|丹佛|奥克兰|安大略|圣安娜|\\b(?:LAX|SJC|SFO|SEA|ORD|JFK|DFW|IAD|PHX|ATL|BOS|MIA|EWR|LGA|IAH|HOU|DEN|OAK|ONT|SNA|LAS|PDX|DAL|SAN|SLC|MSP)\\b"
+      interval: 600
+      tolerance: 50
+  - auto_test:
+      name: 🇹🇼 台湾节点
+      policies: [全部节点]
+      flatten: true
+      filter: "(?i)🇹🇼|台湾|Taiwan|\\b(?:TWN?|TPE|Taipei)\\b"
       interval: 600
       tolerance: 50
   - auto_test:
       name: 🇯🇵 日本节点
       policies: [全部节点]
       flatten: true
-      filter: "(?i)🇯🇵|日本|Japan|\\bJPN?\\b"
+      filter: "(?i)🇯🇵|日本|东京|大阪|Japan|\\b(?:JPN?|NRT|HND|KIX|FUK|NGO|OSA|CTS|SDJ|OKA)\\b"
+      interval: 600
+      tolerance: 50
+  - auto_test:
+      name: 🇸🇬 狮城节点
+      policies: [全部节点]
+      flatten: true
+      filter: "(?i)🇸🇬|新加坡|狮城|Singapore|\\b(?:SGP?|SIN)\\b"
+      interval: 600
+      tolerance: 50
+  - auto_test:
+      name: 🇰🇷 韩国节点
+      policies: [全部节点]
+      flatten: true
+      filter: "(?i)🇰🇷|韩国|首尔|仁川|Korea|South\\s*Korea|\\b(?:KOR|KR|ICN|SEL)\\b"
       interval: 600
       tolerance: 50
   - select:
+      name: 🌐 其他节点
+      policies: [全部节点]
+      flatten: true
+      filter: >-
+        (?xi) ^ (?! .* (?:
+          🇭🇰|香港|Hong\s*Kong|\bHKG?\b|(?:深|沪|京|广)港|
+          🇯🇵|日本|东京|大阪|Japan|\b(?:JPN?|NRT|HND|KIX|FUK|NGO|OSA|CTS|SDJ|OKA)\b|
+          🇸🇬|新加坡|狮城|Singapore|\b(?:SGP?|SIN)\b|
+          🇹🇼|台湾|Taiwan|\b(?:TWN?|TPE|Taipei)\b|
+          🇰🇷|韩国|首尔|仁川|Korea|South\s*Korea|\b(?:KOR|KR|ICN|SEL)\b|
+          🇺🇸|美国|United\s*States|America|\bUSA?\b|
+          洛杉矶|硅谷|西雅图|芝加哥|达拉斯|凤凰城|阿什本|纽约|迈阿密|波士顿|休斯顿|亚特兰大|拉斯维加斯|圣地亚哥|盐湖城|奥斯汀|波特兰|丹佛|奥克兰|安大略|圣安娜|
+          \b(?:LAX|SJC|SFO|SEA|ORD|JFK|DFW|IAD|PHX|ATL|BOS|MIA|EWR|LGA|IAH|HOU|DEN|OAK|ONT|SNA|LAS|PDX|DAL|SAN|SLC|MSP)\b|
+          倍率|剩余|到期|流量|官网|订阅|测试|有效|禁止|邮箱|客服|地址|网站|群组
+        ) ) .+ $
+  - select:
       name: 🚀 节点选择
-      policies: [🇭🇰 香港节点, 🇺🇸 美国节点, 🇯🇵 日本节点, 全部节点, DIRECT]
+      policies: [🇭🇰 香港节点, 🇺🇸 美国节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇰🇷 韩国节点, 🌐 其他节点, 全部节点, DIRECT]
       icon: 🚀
   - select:
       name: 🤖 AI 服务
       policies: [🇺🇸 美国节点, 🚀 节点选择]
-      icon: 🤖
   - select:
       name: 🍏 苹果服务
       policies: [DIRECT, 🚀 节点选择]
-      icon: 🍏
   - select:
       name: 🔍 谷歌服务
       policies: [🇯🇵 日本节点, 🚀 节点选择]
-      icon: 🔍
   - select:
       name: 📹 媒体服务
       policies: [🇭🇰 香港节点, 🚀 节点选择]
-      icon: 📹
   - select:
       name: Ⓜ️ 微软服务
       policies: [DIRECT, 🚀 节点选择]
-      icon: Ⓜ️
   - select:
       name: 📲 即时通讯
       policies: [🇭🇰 香港节点, 🚀 节点选择]
-      icon: 📲
   - select:
       name: 🐱 代码托管
       policies: [🇭🇰 香港节点, 🚀 节点选择]
-      icon: 🐱
   - select:
       name: 🔒 国内服务
       policies: [DIRECT]
-      icon: 🔒
   - select:
       name: 🛑 广告拦截
       policies: [REJECT, DIRECT]
-      icon: 🛑
 
 # 路由规则
 rules:
