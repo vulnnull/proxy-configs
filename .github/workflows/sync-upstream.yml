@@ -14,31 +14,26 @@ jobs:
 
       - name: Download upstream rules
         run: |
-          # Surge 格式（Egern + Shadowrocket 通用）
-          declare -A RULES=(
-            ["YouTube.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list"
-            ["YouTubeMusic.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTubeMusic/YouTubeMusic.list"
-            ["Netflix.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
-            ["Disney.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list"
-            ["HBO.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HBO/HBO.list"
-            ["TikTok.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list"
-            ["Spotify.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list"
-            ["Microsoft.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list"
-            ["Telegram.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list"
-            ["Twitter.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list"
-            ["WeChat.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list"
-            ["GitHub.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list"
-            # Shadowrocket 特有格式
-            ["Lan.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Lan/Lan.list"
-            ["GitLab.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/GitLab/GitLab.list"
-            ["Atlassian.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Atlassian/Atlassian.list"
-            ["China.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list"
-            ["Global.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list"
-          )
+          # ═══════════════════════════════
+          # 共享规则 → rules/（Egern + SR 通用）
+          # ═══════════════════════════════
+          RULES="YouTube YouTubeMusic Netflix Disney HBO TikTok Spotify Microsoft Telegram Twitter WeChat GitHub"
+          for r in $RULES; do
+            echo "Downloading: rules/${r}.list"
+            curl -sL --connect-timeout 15 --max-time 60 \
+              "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/${r}/${r}.list" \
+              -o "rules/${r}.list"
+          done
 
-          for file in "${!RULES[@]}"; do
-            echo "Downloading: $file"
-            curl -sL --connect-timeout 15 --max-time 60 "${RULES[$file]}" -o "rules/$file"
+          # ═══════════════════════════════
+          # Shadowrocket 特有 → sr-rules/rule/
+          # ═══════════════════════════════
+          SR_RULES="Lan GitLab Atlassian China Global"
+          for r in $SR_RULES; do
+            echo "Downloading: sr-rules/rule/${r}.list"
+            curl -sL --connect-timeout 15 --max-time 60 \
+              "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/${r}/${r}.list" \
+              -o "sr-rules/rule/${r}.list"
           done
 
       - name: Check for changes
