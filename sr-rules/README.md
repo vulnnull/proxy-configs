@@ -24,7 +24,7 @@
 **1. 复制配置链接**
 
 ```
-https://git.transnull.cn/transnull/sr-rules/raw/main/sr.conf
+https://raw.githubusercontent.com/vulnnull/proxy-configs/main/sr-rules/sr.conf
 ```
 
 **2. 导入 Shadowrocket**

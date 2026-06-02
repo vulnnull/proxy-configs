@@ -1,7 +1,7 @@
 # ==========================================
 # 📌 Egern 配置文件
-# 🔗 引用链接: https://git.transnull.cn/transnull/Egern
-# ⏱️ 更新时间: 2026.06.01 22:40
+# 🔗 引用链接: https://github.com/vulnnull/proxy-configs
+# ⏱️ 更新时间: 2026.06.02
 # ==========================================
 
 # 基本配置
@@ -23,7 +23,6 @@ real_ip_domains:
   - "*.push.apple.com"
   - "router.asus.com"
 
-# DNS 劫持
 hijack_dns:
   - '*'
 
@@ -45,28 +44,10 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
   upstreams:
-    AliDNS:
-      - h3://dns.alidns.com/dns-query
-    DNSPod:
-      - https://doh.pub/dns-query
     Default:
       - h3://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
   forward:
-    - domain_suffix: { match: alibaba.com, value: AliDNS }
-    - domain_suffix: { match: alipay.com, value: AliDNS }
-    - domain_suffix: { match: alipayobjects.com, value: AliDNS }
-    - domain_suffix: { match: aliapp.org, value: AliDNS }
-    - domain_suffix: { match: alicdn.com, value: AliDNS }
-    - domain_suffix: { match: aliyun.com, value: AliDNS }
-    - domain_suffix: { match: taobao.com, value: AliDNS }
-    - domain_suffix: { match: tmall.com, value: AliDNS }
-    - domain_suffix: { match: amap.com, value: AliDNS }
-    - domain_suffix: { match: ele.me, value: AliDNS }
-    - domain_suffix: { match: qq.com, value: DNSPod }
-    - domain_suffix: { match: wechat.com, value: DNSPod }
-    - domain_suffix: { match: weixin.com, value: DNSPod }
-    - domain_suffix: { match: tencent.com, value: DNSPod }
     - domain_suffix: { match: local, value: system }
     - domain_suffix: { match: lan, value: system }
     - wildcard: { match: '*', value: Default }
@@ -81,234 +62,155 @@ policy_groups:
       icon: 🌹
       hidden: true
   - auto_test:
-      name: 香港节点
+      name: 🇭🇰 香港节点
       policies: [全部节点]
       flatten: true
-      filter: "(?i)🇭🇰|香港|Hong\\s*Kong|\\bHKG?\\b|(?:深|沪|京|广)港"
+      filter: "(?i)🇭🇰|香港|Hong\\s*Kong|\\bHKG?\\b"
       interval: 600
       tolerance: 50
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/HongKong.png
   - auto_test:
-      name: 美国节点
+      name: 🇺🇸 美国节点
       policies: [全部节点]
       flatten: true
-      filter: "(?i)🇺🇸|美国|United\\s*States|America|\\bUSA?\\b|洛杉矶|硅谷|西雅图|芝加哥|达拉斯|凤凰城|阿什本|纽约|迈阿密|波士顿|休斯顿|亚特兰大|拉斯维加斯|圣地亚哥|盐湖城|奥斯汀|波特兰|丹佛|奥克兰|安大略|圣安娜|\\b(?:LAX|SJC|SFO|SEA|ORD|JFK|DFW|IAD|PHX|ATL|BOS|MIA|EWR|LGA|IAH|HOU|DEN|OAK|ONT|SNA|LAS|PDX|DAL|SAN|SLC|MSP)\\b"
+      filter: "(?i)🇺🇸|美国|United\\s*States|America|\\bUSA?\\b"
       interval: 600
       tolerance: 50
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/UnitedStates.png
   - auto_test:
-      name: 台湾节点
+      name: 🇯🇵 日本节点
       policies: [全部节点]
       flatten: true
-      filter: "(?i)🇹🇼|台湾|Taiwan|\\b(?:TWN?|TPE|Taipei)\\b"
+      filter: "(?i)🇯🇵|日本|Japan|\\bJPN?\\b"
       interval: 600
       tolerance: 50
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/Taiwan.png
-  - auto_test:
-      name: 日本节点
-      policies: [全部节点]
-      flatten: true
-      filter: "(?i)🇯🇵|日本|东京|大阪|Japan|\\b(?:JPN?|NRT|HND|KIX|FUK|NGO|OSA|CTS|SDJ|OKA)\\b"
-      interval: 600
-      tolerance: 50
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/Japan.png
-  - auto_test:
-      name: 狮城节点
-      policies: [全部节点]
-      flatten: true
-      filter: "(?i)🇸🇬|新加坡|狮城|Singapore|\\b(?:SGP?|SIN)\\b"
-      interval: 600
-      tolerance: 50
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/Singapore.png
-  - auto_test:
-      name: 韩国节点
-      policies: [全部节点]
-      flatten: true
-      filter: "(?i)🇰🇷|韩国|首尔|仁川|Korea|South\\s*Korea|\\b(?:KOR|KR|ICN|SEL)\\b"
-      interval: 600
-      tolerance: 50
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/Korea.png
   - select:
-      name: 其他节点
-      policies: [全部节点]
-      flatten: true
-      filter: >-
-        (?xi) ^ (?! .* (?:
-          🇭🇰|香港|Hong\s*Kong|\bHKG?\b|(?:深|沪|京|广)港|
-          🇯🇵|日本|东京|大阪|Japan|\b(?:JPN?|NRT|HND|KIX|FUK|NGO|OSA|CTS|SDJ|OKA)\b|
-          🇸🇬|新加坡|狮城|Singapore|\b(?:SGP?|SIN)\b|
-          🇹🇼|台湾|Taiwan|\b(?:TWN?|TPE|Taipei)\b|
-          🇰🇷|韩国|首尔|仁川|Korea|South\s*Korea|\b(?:KOR|KR|ICN|SEL)\b|
-          🇺🇸|美国|United\s*States|America|\bUSA?\b|
-          洛杉矶|硅谷|西雅图|芝加哥|达拉斯|凤凰城|阿什本|纽约|迈阿密|波士顿|休斯顿|亚特兰大|拉斯维加斯|圣地亚哥|盐湖城|奥斯汀|波特兰|丹佛|奥克兰|安大略|圣安娜|
-          \b(?:LAX|SJC|SFO|SEA|ORD|JFK|DFW|IAD|PHX|ATL|BOS|MIA|EWR|LGA|IAH|HOU|DEN|OAK|ONT|SNA|LAS|PDX|DAL|SAN|SLC|MSP)\b|
-          倍率|剩余|到期|流量|官网|订阅|测试|有效|禁止|邮箱|客服|地址|网站|群组
-        ) ) .+ $
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/WorldMap.png
+      name: 🚀 节点选择
+      policies: [🇭🇰 香港节点, 🇺🇸 美国节点, 🇯🇵 日本节点, 全部节点, DIRECT]
+      icon: 🚀
   - select:
-      name: 自选策略
-      policies: [香港节点, 美国节点, 狮城节点, 台湾节点, 日本节点, 韩国节点, 其他节点, 全部节点, DIRECT]
-      icon: 😜
+      name: 🤖 AI 服务
+      policies: [🇺🇸 美国节点, 🚀 节点选择]
+      icon: 🤖
   - select:
-      name: AIGC
-      policies: [美国节点, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/ChatGPT.png
+      name: 🍏 苹果服务
+      policies: [DIRECT, 🚀 节点选择]
+      icon: 🍏
   - select:
-      name: Bing
-      policies: [美国节点, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/Bing.png
+      name: 🔍 谷歌服务
+      policies: [🇯🇵 日本节点, 🚀 节点选择]
+      icon: 🔍
   - select:
-      name: Disney
-      policies: [狮城节点, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/Disney.png
+      name: 📹 媒体服务
+      policies: [🇭🇰 香港节点, 🚀 节点选择]
+      icon: 📹
   - select:
-      name: HBO
-      policies: [美国节点, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/HBO.png
+      name: Ⓜ️ 微软服务
+      policies: [DIRECT, 🚀 节点选择]
+      icon: Ⓜ️
   - select:
-      name: Netflix
-      policies: [狮城节点, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/Netflix.png
+      name: 📲 即时通讯
+      policies: [🇭🇰 香港节点, 🚀 节点选择]
+      icon: 📲
   - select:
-      name: Spotify
-      policies: [美国节点, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/Spotify.png
+      name: 🐱 代码托管
+      policies: [🇭🇰 香港节点, 🚀 节点选择]
+      icon: 🐱
   - select:
-      name: TikTok
-      policies: [日本节点, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/TikTok.png
+      name: 🔒 国内服务
+      policies: [DIRECT]
+      icon: 🔒
   - select:
-      name: YouTubeMusic
-      policies: [香港节点, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/YouTubeMusic.png
-  - select:
-      name: YouTube
-      policies: [香港节点, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/YouTube.png
-  - select:
-      name: GitHub
-      policies: [香港节点, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/GitHub.png
-  - select:
-      name: Google
-      policies: [美国节点, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/Google.png
-  - select:
-      name: Microsoft
-      policies: [DIRECT, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/Microsoft.png
-  - select:
-      name: PayPal
-      policies: [美国节点, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/PayPal.png
-  - select:
-      name: Telegram
-      policies: [香港节点, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/Telegram.png
-  - select:
-      name: Twitter
-      policies: [香港节点, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/Twitter.png
-  - select:
-      name: WeChat
-      policies: [DIRECT, 自选策略]
-      flatten: true
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/WeChat.png
-  - select:
-      name: 猎杀广告
+      name: 🛑 广告拦截
       policies: [REJECT, DIRECT]
-      icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/AdBlock.png
+      icon: 🛑
 
 # 路由规则
 rules:
-  # ⭐ 私有规则（优先级最高）
+  # 私人规则（最高优先级）
   - rule_set:
       match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/PrivateDirect.list
       policy: DIRECT
   - rule_set:
       match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/PrivateProxy.list
-      policy: 自选策略
+      policy: 🚀 节点选择
+
+  # 本地网络
   - rule_set:
       match: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Rule/Lan.yaml
       policy: DIRECT
+
+  # 广告
   - rule_set:
       match: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Rule/AdBlock.yaml
-      policy: 猎杀广告
+      policy: 🛑 广告拦截
+
+  # Apple 服务（直连优先）
   - rule_set:
       match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Apple.list
-      policy: DIRECT
+      policy: 🍏 苹果服务
+
+  # AI 服务
   - rule_set:
-      match: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Rule/AIGC.yaml
-      policy: AIGC
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/AI.list
+      policy: 🤖 AI 服务
+
+  # Google 服务
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Bing/Bing.list
-      policy: Bing
-  - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list
-      policy: Disney
-  - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HBO/HBO.list
-      policy: HBO
-  - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list
-      policy: Netflix
-  - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list
-      policy: Spotify
-  - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list
-      policy: TikTok
-  - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTubeMusic/YouTubeMusic.list
-      policy: YouTubeMusic
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Google.list
+      policy: 🔍 谷歌服务
+
+  # 媒体服务
   - rule_set:
       match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list
-      policy: YouTube
+      policy: 📹 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list
-      policy: GitHub
+      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTubeMusic/YouTubeMusic.list
+      policy: 📹 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list
-      policy: Google
+      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list
+      policy: 📹 媒体服务
+  - rule_set:
+      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list
+      policy: 📹 媒体服务
+  - rule_set:
+      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HBO/HBO.list
+      policy: 📹 媒体服务
+  - rule_set:
+      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list
+      policy: 📹 媒体服务
+  - rule_set:
+      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list
+      policy: 📹 媒体服务
+
+  # 微软服务
   - rule_set:
       match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list
-      policy: Microsoft
-  - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list
-      policy: PayPal
+      policy: Ⓜ️ 微软服务
+
+  # 即时通讯
   - rule_set:
       match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list
-      policy: Telegram
+      policy: 📲 即时通讯
   - rule_set:
       match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list
-      policy: Twitter
+      policy: 📲 即时通讯
   - rule_set:
       match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list
-      policy: WeChat
+      policy: 📲 即时通讯
+
+  # 代码托管
   - rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax.list
-      policy: DIRECT
+      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list
+      policy: 🐱 代码托管
+
+  # 国内 IP 直连
   - geoip:
       match: CN
-      policy: DIRECT
+      policy: 🔒 国内服务
       no_resolve: true
+
+  # 兜底
   - default:
-      policy: 自选策略
+      policy: 🚀 节点选择
 
 # MITM
 mitm:
@@ -333,22 +235,4 @@ modules:
     enabled: true
   - name: WeatherKit
     url: https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.sgmodule
-    enabled: true
-  - name: 雪球去广告
-    url: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Module/Xueqiu.yaml
-    enabled: true
-  - name: 综合电商去广告
-    url: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Module/EcommerceAdBlock.yaml
-    enabled: true
-  - name: 地图三合一去广告
-    url: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Module/MapAdBlock.yaml
-    enabled: true
-  - name: 差旅出行去广告
-    url: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Module/TravelAdBlock.yaml
-    enabled: true
-  - name: 音乐流媒体去广告
-    url: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Module/MusicAdBlock.yaml
-    enabled: true
-  - name: 视频流媒体去广告
-    url: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Module/VideoAdBlock.yaml
     enabled: true
