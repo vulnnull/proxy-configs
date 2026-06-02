@@ -1,0 +1,420 @@
+# ==========================================
+# Clash 配置文件
+# 基于: proxy-configs 统一规则
+# 更新: 2026.06.02
+# ==========================================
+
+# 端口配置
+mixed-port: 7890
+allow-lan: true
+bind-address: "*"
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+# DNS 配置
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
+    - 'lens.l.google.com'
+    - '*.n.n.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - 'xbox.*.*.microsoft.com'
+    - '*.*.xboxlive.com'
+    - '*.msftncsi.com'
+    - '*.msftconnecttest.com'
+    - '*.mcdn.bilivideo.cn'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
+# ==========================================
+# 节点订阅提供者
+# ==========================================
+proxy-providers:
+  # 全部节点（请填入订阅链接）
+  All: &All
+    type: http
+    url: ""
+    interval: 3600
+    path: ./providers/all.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://cp.cloudflare.com/generate_204
+
+  # 区域筛选
+  HK:
+    <<: *All
+    filter: "港|🇭🇰|HK|(?i)Hong"
+  TW:
+    <<: *All
+    filter: "台|🇹🇼|TW|(?i)Taiwan"
+  JP:
+    <<: *All
+    filter: "日|🇯🇵|JP|(?i)Japan"
+  SG:
+    <<: *All
+    filter: "坡|🇸🇬|狮城|SG|(?i)Singapore"
+  KR:
+    <<: *All
+    filter: "韩|🇰🇷|KR|(?i)Korea"
+  US:
+    <<: *All
+    filter: "美|🇺🇸|US|(?i)States|(?i)America"
+
+# ==========================================
+# 策略组
+# ==========================================
+proxy-groups:
+  # --- 节点选择 ---
+  - name: Proxy
+    type: select
+    proxies:
+      - Auto
+      - Fallback
+      - DIRECT
+    use:
+      - HK
+      - TW
+      - JP
+      - SG
+      - KR
+      - US
+      - All
+
+  - name: Auto
+    type: url-test
+    use: [All]
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+
+  - name: Fallback
+    type: fallback
+    use: [All]
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+
+  # --- 区域节点（手动选择） ---
+  - name: HongKong
+    type: select
+    use: [HK]
+    proxies: [DIRECT]
+
+  - name: TaiWan
+    type: select
+    use: [TW]
+    proxies: [DIRECT]
+
+  - name: Japan
+    type: select
+    use: [JP]
+    proxies: [DIRECT]
+
+  - name: Singapore
+    type: select
+    use: [SG]
+    proxies: [DIRECT]
+
+  - name: Korea
+    type: select
+    use: [KR]
+    proxies: [DIRECT]
+
+  - name: America
+    type: select
+    use: [US]
+    proxies: [DIRECT]
+
+  - name: Others
+    type: select
+    use: [All]
+    proxies: [DIRECT]
+
+  # --- 服务分组 ---
+  - name: Domestic
+    type: select
+    proxies: &Domestic
+      - DIRECT
+      - Proxy
+      - Auto
+      - HongKong
+      - Japan
+      - America
+
+  - name: Foreign
+    type: select
+    proxies: &Foreign
+      - Proxy
+      - Auto
+      - HongKong
+      - Japan
+      - America
+      - Others
+      - DIRECT
+
+  - name: AI
+    type: select
+    proxies: *Foreign
+
+  - name: Apple
+    type: select
+    proxies: *Domestic
+
+  - name: Microsoft
+    type: select
+    proxies: *Domestic
+
+  - name: Telegram
+    type: select
+    proxies: *Foreign
+
+  - name: GitHub
+    type: select
+    proxies: *Foreign
+
+  - name: Spotify
+    type: select
+    proxies: *Foreign
+
+  - name: TikTok
+    type: select
+    proxies: *Foreign
+
+  - name: Streaming
+    type: select
+    proxies: *Foreign
+
+  - name: ADblock
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: Final
+    type: select
+    proxies:
+      - Proxy
+      - Auto
+      - DIRECT
+
+# ==========================================
+# 规则集提供者
+# ==========================================
+rule-providers:
+  # --- 私人规则（本仓库 rules/yaml/） ---
+  PrivateDirect:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/yaml/PrivateDirect.yaml
+    path: ./ruleset/PrivateDirect.yaml
+    interval: 86400
+
+  PrivateProxy:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/yaml/PrivateProxy.yaml
+    path: ./ruleset/PrivateProxy.yaml
+    interval: 86400
+
+  Lan:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml
+    path: ./ruleset/Lan.yaml
+    interval: 86400
+
+  # --- 广告拦截 ---
+  ADblock:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.yaml
+    path: ./ruleset/Advertising.yaml
+    interval: 86400
+
+  # --- 自有服务（本仓库 rules/yaml/） ---
+  AI:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/yaml/AI.yaml
+    path: ./ruleset/AI.yaml
+    interval: 86400
+
+  Apple:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/yaml/Apple.yaml
+    path: ./ruleset/Apple.yaml
+    interval: 86400
+
+  ApplePush:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/yaml/ApplePush.yaml
+    path: ./ruleset/ApplePush.yaml
+    interval: 86400
+
+  Google:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/yaml/Google.yaml
+    path: ./ruleset/Google.yaml
+    interval: 86400
+
+  # --- 上游服务规则 ---
+  YouTube:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
+    path: ./ruleset/YouTube.yaml
+    interval: 86400
+
+  Netflix:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
+    path: ./ruleset/Netflix.yaml
+    interval: 86400
+
+  Disney:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.yaml
+    path: ./ruleset/Disney.yaml
+    interval: 86400
+
+  HBO:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.yaml
+    path: ./ruleset/HBO.yaml
+    interval: 86400
+
+  TikTok:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
+    path: ./ruleset/TikTok.yaml
+    interval: 86400
+
+  Spotify:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml
+    path: ./ruleset/Spotify.yaml
+    interval: 86400
+
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
+    path: ./ruleset/Telegram.yaml
+    interval: 86400
+
+  Twitter:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.yaml
+    path: ./ruleset/Twitter.yaml
+    interval: 86400
+
+  GitHub:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml
+    path: ./ruleset/GitHub.yaml
+    interval: 86400
+
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
+    path: ./ruleset/Microsoft.yaml
+    interval: 86400
+
+  WeChat:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.yaml
+    path: ./ruleset/WeChat.yaml
+    interval: 86400
+
+  # --- 地区分流 ---
+  China:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml
+    path: ./ruleset/China.yaml
+    interval: 86400
+
+  Global:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyLite.yaml
+    path: ./ruleset/Global.yaml
+    interval: 86400
+
+# ==========================================
+# 分流规则
+# ==========================================
+rules:
+  # 私人规则（最高优先级）
+  - RULE-SET,PrivateDirect,DIRECT
+  - RULE-SET,PrivateProxy,Proxy
+
+  # 本地网络
+  - RULE-SET,Lan,DIRECT
+
+  # 广告拦截
+  - RULE-SET,ADblock,ADblock
+
+  # Apple 服务（直连优先）
+  - RULE-SET,Apple,Apple
+  - RULE-SET,ApplePush,Proxy
+
+  # AI 服务
+  - RULE-SET,AI,AI
+
+  # Google 服务
+  - RULE-SET,Google,Foreign
+
+  # 媒体服务
+  - RULE-SET,YouTube,Foreign
+  - RULE-SET,Netflix,Streaming
+  - RULE-SET,Disney,Streaming
+  - RULE-SET,HBO,Streaming
+  - RULE-SET,TikTok,TikTok
+  - RULE-SET,Spotify,Spotify
+
+  # 微软服务
+  - RULE-SET,Microsoft,Microsoft
+
+  # 即时通讯
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,Twitter,Foreign
+  - RULE-SET,WeChat,Domestic
+
+  # 代码托管
+  - RULE-SET,GitHub,GitHub
+
+  # 地区分流
+  - RULE-SET,China,Domestic
+  - RULE-SET,Global,Foreign
+
+  # 国内 IP 直连
+  - GEOIP,CN,Domestic
+
+  # 兜底
+  - MATCH,Final
