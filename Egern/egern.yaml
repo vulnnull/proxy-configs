@@ -238,10 +238,10 @@ policy_groups:
 rules:
   # ⭐ 私有规则（优先级最高）
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy/main/rules/PrivateDirect.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/PrivateDirect.list
       policy: DIRECT
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy/main/rules/PrivateProxy.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/PrivateProxy.list
       policy: 自选策略
   - rule_set:
       match: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Rule/Lan.yaml
@@ -250,7 +250,7 @@ rules:
       match: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Rule/AdBlock.yaml
       policy: 猎杀广告
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy/main/rules/Apple.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Apple.list
       policy: DIRECT
   - rule_set:
       match: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Rule/AIGC.yaml

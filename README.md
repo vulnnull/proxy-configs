@@ -13,7 +13,7 @@ proxy/
 │   ├── Google.list         # Google 服务
 │   ├── PrivateDirect.list  # 私人直连
 │   └── PrivateProxy.list   # 私人代理
-├── Egern/                  ← Egern 配置
+├── egern/                  ← Egern 配置
 │   ├── egern.yaml          # 主配置
 │   ├── Rule/               # Egern 原生 YAML 规则
 │   ├── Module/             # 功能模块
@@ -28,13 +28,13 @@ proxy/
 ### Egern
 
 ```
-https://raw.githubusercontent.com/vulnnull/proxy/main/Egern/egern.yaml
+https://raw.githubusercontent.com/vulnnull/proxy-configs/main/egern/egern.yaml
 ```
 
 ### Shadowrocket
 
 ```
-https://raw.githubusercontent.com/vulnnull/proxy/main/sr-rules/sr.conf
+https://raw.githubusercontent.com/vulnnull/proxy-configs/main/sr-rules/sr.conf
 ```
 
 ## 维护通用规则

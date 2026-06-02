@@ -31,7 +31,7 @@ policy_groups:
 rules:
   # 引用原版配置文件里已经能正常工作的规则
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy/main/rules/Apple.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Apple.list
       policy: DIRECT
   - rule_set:
       match: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Rule/Lan.yaml
