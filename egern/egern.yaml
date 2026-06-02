@@ -162,15 +162,15 @@ policy_groups:
 rules:
   # 私人规则（最高优先级）
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/PrivateDirect.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/PrivateDirect.list
       policy: DIRECT
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/PrivateProxy.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/PrivateProxy.list
       policy: 自选策略
 
   # 本地网络
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Lan.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/Lan.list
       policy: DIRECT
 
   # 广告
@@ -180,61 +180,61 @@ rules:
 
   # Apple 服务（直连优先）
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Apple.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/Apple.list
       policy: 🍏 苹果服务
 
   # AI 服务
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/AI.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/AI.list
       policy: 🤖 AI 服务
 
   # Google 服务
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Google.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/Google.list
       policy: 🔍 谷歌服务
 
   # 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/YouTube.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/YouTube.list
       policy: 📹 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/YouTubeMusic.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/YouTubeMusic.list
       policy: 📹 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Netflix.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/Netflix.list
       policy: 📹 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Disney.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/Disney.list
       policy: 📹 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/HBO.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/HBO.list
       policy: 📹 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/TikTok.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/TikTok.list
       policy: 📹 媒体服务
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Spotify.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/Spotify.list
       policy: 📹 媒体服务
 
   # 微软服务
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Microsoft.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/Microsoft.list
       policy: Ⓜ️ 微软服务
 
   # 即时通讯
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Telegram.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/Telegram.list
       policy: 📲 即时通讯
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/Twitter.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/Twitter.list
       policy: 📲 即时通讯
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/WeChat.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/WeChat.list
       policy: 📲 即时通讯
 
   # 代码托管
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/GitHub.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/GitHub.list
       policy: 🐱 代码托管
 
   # 国内 IP 直连

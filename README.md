@@ -1,48 +1,52 @@
 # Proxy Configs
 
-代理工具配置合集，统一维护通用规则，同时支持 **Egern** 和 **Shadowrocket**。
+代理工具配置合集，统一维护规则，同时支持 **Egern** / **Shadowrocket** / **Clash**。
 
 ## 目录结构
 
 ```
-proxy/
-├── rules/                  ← 通用规则（Surge 格式 .list，双软件通用）
-│   ├── AI.list             # AI 服务（ChatGPT、Claude 等）
-│   ├── Apple.list          # Apple 服务
-│   ├── ApplePush.list      # Apple 推送
-│   ├── Google.list         # Google 服务
-│   ├── PrivateDirect.list  # 私人直连
-│   └── PrivateProxy.list   # 私人代理
-├── egern/                  ← Egern 配置
-│   ├── egern.yaml          # 主配置
-│   ├── Rule/               # Egern 原生 YAML 规则
-│   ├── Module/             # 功能模块
-│   └── Widget/             # 小组件
-└── sr-rules/               ← Shadowrocket 配置
-    ├── sr.conf             # 主配置
-    └── ...
+proxy-configs/
+├── rules/
+│   ├── source/              ← 📝 源文件（你只需维护这一份）
+│   │   ├── AI.txt           # AI 服务域名
+│   │   ├── Apple.txt        # Apple 服务域名
+│   │   ├── Google.txt       # Google 服务域名
+│   │   ├── PrivateDirect.txt # 私人直连
+│   │   └── PrivateProxy.txt # 私人代理
+│   ├── list/                ← ⚙️ 自动生成 → Surge / Egern / Shadowrocket
+│   └── yaml/                ← ⚙️ 自动生成 → Clash
+├── egern/
+│   ├── egern.yaml           # 引用 rules/list/*.list
+│   └── ...
+├── sr-rules/
+│   ├── sr.conf              # 引用 rules/list/*.list
+│   └── rule/                # SR 特有规则
+└── scripts/
+    └── generate.py          # source/ → list/ + yaml/
 ```
+
+## 维护规则
+
+只需编辑 `rules/source/*.txt`，每行一个域名：
+
+```
+# rules/source/PrivateProxy.txt
+minimaxi.com
+minimax.chat
+bigmodel.cn
+z.ai
+```
+
+`suffix` → 自动生成 `DOMAIN-SUFFIX,domain`（后缀匹配，默认）
+`=domain` → 自动生成 `DOMAIN,domain`（精确匹配）
+`~keyword` → 自动生成 `DOMAIN-KEYWORD,keyword`（关键词匹配）
+`ip:x.x.x.x/y` → 自动生成 `IP-CIDR,x.x.x.x/y`
+`ip6:xx::/yy` → 自动生成 `IP-CIDR6,xx::/yy`
 
 ## 使用方式
 
-### Egern
-
-```
-https://raw.githubusercontent.com/vulnnull/proxy-configs/main/egern/egern.yaml
-```
-
-### Shadowrocket
-
-```
-https://raw.githubusercontent.com/vulnnull/proxy-configs/main/sr-rules/sr.conf
-```
-
-## 维护通用规则
-
-编辑 `rules/` 下的 `.list` 文件即可同时对两个软件生效：
-
-- `PrivateDirect.list` — 自定直连域名
-- `PrivateProxy.list` — 自定代理域名
-- `AI.list` — AI 服务域名
-- `Apple.list` — Apple 服务域名
-- 等等（可自行扩展）
+| 工具 | URL |
+|------|-----|
+| Egern | `https://raw.githubusercontent.com/vulnnull/proxy-configs/main/egern/egern.yaml` |
+| Shadowrocket | `https://raw.githubusercontent.com/vulnnull/proxy-configs/main/sr-rules/sr.conf` |
+| Clash | `rules/yaml/*.yaml`（加载本地文件或 rule-provider） |

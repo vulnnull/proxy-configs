@@ -2,9 +2,8 @@ name: Sync Rules from Upstream
 
 on:
   schedule:
-    # 每周一和周四 UTC 2:00（北京时间 10:00）
     - cron: '0 2 * * 1,4'
-  workflow_dispatch:  # 可手动触发
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -15,33 +14,34 @@ jobs:
       - name: Download upstream rules
         run: |
           # ═══════════════════════════════
-          # 共享规则 → rules/（Egern + SR 通用）
+          # 共享规则 → rules/list/（Surge 格式）
           # ═══════════════════════════════
-          RULES="YouTube YouTubeMusic Netflix Disney HBO TikTok Spotify Microsoft Telegram Twitter WeChat GitHub Lan"
-          for r in $RULES; do
-            echo "Downloading: rules/${r}.list"
+          UPSTREAM="YouTube YouTubeMusic Netflix Disney HBO TikTok Spotify Microsoft Telegram Twitter WeChat GitHub Lan"
+          for r in $UPSTREAM; do
             curl -sL --connect-timeout 15 --max-time 60 \
               "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/${r}/${r}.list" \
-              -o "rules/${r}.list"
+              -o "rules/list/${r}.list"
           done
 
           # ═══════════════════════════════
           # Shadowrocket 特有 → sr-rules/rule/
           # ═══════════════════════════════
-          SR_RULES="GitLab Atlassian China Global"
-          for r in $SR_RULES; do
-            echo "Downloading: sr-rules/rule/${r}.list"
+          SR="GitLab Atlassian China Global"
+          for r in $SR; do
             curl -sL --connect-timeout 15 --max-time 60 \
               "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/${r}/${r}.list" \
               -o "sr-rules/rule/${r}.list"
           done
+
+      - name: Generate rules from source
+        run: |
+          python3 scripts/generate.py
 
       - name: Check for changes
         id: check
         run: |
           if git diff --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
-            echo "No upstream changes."
           else
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
@@ -54,9 +54,8 @@ jobs:
           commit-message: "chore: sync rules from upstream"
           title: "📥 同步上游规则更新"
           body: |
-            自动从 [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) 同步规则更新。
-
-            如有变更请检查后合并。
+            自动从 [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) 同步规则。
+            同时从 source/ 重新生成 list/ + yaml/。
           branch: sync-upstream
           delete-branch: true
           labels: auto-sync

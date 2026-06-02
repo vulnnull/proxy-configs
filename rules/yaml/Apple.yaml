@@ -1,0 +1,9 @@
+# Generated from source/Apple.txt
+payload:
+  - '+.icloud.com'
+  - '+.icloud-content.com'
+  - '+.icloud.com.cn'
+  - '+.icloud-content.com.cn'
+  - '+.apple-cloudkit.com'
+  - '+.cdn-apple.com'
+  - '+.mzstatic.com'

@@ -1,38 +1,10 @@
-# NAME: Google
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-12-08 02:06:19
-# DOMAIN: 1
-# DOMAIN-KEYWORD: 5
-# DOMAIN-SUFFIX: 691
-# IP-CIDR: 5
-# USER-AGENT: 3
-# TOTAL: 705
-
-# > Google AI (from AI.list)
-# > > AI Studio
+# Generated from source/Google.txt
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN,aistudio.google.com
-DOMAIN,alkalicore-pa.clients6.google.com
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-# > > Antigravity
-DOMAIN,antigravity.google
-DOMAIN,antigravity-unleash.goog
-# > > DeepMind (deepmind.com already in list below)
 DOMAIN-SUFFIX,deepmind.google
-# > > Gemini
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN,ai.google.dev
-DOMAIN,bard.google.com
-DOMAIN,gemini.google.com
-# > > NotebookLM
-DOMAIN-KEYWORD,notebooklm.google
-# > > Search Labs
-DOMAIN-KEYWORD,labs.google
-DOMAIN,voice.telephony.goog
 DOMAIN-SUFFIX,0emm.com
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,1ucrs.com
@@ -724,16 +696,3 @@ DOMAIN-SUFFIX,zukunftswerkstatt.de
 DOMAIN-SUFFIX,zynamics.com
 DOMAIN-SUFFIX,googledrive.com
 DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-KEYWORD,appspot
-DOMAIN-KEYWORD,blogspot
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,recaptcha
-USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
-USER-AGENT,*com.google.Drive*
-USER-AGENT,Google.Drive*
-IP-CIDR,172.110.32.0/21,no-resolve
-IP-CIDR,173.194.0.0/16,no-resolve
-IP-CIDR,216.73.80.0/20,no-resolve
-IP-CIDR,2620:120:e000::/40,no-resolve
-IP-CIDR,74.125.0.0/16,no-resolve
