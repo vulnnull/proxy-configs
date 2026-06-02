@@ -77,7 +77,7 @@ policy_groups:
       tolerance: 50
   - auto_test:
       name: 🇹🇼 台湾节点
-      policies: [全部节点]
+      policies: [全部节点, DIRECT]
       flatten: true
       filter: "(?i)🇹🇼|台湾|Taiwan|\\b(?:TWN?|TPE|Taipei)\\b"
       interval: 600
@@ -91,21 +91,21 @@ policy_groups:
       tolerance: 50
   - auto_test:
       name: 🇸🇬 狮城节点
-      policies: [全部节点]
+      policies: [全部节点, DIRECT]
       flatten: true
       filter: "(?i)🇸🇬|新加坡|狮城|Singapore|\\b(?:SGP?|SIN)\\b"
       interval: 600
       tolerance: 50
   - auto_test:
       name: 🇰🇷 韩国节点
-      policies: [全部节点]
+      policies: [全部节点, DIRECT]
       flatten: true
       filter: "(?i)🇰🇷|韩国|首尔|仁川|Korea|South\\s*Korea|\\b(?:KOR|KR|ICN|SEL)\\b"
       interval: 600
       tolerance: 50
   - select:
       name: 🌐 其他节点
-      policies: [全部节点]
+      policies: [全部节点, DIRECT]
       flatten: true
       filter: >-
         (?xi) ^ (?! .* (?:
