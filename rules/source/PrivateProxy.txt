@@ -1,4 +1,2 @@
-minimaxi.com
-minimax.chat
-bigmodel.cn
-z.ai
+linux.do
+nodeseek.com

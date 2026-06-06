@@ -1,6 +1,4 @@
 # Generated from source/PrivateProxy.txt
 payload:
-  - '+.minimaxi.com'
-  - '+.minimax.chat'
-  - '+.bigmodel.cn'
-  - '+.z.ai'
+  - '+.linux.do'
+  - '+.nodeseek.com'
