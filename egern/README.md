@@ -24,8 +24,8 @@ https://raw.githubusercontent.com/vulnnull/proxy-configs/main/egern/egern.yaml
 
 编辑项目根目录 `rules/source/` 下的 `.txt` 文件即可，推送后重新加载配置自动生效：
 
-- `rules/source/PrivateDirect.txt` — 私人直连
-- `rules/source/PrivateProxy.txt` — 私人代理
+- `rules/source/custom-direct.txt` — 私人直连
+- `rules/source/custom-proxy.txt` — 私人代理
 - `rules/source/AI.txt` — AI 服务
 - `rules/source/Apple.txt` — Apple 服务
 

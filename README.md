@@ -12,8 +12,8 @@ proxy-configs/
 │   │   ├── Apple.txt         # Apple 服务域名
 │   │   ├── ApplePush.txt     # Apple 推送域名
 │   │   ├── Google.txt        # Google 服务域名
-│   │   ├── PrivateDirect.txt # 私人直连域名
-│   │   └── PrivateProxy.txt  # 私人代理域名
+│   │   ├── custom-direct.txt # 私人直连域名
+│   │   └── custom-proxy.txt  # 私人代理域名
 │   ├── list/                 ← ⚙️ 自动生成 → Egern / Shadowrocket 引用
 │   └── yaml/                 ← ⚙️ 自动生成 → Clash 引用
 ├── egern/
@@ -45,7 +45,7 @@ GitHub Action（每周一四自动同步上游 blackmatrix7）
 只需编辑 `rules/source/*.txt`，每行一个域名：
 
 ```
-# rules/source/PrivateProxy.txt
+# rules/source/custom-proxy.txt
 minimaxi.com
 minimax.chat
 bigmodel.cn

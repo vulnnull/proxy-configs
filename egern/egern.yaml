@@ -162,10 +162,10 @@ policy_groups:
 rules:
   # 私人规则（最高优先级）
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/PrivateDirect.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/custom-direct.list
       policy: DIRECT
   - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/PrivateProxy.list
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/custom-proxy.list
       policy: 自选策略
 
   # 本地网络

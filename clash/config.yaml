@@ -215,18 +215,18 @@ proxy-groups:
 # ==========================================
 rule-providers:
   # --- 私人规则（本仓库 rules/yaml/） ---
-  PrivateDirect:
+  custom-direct:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/yaml/PrivateDirect.yaml
-    path: ./ruleset/PrivateDirect.yaml
+    url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/yaml/custom-direct.yaml
+    path: ./ruleset/custom-direct.yaml
     interval: 86400
 
-  PrivateProxy:
+  custom-proxy:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/yaml/PrivateProxy.yaml
-    path: ./ruleset/PrivateProxy.yaml
+    url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/yaml/custom-proxy.yaml
+    path: ./ruleset/custom-proxy.yaml
     interval: 86400
 
   Lan:
@@ -371,8 +371,8 @@ rule-providers:
 # ==========================================
 rules:
   # 私人规则（最高优先级）
-  - RULE-SET,PrivateDirect,DIRECT
-  - RULE-SET,PrivateProxy,Proxy
+  - RULE-SET,custom-direct,DIRECT
+  - RULE-SET,custom-proxy,Proxy
 
   # 本地网络
   - RULE-SET,Lan,DIRECT

@@ -1,4 +1,4 @@
-# Generated from source/PrivateProxy.txt
+# Generated from source/custom-proxy.txt
 payload:
   - '+.linux.do'
   - '+.nodeseek.com'
