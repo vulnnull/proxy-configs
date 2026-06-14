@@ -20,7 +20,7 @@ jobs:
           # ═══════════════════════════════
           # 共享规则 → rules/list/（Surge 格式）
           # ═══════════════════════════════
-          UPSTREAM="YouTube YouTubeMusic Netflix Disney HBO TikTok Spotify Microsoft Telegram Twitter WeChat GitHub Lan"
+          UPSTREAM="YouTube YouTubeMusic Netflix Disney HBO TikTok Spotify Microsoft Telegram Twitter GitHub Lan"
           for r in $UPSTREAM; do
             curl -sL --connect-timeout 15 --max-time 60 \
               "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/${r}/${r}.list" \

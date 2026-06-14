@@ -228,10 +228,6 @@ rules:
   - rule_set:
       match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/Twitter.list
       policy: 📲 即时通讯
-  - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/WeChat.list
-      policy: 📲 即时通讯
-
   # 代码托管
   - rule_set:
       match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/GitHub.list

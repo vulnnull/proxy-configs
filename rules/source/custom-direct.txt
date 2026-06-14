@@ -3,3 +3,4 @@ minimax.chat
 bigmodel.cn
 z.ai
 fnos.net
+transnull.cn
