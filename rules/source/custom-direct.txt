@@ -4,3 +4,10 @@ bigmodel.cn
 z.ai
 fnos.net
 transnull.cn
+# 国内大厂 / 自有服务
+qq.com
+apple.com
+todesk.com
+=api-hub.taichuos.com
+# 所有 .cn 域名
+cn
