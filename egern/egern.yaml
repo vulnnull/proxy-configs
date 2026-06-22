@@ -27,8 +27,8 @@ hijack_dns:
   - '*'
 
 # 规则数据库
-geoip_db_url: https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb
-asn_db_url: https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-ASN.mmdb
+geoip_db_url: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
+asn_db_url: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb
 
 # 测速 URL
 proxy_latency_test_url: http://www.gstatic.com/generate_204
