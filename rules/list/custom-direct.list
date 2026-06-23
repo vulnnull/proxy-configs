@@ -9,4 +9,7 @@ DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,todesk.com
 DOMAIN,api-hub.taichuos.com
+DOMAIN-KEYWORD,weixin
+DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,tencent
 DOMAIN-SUFFIX,cn

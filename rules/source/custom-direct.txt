@@ -9,5 +9,9 @@ qq.com
 apple.com
 todesk.com
 =api-hub.taichuos.com
+# 国内大厂 Keyword
+~weixin
+~alipay
+~tencent
 # 所有 .cn 域名
 cn
