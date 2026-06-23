@@ -10,6 +10,7 @@ apple.com
 todesk.com
 =api-hub.taichuos.com
 =api.modrouter.online
+vpsairobot.com
 # 国内大厂 Keyword
 ~weixin
 ~alipay

@@ -11,6 +11,7 @@ payload:
   - '+.todesk.com'
   - 'api-hub.taichuos.com'
   - 'api.modrouter.online'
+  - '+.vpsairobot.com'
   - '~weixin'
   - '~alipay'
   - '~tencent'
