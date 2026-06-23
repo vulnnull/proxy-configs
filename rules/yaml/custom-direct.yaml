@@ -10,6 +10,7 @@ payload:
   - '+.apple.com'
   - '+.todesk.com'
   - 'api-hub.taichuos.com'
+  - 'api.modrouter.online'
   - '~weixin'
   - '~alipay'
   - '~tencent'
