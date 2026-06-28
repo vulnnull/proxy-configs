@@ -60,9 +60,12 @@ dns:
   forward:
     - domain_suffix: { match: local, value: system }
     - domain_suffix: { match: lan, value: system }
-    # 国内域名 → CN DNS
+    # 国内域名 → CN-DNS
+    - proxy_rule_set:
+        match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/China.list
+        value: CN-DNS
     - domain_suffix: { match: cn, value: CN-DNS }
-    # 兜底 → Global DNS
+    # 兜底 → Global-DNS
     - domain_wildcard: { match: '*', value: Global-DNS }
 
 # 策略组
