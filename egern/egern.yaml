@@ -12,6 +12,7 @@ allow_external_connections: true
 vif_only: true
 hide_vpn_icon: false
 compat_route: true
+block_quic: true
 
 # 排除与真实 IP 配置
 vif_excluded_routes:
@@ -32,8 +33,9 @@ geoip_db_url: https://github.com/MetaCubeX/meta-rules-dat/releases/download/late
 asn_db_url: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb
 
 # 测速 URL
-proxy_latency_test_url: http://www.gstatic.com/generate_204
-direct_latency_test_url: http://www.apple.com/library/test/success.html
+proxy_latency_test_url: https://www.gstatic.com/generate_204
+direct_latency_test_url: https://www.qq.com
+udp_latency_test_url: google.com@8.8.8.8
 
 # DNS 配置
 dns:
@@ -137,27 +139,35 @@ policy_groups:
   - select:
       name: 🤖 AI 服务
       policies: [美国节点, 自选策略]
+      icon: 🤖
   - select:
       name: 🍏 苹果服务
       policies: [DIRECT, 自选策略]
+      icon: 🍏
   - select:
       name: 🔍 谷歌服务
       policies: [日本节点, 自选策略]
+      icon: 🔍
   - select:
       name: 📹 媒体服务
       policies: [香港节点, 自选策略]
+      icon: 📹
   - select:
       name: Ⓜ️ 微软服务
       policies: [DIRECT, 自选策略]
+      icon: Ⓜ️
   - select:
       name: 📲 即时通讯
       policies: [香港节点, 自选策略]
+      icon: 📲
   - select:
       name: 🐱 代码托管
       policies: [香港节点, 自选策略]
+      icon: 🐱
   - select:
       name: 🔒 国内服务
       policies: [DIRECT]
+      icon: 🔒
 
 # 路由规则
 rules:
