@@ -259,7 +259,7 @@ rules:
 
   # 兜底
   - default:
-      policy: 自选策略
+      policy: DIRECT
 
 # MITM
 mitm:
