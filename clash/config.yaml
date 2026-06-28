@@ -197,12 +197,6 @@ proxy-groups:
     type: select
     proxies: *Foreign
 
-  - name: ADblock
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-
   - name: Final
     type: select
     proxies:
