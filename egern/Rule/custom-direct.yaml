@@ -1,5 +1,5 @@
 # Generated from source/custom-direct.txt
-# Total: 16 rules
+# Total: 17 rules
 
 domain_set:
   - api-hub.taichuos.com
@@ -16,6 +16,7 @@ domain_suffix_set:
   - apple.com
   - todesk.com
   - vpsairobot.com
+  - deepseek.com
   - cn
 
 domain_keyword_set:

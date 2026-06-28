@@ -12,6 +12,7 @@ payload:
   - 'api-hub.taichuos.com'
   - 'api.modrouter.online'
   - '+.vpsairobot.com'
+  - '+.deepseek.com'
   - '~weixin'
   - '~alipay'
   - '~tencent'

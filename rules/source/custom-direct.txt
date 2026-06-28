@@ -11,6 +11,7 @@ todesk.com
 =api-hub.taichuos.com
 =api.modrouter.online
 vpsairobot.com
+deepseek.com
 # 国内大厂 Keyword
 ~weixin
 ~alipay
