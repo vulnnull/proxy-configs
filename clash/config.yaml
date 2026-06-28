@@ -352,6 +352,27 @@ rule-providers:
     path: ./ruleset/China.yaml
     interval: 86400
 
+  ChinaMedia:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/yaml/ChinaMedia.yaml
+    path: ./ruleset/ChinaMedia.yaml
+    interval: 86400
+
+  ChinaASN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/yaml/ChinaASN.yaml
+    path: ./ruleset/ChinaASN.yaml
+    interval: 86400
+
+  ChinaCIDR:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/yaml/ChinaCIDR.yaml
+    path: ./ruleset/ChinaCIDR.yaml
+    interval: 86400
+
   Global:
     type: http
     behavior: classical
@@ -402,6 +423,9 @@ rules:
 
   # 地区分流
   - RULE-SET,China,Domestic
+  - RULE-SET,ChinaMedia,Domestic
+  - RULE-SET,ChinaASN,Domestic
+  - RULE-SET,ChinaCIDR,Domestic
   - RULE-SET,Global,Foreign
 
   # 国内 IP 直连

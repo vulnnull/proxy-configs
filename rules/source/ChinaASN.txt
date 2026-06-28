@@ -1,0 +1,5083 @@
+# NAME: 深巷有喵的「ChinaASN」规则
+# AUTHOR: Rabbit-Spec
+# REPO: https://github.com/Rabbit-Spec/Surge
+# UPDATED: 2026.06.28 05:11:45
+# TOTAL: 5076
+
+# ======= 上游同步规则 ========
+asn:4134 // 中国电信骨干网
+asn:4538 // 中国教育科研网络中心
+asn:4611 // 中国新华网
+asn:4789 // 中国北京清华大学教育网
+asn:4808 // 中国联通北京省网
+asn:4809 // 中国电信下一代承载网
+asn:4811 // 中国电信（集团）
+asn:4812 // 中国电信（集团）
+asn:4813 // 中国电信（集团）
+asn:4816 // 中国电信（集团）
+asn:4835 // 中国电信（集团）
+asn:4837 // 中国联通骨干网
+asn:4842 // Tianhai InfoTech
+asn:4847 // CNIX（现北京电信省网）
+asn:4859 // 中华人民共和国国家信息中心
+asn:7497 // 计算机网络信息中心
+asn:7586 // Cloudfort IT
+asn:7609 // 摩根士丹利管理服务（上海）有限公司
+asn:7640 // 中国国际信托投资公司管理信息中心
+asn:7641 // 中国广播电视网
+asn:7653 // 摩根士丹利管理服务（上海）有限公司
+asn:9298 // 北京光环讯通数码科技有限公司
+asn:9306 // 中国国际电子商务中心
+asn:9308 // 北京毅云网络科技有限公司
+asn:9389 // 北京神州长城通信
+asn:9391 // 广东省公路宽带网络服务中心
+asn:9392 // 亚太卫星宽带通信（深圳）有限公司
+asn:9394 // 中国铁通电讯公司
+asn:9395 // 北京国信比林电信科技有限公司
+asn:9401 // 中国国家图书馆
+asn:9405 // 中国清华大学测试平台服务中心
+asn:9406 // NSFC High Speed Testbed
+asn:9535 // INTERNET-SOLUTION -HK
+asn:9800 // 中国联通
+asn:9801 // 北京中关村信息技术有限公司
+asn:9802 // 北京毅云网络科技有限公司
+asn:9803 // 北京京讯公共信息技术有限公司
+asn:9805 // 西门子（中国）有限公司
+asn:9806 // 北京教育信息网
+asn:9807 // 中国国家统计局数据管理中心
+asn:9808 // 广东移动通信有限公司
+asn:9809 // 中国深圳市福田区雅柏公园
+asn:9810 // 北京时代网星科技有限公司
+asn:9811 // 国务院发展研究中心网
+asn:9812 // 东方有线网络有限公司
+asn:9814 // 北京光纤网络有限公司
+asn:9818 // 中国清华大学互联网金融实验室
+asn:9819 // 北京 Teletron 电信工程有限公司
+asn:9886 // MercyCloud Network
+asn:9929 // 中国联通工业互联网骨干网
+asn:9939 // 中国第一线(深圳)有限公司
+asn:10111 // Zeofast Network （现上海吉实信息技术有限公司）
+asn:10206 // 中国联通 中卫云
+asn:10212 // 中国企业通讯
+asn:17428 // 北京世纪互联宽带数据中心有限公司
+asn:17429 // 北京歌华有线电视网络有限公司
+asn:17430 // 北京西朗传媒文化有限公司
+asn:17442 // 中国互联网服务提供商
+asn:17490 // 3/F,Yi Qing Building,Hua Jing Xin Cheng,广州
+asn:17621 // 中国联通上海城网
+asn:17622 // 中国联通广州城网
+asn:17623 // 中国联通深圳城网
+asn:17633 // 中国电信山东省网
+asn:17638 // 中国电信天津省网
+asn:17739 // 上海电信恒联网络有限公司
+asn:17767 // 石家庄旭鼎科技有限公司
+asn:17775 // 上海科技网络通信有限公司
+asn:17776 // 中企网络通信技术有限公司
+asn:17781 // 中国新华社
+asn:17785 // 中国电信河南省网
+asn:17799 // 中国电信辽宁省网
+asn:17816 // 中国联通广东省网
+asn:17897 // 中国电信黑龙江省网
+asn:17962 // 深圳市拓威视讯传播有限公司
+asn:17964 // 北京电信通网络科技有限公司
+asn:17966 // 中国信息广播网络有限公司
+asn:17968 // 大庆中基石油电信建设有限公司
+asn:17969 // 北京宽通网络科技有限公司
+asn:18011 // 中国教育实验网
+asn:18118 // 中信网络管理有限公司
+asn:18239 // 北京首都公共信息平台
+asn:18240 // 北京 Teletron 电信工程有限公司
+asn:18241 // 国家电力信息网
+asn:18242 // 成都信息港有限公司
+asn:18243 // 上海易思网络科技发展有限公司
+asn:18244 // 上海国联互联网数据中心有限公司
+asn:18245 // 北京方正宽带网络技术有限公司
+asn:18257 // 常州比特姆软件科技有限公司
+asn:23650 // 中国电信江苏省网
+asn:23724 // 中国电信IDC网络
+asn:23771 // 陕西广电网络
+asn:23839 // 辽河油田电讯公司
+asn:23840 // 天津先进信息产品有限公司
+asn:23841 // 6/F, No.3 Huatian Road, New Technology Industry Area
+asn:23842 // 深圳市信息网络中心
+asn:23844 // 北京光环新旺数码
+asn:23848 // 深圳市平安通讯科技有限公司
+asn:23851 // 重庆数控宽带网络有限公司
+asn:23852 // 广州未来科技有限公司
+asn:23853 // 上海数据解决方案有限公司
+asn:23910 // 中国电信下一代承载网 (CERNET 2)
+asn:23911 // 中国电信下一代承载网 (北京 IX)
+asn:24133 // 北京世纪互联宽带数据中心有限公司
+asn:24134 // 北京互联通网络科技有限公司
+asn:24137 // 河南平煤集团
+asn:24138 // 中国铁通电信公司
+asn:24139 // 华蜀传媒网络有限公司
+asn:24141 // 上海地面通信息网络有限公司
+asn:24143 // 青岛有线电视网络中心
+asn:24144 // 武汉蓝视云科技有限公司
+asn:24147 // 北京商务中心区通信科技有限公司
+asn:24149 // 中国互联网域名系统北京工程研究中心有限公司
+asn:24150 // 四川有线电视网络有限公司
+asn:24151 // 中国互联网络信息中心
+asn:24239 // 中国清华大学TWD2教育和研究网络
+asn:24302 // 中国清华大学
+asn:24311 // 中国移动通信集团公司 IPv6 网络
+asn:24348 // 中国清华大学 (CERNET 2 IX)
+asn:24349 // 中国北京大学 (CERNET 2 IX)
+asn:24350 // 中国北京邮电大学 (CERNET 2 IX)
+asn:24351 // 中国北京航空航天大学 (CERNET 2 IX)
+asn:24352 // 中国天津大学 (CERNET 2 IX)
+asn:24353 // 中国西安交通大学 (CERNET 2 IX)
+asn:24354 // 中国中国兰州大学 (CERNET 2 IX)
+asn:24355 // 中国电子科技大学 (CERNET 2 IX)
+asn:24356 // 中国重庆大学 (CERNET 2 IX)
+asn:24357 // 中国华南理工大学 (CERNET 2 IX)
+asn:24358 // 中国华中科技大学 (CERNET 2 IX)
+asn:24359 // 中国中南大学 (CERNET 2 IX)
+asn:24360 // 中国郑州大学 (CERNET 2 IX)
+asn:24361 // 中国东南大学 (CERNET 2 IX)
+asn:24362 // 中国科学技术大学 (CERNET 2 IX)
+asn:24363 // 中国山东大学 (CERNET 2 IX)
+asn:24364 // 中国上海交通大学 (CERNET 2 IX)
+asn:24365 // 中国复旦大学 (CERNET 2 IX)
+asn:24366 // 中国同济大学 (CERNET 2 IX)
+asn:24367 // 中国浙江大学 (CERNET 2 IX)
+asn:24368 // 中国厦门大学 (CERNET 2 IX)
+asn:24369 // 中国东北大学 (CERNET 2 IX)
+asn:24370 // 中国大连理工大学 (CERNET 2 IX)
+asn:24371 // 中国吉林大学 (CERNET 2 IX)
+asn:24372 // 哈尔滨工业大学 (CERNET 2 IX)
+asn:24376 // 雅虎中国数据中心
+asn:24400 // 上海移动通信有限公司
+asn:24404 // 北京铜牛信息科技股份有限公司
+asn:24406 // 中国互联网络信息中心
+asn:24409 // 中国互联网络信息中心
+asn:24413 // 深圳市日升科技有限公司
+asn:24416 // 北京三信时代科技有限公司
+asn:24422 // 华北石油通信有限公司
+asn:24423 // 福建广电网络集团
+asn:24424 // 北京谷翔信息技术有限公司
+asn:24426 // 北京 CE Huatong信息科技有限公司
+asn:24427 // 上海驰信信息技术有限公司
+asn:24428 // 北京方正宽带网络技术有限公司
+asn:24429 // 浙江淘宝网络有限公司
+asn:24430 // 中国国家邮政局
+asn:24444 // 山东移动通信有限公司
+asn:24445 // 河南移动通信有限公司
+asn:24489 // 跨欧亚信息网络 (TEIN2)
+asn:24495 // G-NET综合服务有限公司
+asn:24547 // 河北移动通信有限公司
+asn:24575 // 清华大学实验室
+asn:37936 // 北京市海淀区北四环西路58号理想国际大厦15楼
+asn:37937 // 中国电子政务信息中心
+asn:37941 // 中国数码科技有限公司
+asn:37942 // 中国文化遗产信息咨询中心
+asn:37943 // 郑州巨特计算机网络技术有限公司
+asn:37957 // 中国通讯有限公司
+asn:37963 // 杭州阿里巴巴广告有限公司
+asn:37965 // 亚太环通商务解决方案
+asn:37968 // 深圳 QianHai New-Type Internet Exchange Point 有限公司
+asn:37969 // 杭州云泽网络科技有限公司
+asn:37970 // 中国华电公司
+asn:38019 // 天津移动通信有限公司
+asn:38027 // 信息中心，科学技术部
+asn:38057 // 戴尔（中国）有限公司
+asn:38238 // 法国兴业银行（中国）有限公司
+asn:38255 // 中国教育研究网（CERNET ）
+asn:38272 // 中国教育研究网（CERNET ）
+asn:38283 // 中国电信四川电信互联网数据中心
+asn:38323 // 广州麦克疯广告有限公司
+asn:38339 // 深圳市虎盟科技有限公司
+asn:38340 // 北京百度网通科技有限公司
+asn:38341 // 中国和信信息技术有限公司
+asn:38342 // 上海维赛特网络系统有限公司
+asn:38345 // 中国互联网域名系统北京工程研究中心有限公司
+asn:38346 // 中国航天信息网络有限公司
+asn:38353 // 资本在线数据服务有限公司
+asn:38355 // 重庆广播电视宽带IP城域网
+asn:38357 // 北京数据快讯科技有限公司
+asn:38358 // 中国科学技术协会信息中心
+asn:38363 // 上海高速公路信息技术有限公司
+asn:38364 // 龙泰网络科技有限公司
+asn:38365 // 北京百度网通科技有限公司
+asn:38367 // 联合人寿保险股份有限公司
+asn:38370 // 中国铁路互联网广东分公司
+asn:38372 // 佛山市瑞江科技有限公司
+asn:38375 // 北京高华证券股份有限公司
+asn:38378 // 博世（中国）投资有限公司
+asn:38379 // 上海劢杰网络数据科技有限公司
+asn:38380 // 中国南方机车车辆工业公司
+asn:38381 // 浙江民航信息科技有限公司
+asn:38439 // 北京烽鸟网络科技有限公司
+asn:38587 // 中国教育网互联网数据中心
+asn:38834 // 上海英伟达企业网
+asn:42962 // 石家庄旭鼎科技有限公司
+asn:45057 // 中国铁通上海城网
+asn:45058 // 金桥网通通信有限公司
+asn:45061 // 上海信息网络有限公司
+asn:45062 // 广州网易电脑系统有限公司
+asn:45064 // 北京中关村软件园发展有限公司
+asn:45069 // 中国铁通山东省网
+asn:45071 // 李宁（中国）体育用品有限公司
+asn:45074 // 中国国家统计局数据管理中心
+asn:45075 // 中国中央广播电视总台
+asn:45079 // 中国长安服务有限公司
+asn:45080 // 上海联网通讯科技有限公司
+asn:45083 // 北京市海讯达通信有限责任公司
+asn:45084 // 中国北京市朝阳区建国路98号
+asn:45086 // 上海有孚网络股份有限公司
+asn:45087 // 中国免税集团
+asn:45090 // 深圳市腾讯计算机系统有限公司
+asn:45093 // 北京亿安天下科技股份有限公司 (Cnean IX)
+asn:45101 // 沃尔玛（中国）投资有限公司
+asn:45110 // 北京天威鑫通科技股份有限公司
+asn:45113 // 山西大同煤业集团通信有限公司
+asn:45275 // 天地互连信息技术有限公司
+asn:45576 // 中国清华大学
+asn:45587 // 中国宽带通信（CBCnet）
+asn:49953 // 宠赞（上海）网络科技有限公司
+asn:55439 // 互联网系统联盟 （中国北京）
+asn:55461 // 北京日升科技有限公司
+asn:55468 // 中国国际广播电台
+asn:55641 // 北京市昌平区
+asn:55786 // 肇嘉浜路1065-A
+asn:55826 // 天津大学 IPv6 Campus Network
+asn:55956 // 麦格纳汽车技术服务（上海）有限公司
+asn:55958 // Intel China Ltd.
+asn:55960 // 北京光环新旺数码
+asn:55962 // 北京 Kuaishou Technology 有限公司
+asn:55966 // 邮政储蓄银行
+asn:55967 // 北京百度网通科技有限公司
+asn:55971 // 中国社会科学院
+asn:55973 // APNIC ASN Block
+asn:55976 // 北京 DxConsole Technology有限公司
+asn:55977 // 浙江瓦苏广播电视网络有限公司
+asn:55982 // 长虹IT信息产品有限公司
+asn:55990 // 华为云服务数据中心
+asn:55991 // 
+asn:55992 // 北京奇湖科技有限公司
+asn:55994 // 上海AnchNet Tec，Inc。
+asn:55996 // CYPRESS TELECOM（CHINA）LIMITED
+asn:55998 // CNLink网络科技有限公司
+asn:56000 // 康宝莱（中国）保健品有限公司
+asn:56001 // 上海晨毅网络科技有限公司
+asn:56002 // 北京海洋通信与导航公司
+asn:56003 // 北京世纪联盟网络科技有限公司
+asn:56004 // Information Center of 上海 Municipal Education Commission
+asn:56005 // 郑州法斯特科技有限公司
+asn:56006 // 上海 Pudong Development Bank 有限公司.
+asn:56011 // UNICLOUD TECH 有限公司.
+asn:56012 // LGNET中国
+asn:56013 // 三星SDS中国
+asn:56015 // 中国体育彩票科技发展有限公司
+asn:56019 // 北京舒居佳科技有限公司
+asn:56040 // 中国移动通信公司
+asn:56041 // 中国移动通信公司
+asn:56042 // 中国移动通信公司
+asn:56044 // 中国移动通信公司
+asn:56046 // 中国移动通信公司
+asn:56047 // 中国移动通信公司
+asn:56048 // 中国移动通信公司
+asn:56282 // 北京互联网港科技有限公司
+asn:56292 // 北京 Sanxin Shidai 有限公司
+asn:58251 // 北京 Kouding Technology 有限公司
+asn:58336 // Chengde TsingYao 网络科技Service 有限公司
+asn:58416 // 佛山市四海网络科技有限公司
+asn:58448 // CONAC（中国组织名称管理中心）
+asn:58461 // 富春路288号
+asn:58466 // CHINANET 广东省网络
+asn:58517 // 中国电信
+asn:58518 // 中国电信
+asn:58519 // 云计算公司
+asn:58520 // NANTON
+asn:58536 // CONAC（中国组织名称管理中心）
+asn:58539 // 中国电信 Changsha
+asn:58540 // 株洲
+asn:58541 // 湘潭
+asn:58542 // 岳阳
+asn:58543 // 广东省
+asn:58563 // CHINANET 湖北省网络
+asn:58571 // CHINANET 广东省佛山网
+asn:58593 // 上海蓝云科技有限公司
+asn:58772 // CHINANET 福建省 福州 IDC network
+asn:58777 // CHINATELECOM Cybersecurity Tech
+asn:58811 // CONAC（中国组织名称管理中心）
+asn:58828 // 广东 RURAL CREDIT UNION
+asn:58829 // 森林永恒传播技术有限公司
+asn:58834 // 广东电缆有限公司
+asn:58842 // 北京 Sheng Hexuan Culture Communication 有限公司
+asn:58844 // 广东奥菲数据科技有限公司
+asn:58850 // 彭博财务信息（北京）有限公司
+asn:58851 // Priority of Fashion(北京)信息科技有限公司
+asn:58852 // 贵州 provincial 广电 information Network Inc
+asn:58854 // 厦门艾雅网络科技有限公司
+asn:58859 // 深圳 WSUNet Technology 有限公司
+asn:58862 // 微软（中国）有限公司
+asn:58863 // hijingshan District, 北京 to reunite the property the second floor
+asn:58866 // 中国金融认证局
+asn:58879 // 上海安昌网络安全技术有限公司
+asn:58962 // 四川世纪立新财务管理咨询有限公司
+asn:58998 // 北京 Internet Harbor Technology 有限公司
+asn:59000 // Grande Arche Technologies（上海），有限公司.
+asn:59003 // 天津 B&T broadband 网络科技有限公司
+asn:59008 // 北京 flash newsletter cas telecommunication
+asn:59009 // 青岛旺信电讯有限公司
+asn:59010 // 联合网络信息服务有限公司
+asn:59011 // 北京云林网络科技有限公司
+asn:59012 // 中粮储备集团有限公司
+asn:59019 // 北京金山云互联科技有限公司
+asn:59022 // 昆明广播电视网络有限公司
+asn:59023 // Forest Eternal 通信技术有限公司
+asn:59025 // 北京 Sankuai Technology 有限公司.
+asn:59029 // People.Cn 有限公司
+asn:59033 // 艾森科技（上海）有限公司
+asn:59034 // 北京希望网络科技有限公司
+asn:59037 // 国家计算机网络与信息
+asn:59043 // 广州兰东信息技术有限公司
+asn:59045 // APNIC ASN Block
+asn:59048 // 北京云时代科技有限公司
+asn:59049 // 沃尔玛（中国）投资有限公司
+asn:59050 // 北京云方舟科技有限公司
+asn:59056 // 上海圆通科技有限公司
+asn:59057 // 北京 yong xin chang lian 科技有限公司
+asn:59065 // 贝宝网络信息服务（上海）有限公司
+asn:59067 // 微软移动联盟互联网服务有限公司
+asn:59068 // 上海 Pudong Development Bank 有限公司
+asn:59070 // 成都 Zhongli Data Technology 有限公司
+asn:59072 // 深圳 ESIN Technology 有限公司
+asn:59073 // 中国银行股份有限公司
+asn:59074 // 泰康保险集团有限公司
+asn:59077 // 上海UCloud信息技术有限公司
+asn:59078 // 云能科技公司
+asn:59080 // 北京 HuaxiaYakue 网络科技有限公司
+asn:59081 // 上海远思网络信息服务有限公司
+asn:59083 // 上海宽辉科技有限公司
+asn:59089 // 18号建筑科技大学
+asn:59201 // 北京大学
+asn:59265 // 中国电信中国下一代互联网
+asn:63531 // 北京 BAIWU Technology 有限公司
+asn:63534 // 深圳春秋云集团
+asn:63535 // 成都万达电子信息技术有限公司
+asn:63540 // 山东云梳文化有限公司
+asn:63541 // 北京蓝天科技有限公司
+asn:63545 // 北京迅捷云技术有限公司
+asn:63548 // 联诺（北京）有限公司
+asn:63549 // 辽宁图隆科技有限公司
+asn:63554 // 九鹏网络有限公司
+asn:63555 // 北京北龙云海网络数据技术有限公司
+asn:63561 // 中国电子科技网络安全有限公司
+asn:63564 // 贵州白山云科技有限公司
+asn:63565 // 北京 lian guang tong 网络科技有限公司
+asn:63570 // APNIC ASN Block
+asn:63571 // APNIC ASN Block
+asn:63580 // 中国诺华生物医学研究有限公司
+asn:63581 // 广西广播电视信息网络有限公司
+asn:63582 // 中国电信研究院
+asn:63583 // 中国电信研究院
+asn:63590 // 河北 Broadcasting&TV Network
+asn:63593 // 广东 HeyTap Technology 有限公司
+asn:63598 // 河北 Kun Time 网络科技有限公司.
+asn:63603 // 北京HYCT网络有限公司
+asn:63612 // 深圳前海鸟云计算有限公司
+asn:63614 // A4, 5th Floor, Tower C, Triumph Plaza, Unit A, No 143,
+asn:63615 // 通用（中国）有限公司
+asn:63617 // 麦肯锡咨询公司上海
+asn:63619 // 北京 Sankuai 云计算有限公司
+asn:63620 // 深圳市华博科技发展有限公司
+asn:63621 // 宁夏广播电视网络有限公司
+asn:63629 // 北京汽车信息科技有限公司
+asn:63630 // 广州 Power 通信网络有限公司
+asn:63631 // 广东云基科技有限公司
+asn:63634 // APNIC ASN Block
+asn:63641 // 兆丰华帝信息咨询有限公司
+asn:63646 // 北京小巨科技有限公司
+asn:63648 // 北京小巨科技有限公司
+asn:63654 // 北京 NETEAST TECHNOLOGIES 有限公司
+asn:63655 // Huawei Technologies 有限公司
+asn:63663 // 北京 YunHaiHuLian 科学技术有限公司
+asn:63673 // 深圳市平安通讯科技有限公司
+asn:63677 // 江苏云永信息技术有限公司
+asn:63678 // 江苏云永信息技术有限公司
+asn:63679 // 江苏云联信息技术有限公司
+asn:63689 // Esun Technology(上海) 有限公司
+asn:63690 // China Dragon Telecom 有限公司
+asn:63691 // 北京智慧网络科技有限公司
+asn:63695 // WeiYi 网络科技有限公司
+asn:63696 // China Securities 有限公司
+asn:63697 // China Securities 有限公司
+asn:63701 // Jishi Media 有限公司
+asn:63704 // 贵州 provincial 广电 information Network Inc
+asn:63705 // 南京安来新西同心吉树佑县公司
+asn:63708 // 广东 LITONG 网络科技Limited
+asn:63711 // 中国铁通电讯公司
+asn:63722 // Hodo Telecom 有限公司。
+asn:63724 // APNIC ASN Block
+asn:63727 // 华为
+asn:63835 // 万宝大道293号
+asn:63838 // 衡阳
+asn:131137 // Inspur Software Group 有限公司
+asn:131171 // Everlife Networks
+asn:131285 // CHINATELECOM 湖北省 Shengji5G网络
+asn:131325 // 昆明
+asn:131477 // 上海华娟信息技术有限公司
+asn:131482 // 杭州 Aron Teconology 有限公司
+asn:131484 // Ubisoft 上海
+asn:131486 // 北京京东360度电子商务有限公司
+asn:131495 // 北京 nine cloud infinite 网络科技有限公司
+asn:131497 // 大众（中国）投资有限公司
+asn:131503 // 中国航空技术进出口总公司
+asn:131506 // 黑龙江广播电视网络有限公司
+asn:131512 // 北京 Xinchi Technology 有限公司
+asn:131519 // 海信
+asn:131521 // Haitong Securities 有限公司
+asn:131522 // 北京 Yovole 云计算Technology 有限公司
+asn:131524 // 上海普捷通讯科技有限公司
+asn:131525 // 南京 Tuniu Technology 有限公司.
+asn:131535 // 北京博盛拓网络科技有限公司
+asn:131536 // 上海 Great Wall Broadband Network Service 有限公司
+asn:131541 // 
+asn:131542 // 
+asn:131558 // Wal-mart (China) Investment 有限公司
+asn:131562 // APNIC 32位ASN Block
+asn:131567 // Fnetlink International 有限公司
+asn:131574 // 北京 Haiyu Technology 有限公司..
+asn:131577 // APNIC 32位ASN Block
+asn:131578 // 北京外国语大学
+asn:132019 // Earth 网络科技(上海) 有限公司
+asn:132147 // 蜀马路3号
+asn:132153 // 蜀马路3号
+asn:132203 // 科技中医大道腾讯大厦
+asn:132225 // 中国电信
+asn:132352 // meshlab.net – MEGATRANS
+asn:132437 // 安顺路10号
+asn:132510 // IDC山西中国移动通信公司
+asn:132525 // 黑龙江移动通信有限公司
+asn:132553 // 中国石油大学（华东）
+asn:132623 // Tsukeru Networks
+asn:132698 // 深圳 Balian 网络科技有限公司
+asn:132719 // 成都西维数码科技有限公司
+asn:132833 // 中国电信
+asn:132886 // 聊城大学
+asn:133111 // CERNET 内容分发网络（CCDN）
+asn:133118 // 中国联通IP网络
+asn:133119 // 中国联通IP网络
+asn:133194 // 连接集线器科技（上海）有限公司
+asn:133219 // NewMedia Express Pte Ltd.
+asn:133365 // CordCloud LTD
+asn:133465 // 昆山杜克大学
+asn:133475 // 纽约大学ASN
+asn:133492 // 张爱云
+asn:133512 // CERNET 新技术有限公司
+asn:133513 // CERNET 新技术有限公司
+asn:133515 // CERNET 新技术有限公司
+asn:133517 // CERNET 新技术有限公司
+asn:133518 // CERNET 新技术有限公司
+asn:133555 // DOORPOST Limited
+asn:133731 // 鑫源互连（香港）有限公司
+asn:133774 // 福州
+asn:133775 // 厦门
+asn:133776 // 泉州
+asn:133846 // IMLONGHAO
+asn:133865 // 北京IQIYI科技有限公司
+asn:133952 // 郑州龙陵科技有限公司
+asn:134098 // Licson互联网服务
+asn:134169 // CERNEWTECH (北京) 有限公司
+asn:134238 // CHINANET 江城省IDC网络
+asn:134417 // 南京
+asn:134418 // 陕西省
+asn:134419 // 北海
+asn:134420 // 重庆电信
+asn:134425 // CHINANET 安徽省合肥市祁门路IDC网络
+asn:134477 // 绍兴 Junruiyunjisuan 有限公司
+asn:134488 // CTJ's Global Network
+asn:134542 // 中国联通IP网络
+asn:134543 // 中国联通广东IP网络
+asn:134578 // UNION FU WAH DIGITAL TECHNOLOGY LIMITED
+asn:134602 // shuiM数据交换中心
+asn:134708 // TLY NETWORKS S.A.
+asn:134755 // CHINANET 四川省成都市MAN网络
+asn:134756 // CHINANET 江苏省南京市IDC网络
+asn:134760 // CHINANET 河北省石家庄市IDC网络
+asn:134761 // CHINANET 四川省成都市MAN网络
+asn:134762 // CHINANET 四川省成都市MAN网络
+asn:134763 // CHINANET 广东省网络
+asn:134764 // CHINANET 广东省网络
+asn:134765 // CHINANET 四川省成都市MAN网络
+asn:134766 // CHINANET 四川省成都市MAN网络
+asn:134768 // CHINANET 四川省成都市MAN网络
+asn:134769 // CHINANET 江苏省常州市IDC网络
+asn:134770 // CHINANET 江苏省苏州市太湖IDC网络
+asn:134771 // CHINANET 四川省成都市MAN网络
+asn:134772 // CHINANET 广东省东莞市MAN网络
+asn:134773 // CHINANET 广东省广州市MAN网络
+asn:134774 // CHINANET 广东省深圳市MAN网络
+asn:134775 // CHINANET 广东省珠三角MAN网络
+asn:134810 // 中国移动集团吉林通信公司
+asn:134981 // 优步公司
+asn:134993 // iLemonrain Network
+asn:135006 // VERI2
+asn:135028 // Malindex网络
+asn:135054 // 中国移动集团海南有限公司
+asn:135061 // 中国联通广东IP网络
+asn:135089 // 中国电信
+asn:135120 // Sin Zhang Ching Industry Sdn. Bhd.
+asn:135357 // 深圳凯瑟恒科技信息有限公司
+asn:135363 // 北京敦煌和光信息技术有限公司
+asn:135364 // 四川 Suike 信息科技有限公司
+asn:135365 // 上海优祖信息技术有限公司
+asn:135629 // 宁夏西云数据科技有限公司
+asn:135646 // Luginbash AS
+asn:135663 // 深圳 rainbow Computer Network 有限公司
+asn:135671 // RBB InfoTech
+asn:135883 // Nahe (天津) 网络科技有限公司
+asn:136146 // 北京 3389 网络科技有限公司
+asn:136160 // 北京 Shijihulian Yuntong 网络科技有限公司
+asn:136173 // Quanzhou Yuntun 网络科技有限公司
+asn:136180 // 北京 Tiantexin Tech. 有限公司
+asn:136188 // 迪庆
+asn:136189 // Opera软件技术（北京）有限公司
+asn:136190 // 大理
+asn:136191 // YICHANG, 湖北省, P.R.China.
+asn:136192 // Xiangyang, 湖北省, P.R.China.
+asn:136193 // Jingzhou, 湖北省, P.R.China.
+asn:136194 // 黄石, 湖北省, P.R.China.
+asn:136195 // 中国电信 Dehong
+asn:136197 // 文山
+asn:136198 // CHINANET 广东省 Yuexi MAN网络
+asn:136199 // CHINANET 广东省 Yuedong MAN网络
+asn:136200 // CHINANET 广东省佛山市MAN网络
+asn:136237 // 双宇通讯科技有限公司
+asn:136250 // 中山市 QiYi HuDong WangLuoKeJi Ltd
+asn:136390 // 深圳市奥特科技有限公司
+asn:136535 // Yang Mengqi
+asn:136545 // 蓝色数据中心
+asn:136559 // TYPCN全球网络
+asn:136574 // 哲业网络
+asn:136591 // MxxCloud LLC
+asn:136600 // 北京丰鸟网络科技有限公司
+asn:136758 // 深圳市世纪一号有限公司
+asn:136766 // ROBLOX (深圳) DIGITAL 科学技术有限公司
+asn:136782 // 麒麟网络
+asn:136958 // 中国联通广东IP网络
+asn:136959 // 中国联通广东IP网络
+asn:137218 // 快运信息技术有限公司
+asn:137256 // CatIO网络
+asn:137266 // CHINATELECOM 湖北省武汉5G网络
+asn:137401 // CHINATELECOM 湖北省黄石5G网络
+asn:137402 // CHINATELECOM 湖北省 Shiyan5G网络
+asn:137410 // 巴卡网络
+asn:137509 // 江门市天达网络有限公司
+asn:137539 // 中国联通
+asn:137547 // 郑州绿林科信息技术有限公司
+asn:137571 // arebz.com
+asn:137686 // 中国河南省郑州
+asn:137687 // 芜湖
+asn:137688 // CHINATELECOM Liaoning Benxi MAN
+asn:137689 // 淮南
+asn:137690 // 马鞍山
+asn:137691 // 中国黑龙江省
+asn:137692 // 铜陵
+asn:137693 // 安庆
+asn:137694 // CHINATELECOM 新疆克州MAN网络
+asn:137695 // CHINATELECOM 新疆乌鲁木齐MAN网络
+asn:137697 // CHINATELECOM 江苏扬州IDC网络
+asn:137698 // 中国黑龙江省哈尔滨
+asn:137699 // CHINATELECOM 江苏宿迁IDC网络
+asn:137702 // 池州
+asn:137710 // APNIC ASN Block
+asn:137711 // 上海 GongQi 网络科技有限公司
+asn:137715 // GTJA证券
+asn:137718 // 北京 Volcano Engine Technology 有限公司
+asn:137719 // 青岛 Weidong大数据Technology 有限公司
+asn:137726 // 中国石油化工股份有限公司
+asn:137735 // APNIC ASN Block
+asn:137745 // 
+asn:137746 // 
+asn:137747 // 北京 Chijun Network Advisory Service 有限公司
+asn:137751 // 西安 Qianxi 网络科技有限公司
+asn:137753 // 北京 Jingdong Shangke信息科技有限公司
+asn:137758 // 中国工商银行股份有限公司
+asn:137759 // APNIC ASN Block
+asn:137761 // APNIC ASN Block
+asn:137762 // Guosen youyun software system 有限公司
+asn:137764 // 北京卓越科技有限公司
+asn:137767 // 上海 General Motor 有限公司
+asn:137782 // STATE GRID 上海 MUNICIPAL ELECTRIC POWER COMPANY
+asn:137784 // CACloud Services (上海) 有限公司
+asn:137785 // APNIC ASN Block
+asn:137787 // 北京 Jingdong Shangke信息科技有限公司
+asn:137788 // Shanxi Beacon Cloudscape
+asn:137791 // 广州 enjoyVC 通讯技术有限公司
+asn:137794 // Dahe tianchi (北京) network 有限公司
+asn:137798 // 5/F, Zhujiang Yide Building, 362 Dongfeng Middle Road, Yuexiu District,
+asn:137799 // 中国广发银行
+asn:137801 // AIPO Cloud (贵州) Technology 有限公司
+asn:137804 // China Internet Exchange
+asn:137805 // 北京京金融科技控股有限公司
+asn:137806 // WMGS咨询（深圳）有限公司
+asn:137835 // Nathaniel Chan Jie Le
+asn:137882 // 华娟企业网
+asn:137897 // ELIX网络
+asn:138029 // 深圳市胡联先锋科技有限公司
+asn:138169 // 中国电信
+asn:138182 // 河北师范大学 (CERNET 2 regional IX)
+asn:138369 // 深圳大学 (CERNET 2 regional IX)
+asn:138370 // 南昌大学 (CERNET 2 regional IX)
+asn:138371 // 中国海洋大学 (CERNET 2 regional IX)
+asn:138373 // 福州大学 (CERNET 2 regional IX)
+asn:138374 // 太原大学 (CERNET 2 regional IX)
+asn:138375 // 内蒙古大学 (CERNET 2 regional IX)
+asn:138376 // 宁夏大学 (CERNET 2 regional IX)
+asn:138377 // 青海师范大学 (CERNET 2 regional IX)
+asn:138378 // 云南大学 (CERNET 2 regional IX)
+asn:138381 // 贵州大学 (CERNET 2 regional IX)
+asn:138387 // CHINATELECOM Shaanxi省 西安5G网络
+asn:138393 // 广西大学 (CERNET 2 regional IX)
+asn:138407 // 贵州移动通信有限公司互联网数据中心
+asn:138409 // CHINATELECOM Shaanxi省 Tongchuan5G网络
+asn:138421 // 中国联通
+asn:138436 // CHINATELECOM Shaanxi省 Baoji5G网络
+asn:138438 // 广西师范大学 (CERNET 2 regional IX)
+asn:138440 // 海南师范大学 (CERNET 2 regional IX)
+asn:138441 // 新疆大学 (CERNET 2 regional IX)
+asn:138442 // 西藏大学 (CERNET 2 regional IX)
+asn:138513 // CHINATELECOM Shaanxi省 Weinan5G网络
+asn:138514 // CHINATELECOM Shaanxi省 Xianyang5G网络
+asn:138517 // Poema Network
+asn:138538 // 宁波南边拓罗新溪吉树有限公司
+asn:138545 // Zero Cirrus 云计算(上海) 有限公司
+asn:138570 // 中国电信
+asn:138597 // CHINATELECOM Shaanxi省 Hanzhong5G网络
+asn:138635 // CHINATELECOM Shaanxi省 Ankang5G网络
+asn:138641 // CHINATELECOM Shaanxi省 Yulin5G网络
+asn:138679 // CHINATELECOM Shaanxi省 Yanan5G网络
+asn:138914 // 深圳华洋科技有限公司
+asn:138949 // 江苏 Kunshan IDC
+asn:138950 // 江苏 Wuxi International IDC network
+asn:138982 // 湖北 江西a IDC
+asn:138990 // WooMai Network
+asn:138991 // 中国电信
+asn:139007 // UNICOM 内蒙古省网络
+asn:139018 // 河南 Luoyang IDC
+asn:139019 // 河南 Xinxiang MAN
+asn:139023 // 武汉LSHIY网络科技有限公司
+asn:139061 // Societe Generale (China) Limited
+asn:139073 // Fantasy Sky Internet eXchange
+asn:139080 // The Internet Data Center of 四川移动通信有限公司
+asn:139090 // Wuxi Education Information Management Service Center
+asn:139091 // 上海 MBN tele通讯技术有限公司
+asn:139099 // 浙江 Geely Holding Group
+asn:139100 // BMW Brilliance Automotive Ltd.
+asn:139110 // 联想移动通信Technology (北京) Ltd
+asn:139112 // 上海 Qnet Networking Technology 有限公司
+asn:139113 // 上海 Felizlink 通讯技术有限公司
+asn:139118 // 上海 Rugu Info&Tech 有限公司.
+asn:139122 // 北京 MUNICIPAL ADMINISTRATION COMMUNICATION CARD 有限公司
+asn:139133 // 广州 Digital Government Operation Center
+asn:139136 // 浙江省 NEW-TYPE INTERNET EXCHANGE POINT 有限公司
+asn:139138 // Gopay信息科技有限公司
+asn:139139 // Shenyang Agricultural大学
+asn:139141 // Yusys Financial Cloud
+asn:139148 // 中国银联有限公司
+asn:139154 // 大数据Center Of Shandong省
+asn:139161 // 新疆 Rural Credit Union
+asn:139172 // 杭州 Woodnn Technology 有限公司
+asn:139177 // New Oriental Education & Technology Group Ltd.
+asn:139178 // Rural Credit Banks Funds Clearing Center
+asn:139179 // China Pacific Insurance (Group) 有限公司.
+asn:139180 // Shandong eshinton 网络科技有限公司
+asn:139182 // ABC Life Insurance 有限公司
+asn:139183 // Thomson Reuters (北京) 技术开发有限公司
+asn:139188 // 中国招商银行有限公司
+asn:139189 // 北京 Yu Jia Heng Tong Communications and Information 有限公司
+asn:139201 // 江西 Jiujiang IDC
+asn:139203 // 贵州 GuiAn IDC
+asn:139216 // Htroy Network Research Limited
+asn:139220 // 四川 Chuanxn IDC
+asn:139231 // Zero
+asn:139249 // ENMOE LTD.
+asn:139266 // 广州 Tiansui信息科技有限公司
+asn:139316 // 湖北省黄冈市 IDC
+asn:139317 // Ningbo Dahuamao信息科技有限公司
+asn:139328 // Haima Global Network
+asn:139462 // CHINANET 贵州 Yilong IDC
+asn:139587 // CHINATELECOM 河南省郑州市数据港IDC网络
+asn:139589 // GTDev Network
+asn:139618 // 珠海 Shi Fu Yuan Le Yu Technology Limited
+asn:139635 // 湖北 Yunwutong 网络科技有限公司
+asn:139721 // 合肥
+asn:139726 // 广东 Yunjie Communication 有限公司
+asn:139734 // XINGCHEN DATA HK 有限公司
+asn:139742 // Peddie Institute 有限公司
+asn:139743 // 深圳Shi Fang Technology 有限公司
+asn:139767 // 中国电信 Headquarters OA network
+asn:139774 // CERNET Center
+asn:139796 // JiuYao NET
+asn:139799 // 北京 Dajia Internet信息科技有限公司
+asn:139833 // Evsio0n Network Inc.
+asn:139866 // Ankang Puchuang 网络科技有限公司
+asn:139874 // Wu'an Chihong 网络科技有限公司
+asn:139887 // CHINANET Shandong Yantai IDC network
+asn:139888 // No.16 Hengcha Rd, Zhuhui, Hengyang, 湖南
+asn:139908 // Karamay Hzon 网络科技Development 有限公司
+asn:140043 // 广州 Jinggong信息科技有限公司
+asn:140053 // 中国电信
+asn:140056 // 中国电信
+asn:140061 // 青海电信
+asn:140083 // 中国电信
+asn:140105 // Shaanxi 移动通信有限公司
+asn:140219 // TENVM TECHNOLOGY LIMITED
+asn:140238 // CHINATELECOM Shaanxi省 Shangluo5G网络
+asn:140245 // CHINATELECOM 安徽省 Shengji5G网络
+asn:140246 // CHINATELECOM 安徽省 合肥5G网络
+asn:140247 // CHINATELECOM 安徽省 Wuhu5G网络
+asn:140248 // CHINATELECOM 安徽省 Anqing5G网络
+asn:140249 // CHINATELECOM 安徽省 Bengbu5G网络
+asn:140250 // CHINATELECOM 安徽省 Fuyang5G网络
+asn:140251 // CHINATELECOM 安徽省 Bozhou5G网络
+asn:140252 // CHINATELECOM 安徽省 Huaibei5G网络
+asn:140253 // CHINATELECOM 安徽省 Huainan5G网络
+asn:140254 // CHINATELECOM 安徽省 Shuzhou5G网络
+asn:140255 // CHINATELECOM 安徽省 Chuzhou5G网络
+asn:140256 // CHINATELECOM 安徽省 Liuan5G网络
+asn:140257 // CHINATELECOM 安徽省 Chizhou5G网络
+asn:140258 // CHINATELECOM 安徽省 Maanshan5G网络
+asn:140259 // CHINATELECOM 安徽省 Tongling5G网络
+asn:140260 // CHINATELECOM 安徽省 Xuancheng5G网络
+asn:140261 // CHINATELECOM 安徽省 Huangshan5G网络
+asn:140265 // CHINATELECOM 四川省 成都5G网络
+asn:140276 // CHINATELECOM 四川省 Luzhou 5G网络
+asn:140278 // CHINATELECOM 四川省 Mianyang 5G网络
+asn:140279 // CHINATELECOM 四川省 Nanchong 5G网络
+asn:140290 // CHINATELECOM 江苏省 5G CORE network
+asn:140291 // CHINATELECOM 江苏省 Nanjing5G网络
+asn:140292 // CHINATELECOM 江苏省 Suzhou5G网络
+asn:140293 // CHINATELECOM 江苏省 C杭州5G网络
+asn:140294 // CHINATELECOM 江苏省Yangzhou5G网络
+asn:140295 // CHINATELECOM 江苏省 Lianyungang5G网络
+asn:140296 // CHINATELECOM 江苏省 Wuxi5G网络
+asn:140297 // CHINATELECOM 江苏省 Xuzhou5G网络
+asn:140298 // CHINATELECOM 江苏省 Yancheng5G网络
+asn:140299 // CHINATELECOM 江苏省 Nantong5G网络
+asn:140300 // CHINATELECOM 江苏省 Suqian5G网络
+asn:140301 // CHINATELECOM 江苏省 Taizhou5G网络
+asn:140302 // CHINATELECOM 江苏省 Zhenjiang5G网络
+asn:140303 // CHINATELECOM 江苏省 Huaian5G网络
+asn:140308 // CHINATELECOM 广东省 Zhuhai5G网络
+asn:140309 // CHINATELECOM 广东省 Zhongshan5G网络
+asn:140310 // CHINATELECOM 广东省 Dongguan5G网络
+asn:140311 // CHINATELECOM 广东省 Jiangmen5G网络
+asn:140312 // CHINATELECOM 广东省 Zhanjiang5G网络
+asn:140313 // CHINATELECOM 广东省 Zhaoqing5G网络
+asn:140314 // CHINATELECOM 广东省 Shantou5G网络
+asn:140315 // CHINATELECOM 广东省 Jieyang5G网络
+asn:140316 // CHINATELECOM 广东省 Chaozhou5G网络
+asn:140317 // CHINATELECOM 广东省 Shaoguan5G网络
+asn:140318 // CHINATELECOM 广东省 Heyuan5G网络
+asn:140319 // CHINATELECOM 广东省 Qingyuan5G网络
+asn:140320 // CHINATELECOM 广东省 Shanwei5G网络
+asn:140328 // CHINATELECOM 福建省 Shengji5G网络
+asn:140329 // CHINATELECOM 福建省 福州5G网络
+asn:140330 // CHINATELECOM 福建省 Xiamen5G网络
+asn:140331 // CHINATELECOM 福建省 NINGDE5G网络
+asn:140332 // CHINATELECOM 福建省 Putian5G网络
+asn:140333 // CHINATELECOM 福建省 Quanzhou5G网络
+asn:140334 // CHINATELECOM 福建省 Zhangzhou5G网络
+asn:140335 // CHINATELECOM 福建省 Longyan5G网络
+asn:140336 // CHINATELECOM 福建省 Sanming5G网络
+asn:140337 // CHINATELECOM 福建省 Nanping5G网络
+asn:140345 // CHINATELECOM 云南省 Shengji5G网络
+asn:140346 // CHINATELECOM 云南省 Kunming5G网络
+asn:140347 // CHINATELECOM 云南省 Xishuangbanna5G网络
+asn:140348 // CHINATELECOM 云南省 Baoshan5G网络
+asn:140349 // CHINATELECOM 云南省 Chuxiong5G网络
+asn:140350 // CHINATELECOM 云南省 Dali5G网络
+asn:140351 // CHINATELECOM 云南省 Dehong5G网络
+asn:140352 // CHINATELECOM 云南省 Diqing5G网络
+asn:140353 // CHINATELECOM 云南省 Honghe5G网络
+asn:140354 // CHINATELECOM 云南省 Lijiang5G网络
+asn:140355 // CHINATELECOM 云南省 Lincang5G网络
+asn:140356 // CHINATELECOM 云南省 Nujiang5G网络
+asn:140357 // CHINATELECOM 云南省 Puer5G网络
+asn:140358 // CHINATELECOM 云南省 Qujing5G网络
+asn:140359 // CHINATELECOM 云南省 Wenshan5G网络
+asn:140360 // CHINATELECOM 云南省 Yuxi5G网络
+asn:140361 // CHINATELECOM 云南省 Zhaotong5G网络
+asn:140364 // CHINATELECOM 湖南省 5G Core Network5G网络
+asn:140365 // CHINATELECOM 湖南省 Changsha5G网络
+asn:140366 // CHINATELECOM 湖南省 Hengyang5G网络
+asn:140367 // CHINATELECOM 湖南省 Yueyang5G网络
+asn:140368 // CHINATELECOM 湖南省 Zhuzhou5G网络
+asn:140369 // CHINATELECOM 湖南省 Xiangtan5G网络
+asn:140370 // CHINATELECOM 湖南省 Chenzhou5G网络
+asn:140371 // CHINATELECOM 湖南省 Yongzhou5G网络
+asn:140372 // CHINATELECOM 湖南省 Yiyang5G网络
+asn:140373 // CHINATELECOM 湖南省 Changde5G网络
+asn:140374 // CHINATELECOM 湖南省 Zhangjiajie5G网络
+asn:140375 // CHINATELECOM 湖南省 Xiangxi5G网络
+asn:140376 // CHINATELECOM 湖南省 Huaihua5G网络
+asn:140377 // CHINATELECOM 湖南省 Shaoyang5G网络
+asn:140378 // CHINATELECOM 湖南省 Loudi5G网络
+asn:140483 // CHINATELECOM 浙江省 Shengji5G网络
+asn:140484 // CHINATELECOM 浙江省 Shengji EPCCE network
+asn:140485 // CHINATELECOM 浙江省 杭州 5GC network
+asn:140486 // CHINATELECOM 浙江省 JINHUA 5GC network
+asn:140487 // CHINATELECOM 浙江省 杭州5G网络
+asn:140488 // CHINATELECOM 浙江省 NINGBO5G网络
+asn:140489 // CHINATELECOM 浙江省 WENZHOU5G网络
+asn:140490 // CHINATELECOM 浙江省 JINHUA5G网络
+asn:140491 // CHINATELECOM 浙江省 TAIZHOU5G网络
+asn:140492 // CHINATELECOM 浙江省 绍兴5G网络
+asn:140493 // CHINATELECOM 浙江省 JIAXING5G网络
+asn:140494 // CHINATELECOM 浙江省 HUZHOU5G网络
+asn:140495 // CHINATELECOM 浙江省 QUZHOU5G网络
+asn:140496 // CHINATELECOM 浙江省 LISHUI5G网络
+asn:140497 // CHINATELECOM 浙江省 ZHOUSHAN5G网络
+asn:140498 // RCold Network
+asn:140506 // ZR Global Network
+asn:140508 // CHINATELECOM 广西省 Shengji5G网络
+asn:140509 // CHINATELECOM 广西省 NanNing5G网络
+asn:140510 // CHINATELECOM 广西省 LiuZhou5G网络
+asn:140511 // CHINATELECOM 广西省 GuiLin5G网络
+asn:140512 // CHINATELECOM 广西省 YuLin5G网络
+asn:140513 // CHINATELECOM 广西省 BaiSe5G网络
+asn:140514 // CHINATELECOM 广西省 GuiGang5G网络
+asn:140515 // CHINATELECOM 广西省 HeChi5G网络
+asn:140516 // CHINATELECOM 广西省 QinZhou5G网络
+asn:140517 // CHINATELECOM 广西省 WuZhou5G网络
+asn:140518 // CHINATELECOM 广西省 BeiHai5G网络
+asn:140519 // CHINATELECOM 广西省 ChongZuo5G网络
+asn:140520 // CHINATELECOM 广西省 LaiBin5G网络
+asn:140521 // CHINATELECOM 广西省 HeZhou5G网络
+asn:140522 // CHINATELECOM 广西省 FangChengGang5G网络
+asn:140527 // 中国电信
+asn:140528 // CHINATELECOM 湖北省 宜昌5G网络
+asn:140529 // CHINATELECOM 湖北省 Xiangyang5G网络
+asn:140530 // CHINATELECOM 湖北省 Ezhou5G网络
+asn:140531 // CHINATELECOM 湖北省 Jingmen5G网络
+asn:140532 // CHINATELECOM 湖北省 Xiaogan5G网络
+asn:140533 // CHINATELECOM 湖北省 Jingzhou5G网络
+asn:140534 // CHINATELECOM 湖北省 Huanggang5G网络
+asn:140535 // CHINATELECOM 湖北省 Xianning5G网络
+asn:140536 // CHINATELECOM 湖北省 Suizhou5G网络
+asn:140537 // CHINATELECOM 湖北省 Enshi5G网络
+asn:140538 // CHINATELECOM 湖北省 Xiantao5G网络
+asn:140553 // CHINATELECOM 新疆省 Shengji5G网络
+asn:140596 // 深圳 TUTENG NETWORK 有限公司
+asn:140633 // BILIBILI HK LIMITED
+asn:140636 // 中国电信
+asn:140638 // 中国电信
+asn:140647 // CHINATELECOM 贵州省 Shengji5G网络
+asn:140648 // CHINATELECOM 贵州省 Guiyang5G网络
+asn:140649 // CHINATELECOM 贵州省 Zunyi5G网络
+asn:140650 // CHINATELECOM 贵州省 Anshun5G网络
+asn:140651 // CHINATELECOM 贵州省 Qiannan5G网络
+asn:140652 // CHINATELECOM 贵州省 Qiandongnan5G网络
+asn:140653 // CHINATELECOM 贵州省 Tongren5G网络
+asn:140654 // CHINATELECOM 贵州省 Bijie5G网络
+asn:140655 // CHINATELECOM 贵州省 Liupanshui5G网络
+asn:140656 // CHINATELECOM 贵州省 Qianxinan5G网络
+asn:140657 // CHINATELECOM 贵州省 Guian5G网络
+asn:140707 // UNICOM 宁夏省 network
+asn:140716 // UNICOM 江苏 WuXi IDC network
+asn:140717 // UNICOM 江苏 Suzhou IDC network
+asn:140720 // UNICOM 江苏省南通市IDC网络
+asn:140726 // UNICOM 安徽省 network
+asn:140852 // CHINATELECOM 江西省 Shengji5G网络
+asn:140853 // CHINATELECOM 江西省 南昌5G网络
+asn:140854 // CHINATELECOM 江西省 Jiujiang5G网络
+asn:140855 // CHINATELECOM 江西省 Jingdezhen5G网络
+asn:140856 // CHINATELECOM 江西省 Shangrao5G网络
+asn:140857 // CHINATELECOM 江西省 yingtan5G网络
+asn:140858 // CHINATELECOM 江西省 Yichun5G网络
+asn:140859 // CHINATELECOM 江西省 Pingxiang5G网络
+asn:140860 // CHINATELECOM 江西省 Xinyu5G网络
+asn:140861 // CHINATELECOM 江西省 Ganzhou5G网络
+asn:140862 // CHINATELECOM 江西省 Jian5G网络
+asn:140863 // CHINATELECOM 江西省 福州5G网络
+asn:140886 // UNICOM 广西省 network
+asn:140895 // 中国移动集团安徽 communications corporation
+asn:140903 // 中国电信
+asn:140936 // SUNNET Global Network
+asn:140979 // China Unicom 上海 FuTe IDC network
+asn:141025 // Shenyang MAN, Liaoning, 中国电信
+asn:141157 // 广西 Telecom Nanning Wuxiang Yuanyang IDC
+asn:141425 // 中国移动集团广东 communications corporation
+asn:141429 // Agatha Network
+asn:141445 // Phoenix Network
+asn:141679 // 中国电信 北京 天津 河北大数据Industry Park Branch
+asn:141694 // Otaku Limited
+asn:141739 // 中国电信
+asn:141771 // 中国电信
+asn:141776 // Baoshuo Network
+asn:141998 // 中国电信
+asn:142048 // vscloud.cc
+asn:142111 // 浙江 Aiyun 网络科技有限公司
+asn:142112 // Star Horizon Tech Inc
+asn:142164 // GoldDoge Computer Technologies & Networks Information Center
+asn:142280 // NaiveTomcat Education and Research Experimental Network Backbone
+asn:142284 // Koala Network
+asn:142404 // 中国电信
+asn:142418 // TaterLi Education And Research Network
+asn:142438 // Kasumi Networks Inc
+asn:142549 // Magnetic Discovery Education and Research Network
+asn:142551 // Azurite27 Network
+asn:142553 // Airs Project Private Network Main
+asn:142554 // hongmicloud.com
+asn:142608 // 中国电信
+asn:142611 // 上海 Tujuan信息科技有限公司
+asn:142642 // Atonal System
+asn:142650 // 
+asn:142651 // 
+asn:142652 // 
+asn:142653 // 
+asn:142654 // 
+asn:142655 // 
+asn:142656 // 
+asn:142657 // 
+asn:142658 // 
+asn:142659 // 
+asn:142660 // 
+asn:142661 // 
+asn:142662 // 
+asn:142663 // 
+asn:142664 // 
+asn:142665 // 
+asn:142666 // 
+asn:142667 // 
+asn:142668 // 
+asn:142669 // 
+asn:142670 // 
+asn:142671 // 
+asn:142672 // 
+asn:142673 // 
+asn:142674 // 
+asn:142675 // 
+asn:142676 // 
+asn:142677 // 
+asn:142678 // 
+asn:142679 // 
+asn:142680 // 
+asn:142681 // 
+asn:142682 // 
+asn:142683 // 
+asn:142684 // 
+asn:142685 // 
+asn:142686 // 
+asn:142687 // 
+asn:142688 // 
+asn:142689 // 
+asn:142690 // 
+asn:142691 // 
+asn:142692 // 
+asn:142693 // 
+asn:142694 // 
+asn:142695 // 
+asn:142696 // 
+asn:142697 // 
+asn:142698 // 
+asn:142699 // 
+asn:142700 // 
+asn:142701 // 
+asn:142702 // 
+asn:142703 // 
+asn:142704 // 
+asn:142705 // 
+asn:142706 // 
+asn:142707 // 
+asn:142708 // 
+asn:142709 // 
+asn:142710 // 
+asn:142711 // 
+asn:142712 // 
+asn:142713 // 
+asn:142714 // 
+asn:142715 // 
+asn:142716 // 
+asn:142717 // 
+asn:142718 // 
+asn:142719 // 
+asn:142720 // 
+asn:142721 // 
+asn:142722 // 
+asn:142723 // 
+asn:142724 // 
+asn:142725 // 
+asn:142726 // 
+asn:142727 // 
+asn:142728 // 
+asn:142729 // 
+asn:142730 // 
+asn:142731 // 
+asn:142732 // 
+asn:142733 // 
+asn:142734 // 
+asn:142735 // 
+asn:142736 // 
+asn:142737 // 
+asn:142738 // 
+asn:142739 // 
+asn:142740 // 
+asn:142741 // 
+asn:142742 // 
+asn:142743 // 
+asn:142744 // 
+asn:142745 // 
+asn:142746 // 
+asn:142747 // 
+asn:142748 // 
+asn:142749 // 
+asn:142750 // 
+asn:142751 // 
+asn:142752 // 
+asn:142753 // 
+asn:142754 // 
+asn:142755 // 
+asn:142756 // 
+asn:142757 // 
+asn:142758 // 
+asn:142759 // 
+asn:142760 // 
+asn:142761 // 
+asn:142762 // 
+asn:142763 // 
+asn:142764 // 
+asn:142765 // 
+asn:142766 // 
+asn:142767 // 
+asn:142768 // 
+asn:142769 // 
+asn:142770 // 
+asn:142771 // 
+asn:142772 // 
+asn:142773 // 
+asn:142774 // 
+asn:142775 // 
+asn:142776 // 
+asn:142777 // 
+asn:142778 // 
+asn:142779 // 
+asn:142780 // 
+asn:142781 // 
+asn:142782 // 
+asn:142783 // 
+asn:142784 // 
+asn:142785 // 
+asn:142786 // 
+asn:142787 // 
+asn:142788 // 
+asn:142789 // 
+asn:142790 // 
+asn:142791 // 
+asn:142792 // 
+asn:142793 // 
+asn:142794 // 
+asn:142795 // 
+asn:142796 // 
+asn:142797 // 
+asn:142798 // 
+asn:142799 // 
+asn:142800 // 
+asn:142801 // 
+asn:142802 // 
+asn:142803 // 
+asn:142804 // 
+asn:142805 // 
+asn:142806 // 
+asn:142807 // 
+asn:142808 // 
+asn:142809 // 
+asn:142810 // 
+asn:142811 // 
+asn:142812 // 
+asn:142813 // 
+asn:142814 // 
+asn:142815 // 
+asn:142816 // 
+asn:142817 // 
+asn:142818 // 
+asn:142819 // 
+asn:142820 // 
+asn:142821 // 
+asn:142822 // 
+asn:142823 // 
+asn:142824 // 
+asn:142825 // 
+asn:142826 // 
+asn:142827 // 
+asn:142828 // 
+asn:142829 // 
+asn:142830 // 
+asn:142831 // 
+asn:142832 // 
+asn:142833 // 
+asn:142834 // 
+asn:142835 // 
+asn:142836 // 
+asn:142837 // 
+asn:142838 // 
+asn:142839 // 
+asn:142840 // 
+asn:142841 // 
+asn:142842 // 
+asn:142843 // 
+asn:142844 // 
+asn:142845 // 
+asn:142846 // 
+asn:142847 // 
+asn:142848 // 
+asn:142849 // 
+asn:142850 // 
+asn:142851 // 
+asn:142852 // 
+asn:142853 // 
+asn:142854 // 
+asn:142855 // 
+asn:142856 // 
+asn:142857 // 
+asn:142858 // 
+asn:142859 // 
+asn:142860 // 
+asn:142861 // 
+asn:142862 // 
+asn:142863 // 
+asn:142864 // 
+asn:142865 // 
+asn:142866 // 
+asn:142867 // 
+asn:142868 // 
+asn:142869 // 
+asn:142870 // 
+asn:142871 // 
+asn:142872 // 
+asn:142873 // 
+asn:142874 // 
+asn:142875 // 
+asn:142876 // 
+asn:142877 // 
+asn:142878 // 
+asn:142879 // 
+asn:142880 // 
+asn:142881 // 
+asn:142882 // 
+asn:142883 // 
+asn:142884 // 
+asn:142885 // 
+asn:142886 // 
+asn:142887 // 
+asn:142888 // 
+asn:142889 // 
+asn:142890 // 
+asn:142891 // 
+asn:142892 // 
+asn:142893 // 
+asn:142894 // 
+asn:142895 // 
+asn:142896 // 
+asn:142897 // 
+asn:142898 // 
+asn:142899 // 
+asn:142900 // 
+asn:142901 // 
+asn:142902 // 
+asn:142903 // 
+asn:142904 // 
+asn:142905 // 
+asn:142906 // 
+asn:142907 // 
+asn:142908 // 
+asn:142909 // 
+asn:142910 // 
+asn:142911 // 
+asn:142912 // 
+asn:142913 // 
+asn:142914 // 
+asn:142915 // 
+asn:142916 // 
+asn:142917 // 
+asn:142918 // 
+asn:142919 // 
+asn:142920 // 
+asn:142921 // 
+asn:142922 // 
+asn:142923 // 
+asn:142924 // 
+asn:142925 // 
+asn:142926 // 
+asn:142927 // 
+asn:142928 // 
+asn:142929 // 
+asn:142930 // 
+asn:142931 // 
+asn:142932 // 
+asn:142933 // 
+asn:142934 // 
+asn:142935 // 
+asn:142936 // 
+asn:142937 // 
+asn:142938 // 
+asn:142939 // 
+asn:142940 // 
+asn:142941 // 
+asn:142942 // 
+asn:142943 // 
+asn:142944 // 
+asn:142945 // 
+asn:142946 // 
+asn:142947 // 
+asn:142948 // 
+asn:142949 // 
+asn:142950 // 
+asn:142951 // 
+asn:142952 // 
+asn:142953 // 
+asn:142954 // 
+asn:142955 // 
+asn:142956 // 
+asn:142957 // 
+asn:142958 // 
+asn:142959 // 
+asn:142960 // 
+asn:142961 // 
+asn:142962 // 
+asn:142963 // 
+asn:142964 // 
+asn:142965 // 
+asn:142966 // 
+asn:142967 // 
+asn:142968 // 
+asn:142969 // 
+asn:142970 // 
+asn:142971 // 
+asn:142972 // 
+asn:142973 // 
+asn:142974 // 
+asn:142975 // 
+asn:142976 // 
+asn:142977 // 
+asn:142978 // 
+asn:142979 // 
+asn:142980 // 
+asn:142981 // 
+asn:142982 // 
+asn:142983 // 
+asn:142984 // 
+asn:142985 // 
+asn:142986 // 
+asn:142987 // 
+asn:142988 // 
+asn:142989 // 
+asn:142990 // 
+asn:142991 // 
+asn:142992 // 
+asn:142993 // 
+asn:142994 // 
+asn:142995 // 
+asn:142996 // 
+asn:142997 // 
+asn:142998 // 
+asn:142999 // 
+asn:143000 // 
+asn:143001 // 
+asn:143002 // 
+asn:143003 // 
+asn:143004 // 
+asn:143005 // 
+asn:143006 // 
+asn:143007 // 
+asn:143008 // 
+asn:143009 // 
+asn:143010 // 
+asn:143011 // 
+asn:143012 // 
+asn:143013 // 
+asn:143014 // 
+asn:143015 // 
+asn:143016 // 
+asn:143017 // 
+asn:143018 // 
+asn:143019 // 
+asn:143020 // 
+asn:143021 // 
+asn:143022 // 
+asn:143023 // 
+asn:143024 // 
+asn:143025 // 
+asn:143026 // 
+asn:143027 // 
+asn:143028 // 
+asn:143029 // 
+asn:143030 // 
+asn:143031 // 
+asn:143032 // 
+asn:143033 // 
+asn:143034 // 
+asn:143035 // 
+asn:143036 // 
+asn:143037 // 
+asn:143038 // 
+asn:143039 // 
+asn:143040 // 
+asn:143041 // 
+asn:143042 // 
+asn:143043 // 
+asn:143044 // 
+asn:143045 // 
+asn:143046 // 
+asn:143047 // 
+asn:143048 // 
+asn:143049 // 
+asn:143050 // 
+asn:143051 // 
+asn:143052 // 
+asn:143053 // 
+asn:143054 // 
+asn:143055 // 
+asn:143056 // 
+asn:143057 // 
+asn:143058 // 
+asn:143059 // 
+asn:143060 // 
+asn:143061 // 
+asn:143062 // 
+asn:143063 // 
+asn:143064 // 
+asn:143065 // 
+asn:143066 // 
+asn:143067 // 
+asn:143068 // 
+asn:143069 // 
+asn:143070 // 
+asn:143071 // 
+asn:143072 // 
+asn:143073 // 
+asn:143074 // 
+asn:143075 // 
+asn:143076 // 
+asn:143077 // 
+asn:143078 // 
+asn:143079 // 
+asn:143080 // 
+asn:143081 // 
+asn:143082 // 
+asn:143083 // 
+asn:143084 // 
+asn:143085 // 
+asn:143086 // 
+asn:143087 // 
+asn:143088 // 
+asn:143089 // 
+asn:143090 // 
+asn:143091 // 
+asn:143092 // 
+asn:143093 // 
+asn:143094 // 
+asn:143095 // 
+asn:143096 // 
+asn:143097 // 
+asn:143098 // 
+asn:143099 // 
+asn:143100 // 
+asn:143101 // 
+asn:143102 // 
+asn:143103 // 
+asn:143104 // 
+asn:143105 // 
+asn:143106 // 
+asn:143107 // 
+asn:143108 // 
+asn:143109 // 
+asn:143110 // 
+asn:143111 // 
+asn:143112 // 
+asn:143113 // 
+asn:143114 // 
+asn:143115 // 
+asn:143116 // 
+asn:143117 // 
+asn:143118 // 
+asn:143119 // 
+asn:143120 // 
+asn:143121 // 
+asn:143122 // 
+asn:143123 // 
+asn:143124 // 
+asn:143125 // 
+asn:143126 // 
+asn:143127 // 
+asn:143128 // 
+asn:143129 // 
+asn:143130 // 
+asn:143131 // 
+asn:143132 // 
+asn:143133 // 
+asn:143134 // 
+asn:143135 // 
+asn:143136 // 
+asn:143137 // 
+asn:143138 // 
+asn:143139 // 
+asn:143140 // 
+asn:143141 // 
+asn:143142 // 
+asn:143143 // 
+asn:143144 // 
+asn:143145 // 
+asn:143146 // 
+asn:143147 // 
+asn:143148 // 
+asn:143149 // 
+asn:143150 // 
+asn:143151 // 
+asn:143152 // 
+asn:143153 // 
+asn:143154 // 
+asn:143155 // 
+asn:143156 // 
+asn:143157 // 
+asn:143158 // 
+asn:143159 // 
+asn:143160 // 
+asn:143161 // 
+asn:143162 // 
+asn:143163 // 
+asn:143164 // 
+asn:143165 // 
+asn:143166 // 
+asn:143167 // 
+asn:143168 // 
+asn:143169 // 
+asn:143170 // 
+asn:143171 // 
+asn:143172 // 
+asn:143173 // 
+asn:143174 // 
+asn:143175 // 
+asn:143176 // 
+asn:143177 // 
+asn:143178 // 
+asn:143179 // 
+asn:143180 // 
+asn:143181 // 
+asn:143182 // 
+asn:143183 // 
+asn:143184 // 
+asn:143185 // 
+asn:143186 // 
+asn:143187 // 
+asn:143188 // 
+asn:143189 // 
+asn:143190 // 
+asn:143191 // 
+asn:143192 // 
+asn:143193 // 
+asn:143194 // 
+asn:143195 // 
+asn:143196 // 
+asn:143197 // 
+asn:143198 // 
+asn:143199 // 
+asn:143200 // 
+asn:143201 // 
+asn:143202 // 
+asn:143203 // 
+asn:143204 // 
+asn:143205 // 
+asn:143206 // 
+asn:143207 // 
+asn:143208 // 
+asn:143209 // 
+asn:143210 // 
+asn:143211 // 
+asn:143212 // 
+asn:143213 // 
+asn:143214 // 
+asn:143215 // 
+asn:143216 // 
+asn:143217 // 
+asn:143218 // 
+asn:143219 // 
+asn:143220 // 
+asn:143221 // 
+asn:143222 // 
+asn:143223 // 
+asn:143224 // 
+asn:143225 // 
+asn:143226 // 
+asn:143227 // 
+asn:143228 // 
+asn:143229 // 
+asn:143230 // 
+asn:143231 // 
+asn:143232 // 
+asn:143233 // 
+asn:143234 // 
+asn:143235 // 
+asn:143236 // 
+asn:143237 // 
+asn:143238 // 
+asn:143239 // 
+asn:143240 // 
+asn:143241 // 
+asn:143242 // 
+asn:143243 // 
+asn:143244 // 
+asn:143245 // 
+asn:143246 // 
+asn:143247 // 
+asn:143248 // 
+asn:143249 // 
+asn:143250 // 
+asn:143251 // 
+asn:143252 // 
+asn:143253 // 
+asn:143254 // 
+asn:143255 // 
+asn:143256 // 
+asn:143257 // 
+asn:143258 // 
+asn:143259 // 
+asn:143260 // 
+asn:143261 // 
+asn:143262 // 
+asn:143263 // 
+asn:143264 // 
+asn:143265 // 
+asn:143266 // 
+asn:143267 // 
+asn:143268 // 
+asn:143269 // 
+asn:143270 // 
+asn:143271 // 
+asn:143272 // 
+asn:143273 // 
+asn:143274 // 
+asn:143275 // 
+asn:143276 // 
+asn:143277 // 
+asn:143278 // 
+asn:143279 // 
+asn:143280 // 
+asn:143281 // 
+asn:143282 // 
+asn:143283 // 
+asn:143284 // 
+asn:143285 // 
+asn:143286 // 
+asn:143287 // 
+asn:143288 // 
+asn:143289 // 
+asn:143290 // 
+asn:143291 // 
+asn:143292 // 
+asn:143293 // 
+asn:143294 // 
+asn:143295 // 
+asn:143296 // 
+asn:143297 // 
+asn:143298 // 
+asn:143299 // 
+asn:143300 // 
+asn:143301 // 
+asn:143302 // 
+asn:143303 // 
+asn:143304 // 
+asn:143305 // 
+asn:143306 // 
+asn:143307 // 
+asn:143308 // 
+asn:143309 // 
+asn:143310 // 
+asn:143311 // 
+asn:143312 // 
+asn:143313 // 
+asn:143314 // 
+asn:143315 // 
+asn:143316 // 
+asn:143317 // 
+asn:143318 // 
+asn:143319 // 
+asn:143320 // 
+asn:143321 // 
+asn:143322 // 
+asn:143323 // 
+asn:143324 // 
+asn:143325 // 
+asn:143326 // 
+asn:143327 // 
+asn:143328 // 
+asn:143329 // 
+asn:143330 // 
+asn:143331 // 
+asn:143332 // 
+asn:143333 // 
+asn:143334 // 
+asn:143335 // 
+asn:143336 // 
+asn:143337 // 
+asn:143338 // 
+asn:143339 // 
+asn:143340 // 
+asn:143341 // 
+asn:143342 // 
+asn:143343 // 
+asn:143344 // 
+asn:143345 // 
+asn:143346 // 
+asn:143347 // 
+asn:143348 // 
+asn:143349 // 
+asn:143350 // 
+asn:143351 // 
+asn:143352 // 
+asn:143353 // 
+asn:143354 // 
+asn:143355 // 
+asn:143356 // 
+asn:143357 // 
+asn:143358 // 
+asn:143359 // 
+asn:143360 // 
+asn:143361 // 
+asn:143362 // 
+asn:143363 // 
+asn:143364 // 
+asn:143365 // 
+asn:143366 // 
+asn:143367 // 
+asn:143368 // 
+asn:143369 // 
+asn:143370 // 
+asn:143371 // 
+asn:143372 // 
+asn:143373 // 
+asn:143374 // 
+asn:143375 // 
+asn:143376 // 
+asn:143377 // 
+asn:143378 // 
+asn:143379 // 
+asn:143380 // 
+asn:143381 // 
+asn:143382 // 
+asn:143383 // 
+asn:143384 // 
+asn:143385 // 
+asn:143386 // 
+asn:143387 // 
+asn:143388 // 
+asn:143389 // 
+asn:143390 // 
+asn:143391 // 
+asn:143392 // 
+asn:143393 // 
+asn:143394 // 
+asn:143395 // 
+asn:143396 // 
+asn:143397 // 
+asn:143398 // 
+asn:143399 // 
+asn:143400 // 
+asn:143401 // 
+asn:143402 // 
+asn:143403 // 
+asn:143404 // 
+asn:143405 // 
+asn:143406 // 
+asn:143407 // 
+asn:143408 // 
+asn:143409 // 
+asn:143410 // 
+asn:143411 // 
+asn:143412 // 
+asn:143413 // 
+asn:143414 // 
+asn:143415 // 
+asn:143416 // 
+asn:143417 // 
+asn:143418 // 
+asn:143419 // 
+asn:143420 // 
+asn:143421 // 
+asn:143422 // 
+asn:143423 // 
+asn:143424 // 
+asn:143425 // 
+asn:143426 // 
+asn:143427 // 
+asn:143428 // 
+asn:143429 // 
+asn:143430 // 
+asn:143431 // 
+asn:143432 // 
+asn:143433 // 
+asn:143434 // 
+asn:143435 // 
+asn:143436 // 
+asn:143437 // 
+asn:143438 // 
+asn:143439 // 
+asn:143440 // 
+asn:143441 // 
+asn:143442 // 
+asn:143443 // 
+asn:143444 // 
+asn:143445 // 
+asn:143446 // 
+asn:143447 // 
+asn:143448 // 
+asn:143449 // 
+asn:143450 // 
+asn:143451 // 
+asn:143452 // 
+asn:143453 // 
+asn:143454 // 
+asn:143455 // 
+asn:143456 // 
+asn:143457 // 
+asn:143458 // 
+asn:143459 // 
+asn:143460 // 
+asn:143461 // 
+asn:143462 // 
+asn:143463 // 
+asn:143464 // 
+asn:143465 // 
+asn:143466 // 
+asn:143467 // 
+asn:143468 // 
+asn:143469 // 
+asn:143470 // 
+asn:143471 // 
+asn:143472 // 
+asn:143473 // 
+asn:143474 // 
+asn:143475 // 
+asn:143476 // 
+asn:143477 // 
+asn:143478 // 
+asn:143479 // 
+asn:143480 // 
+asn:143481 // 
+asn:143482 // 
+asn:143483 // 
+asn:143484 // 
+asn:143485 // 
+asn:143486 // 
+asn:143487 // 
+asn:143488 // 
+asn:143489 // 
+asn:143490 // 
+asn:143491 // 
+asn:143492 // 
+asn:143493 // 
+asn:143494 // 
+asn:143495 // 
+asn:143496 // 
+asn:143497 // 
+asn:143498 // 
+asn:143499 // 
+asn:143500 // 
+asn:143501 // 
+asn:143502 // 
+asn:143503 // 
+asn:143504 // 
+asn:143505 // 
+asn:143506 // 
+asn:143507 // 
+asn:143508 // 
+asn:143509 // 
+asn:143510 // 
+asn:143511 // 
+asn:143512 // 
+asn:143513 // 
+asn:143514 // 
+asn:143515 // 
+asn:143516 // 
+asn:143517 // 
+asn:143518 // 
+asn:143519 // 
+asn:143520 // 
+asn:143521 // 
+asn:143522 // 
+asn:143523 // 
+asn:143524 // 
+asn:143525 // 
+asn:143526 // 
+asn:143527 // 
+asn:143528 // 
+asn:143529 // 
+asn:143530 // 
+asn:143531 // 
+asn:143532 // 
+asn:143533 // 
+asn:143534 // 
+asn:143535 // 
+asn:143536 // 
+asn:143537 // 
+asn:143538 // 
+asn:143539 // 
+asn:143540 // 
+asn:143541 // 
+asn:143542 // 
+asn:143543 // 
+asn:143544 // 
+asn:143545 // 
+asn:143546 // 
+asn:143547 // 
+asn:143548 // 
+asn:143549 // 
+asn:143550 // 
+asn:143551 // 
+asn:143552 // 
+asn:143553 // 
+asn:143554 // 
+asn:143555 // 
+asn:143556 // 
+asn:143557 // 
+asn:143558 // 
+asn:143559 // 
+asn:143560 // 
+asn:143561 // 
+asn:143562 // 
+asn:143563 // 
+asn:143564 // 
+asn:143565 // 
+asn:143566 // 
+asn:143567 // 
+asn:143568 // 
+asn:143569 // 
+asn:143570 // 
+asn:143571 // 
+asn:143572 // 
+asn:143573 // 
+asn:143574 // 
+asn:143575 // 
+asn:143576 // 
+asn:143577 // 
+asn:143578 // 
+asn:143579 // 
+asn:143580 // 
+asn:143581 // 
+asn:143582 // 
+asn:143583 // 
+asn:143584 // 
+asn:143585 // 
+asn:143586 // 
+asn:143587 // 
+asn:143588 // 
+asn:143589 // 
+asn:143590 // 
+asn:143591 // 
+asn:143592 // 
+asn:143593 // 
+asn:143594 // 
+asn:143595 // 
+asn:143596 // 
+asn:143597 // 
+asn:143598 // 
+asn:143599 // 
+asn:143600 // 
+asn:143601 // 
+asn:143602 // 
+asn:143603 // 
+asn:143604 // 
+asn:143605 // 
+asn:143606 // 
+asn:143607 // 
+asn:143608 // 
+asn:143609 // 
+asn:143610 // 
+asn:143611 // 
+asn:143612 // 
+asn:143613 // 
+asn:143614 // 
+asn:143615 // 
+asn:143616 // 
+asn:143617 // 
+asn:143618 // 
+asn:143619 // 
+asn:143620 // 
+asn:143621 // 
+asn:143622 // 
+asn:143623 // 
+asn:143624 // 
+asn:143625 // 
+asn:143626 // 
+asn:143627 // 
+asn:143628 // 
+asn:143629 // 
+asn:143630 // 
+asn:143631 // 
+asn:143632 // 
+asn:143633 // 
+asn:143634 // 
+asn:143635 // 
+asn:143636 // 
+asn:143637 // 
+asn:143638 // 
+asn:143639 // 
+asn:143640 // 
+asn:143641 // 
+asn:143642 // 
+asn:143643 // 
+asn:143644 // 
+asn:143645 // 
+asn:143646 // 
+asn:143647 // 
+asn:143648 // 
+asn:143649 // 
+asn:143650 // 
+asn:143651 // 
+asn:143652 // 
+asn:143653 // 
+asn:143654 // 
+asn:143655 // 
+asn:143656 // 
+asn:143657 // 
+asn:143658 // 
+asn:143659 // 
+asn:143660 // 
+asn:143661 // 
+asn:143662 // 
+asn:143663 // 
+asn:143664 // 
+asn:143665 // 
+asn:143666 // 
+asn:143667 // 
+asn:143668 // 
+asn:143669 // 
+asn:143670 // 
+asn:143671 // 
+asn:143672 // 
+asn:143673 // 
+asn:143674 // 
+asn:143675 // 
+asn:143676 // 
+asn:143677 // 
+asn:143678 // 
+asn:143679 // 
+asn:143680 // 
+asn:143681 // 
+asn:143682 // 
+asn:143683 // 
+asn:143684 // 
+asn:143685 // 
+asn:143686 // 
+asn:143687 // 
+asn:143688 // 
+asn:143689 // 
+asn:143690 // 
+asn:143691 // 
+asn:143692 // 
+asn:143693 // 
+asn:143694 // 
+asn:143695 // 
+asn:143696 // 
+asn:143697 // 
+asn:143698 // 
+asn:143699 // 
+asn:143700 // 
+asn:143701 // 
+asn:143702 // 
+asn:143703 // 
+asn:143704 // 
+asn:143705 // 
+asn:143706 // 
+asn:143707 // 
+asn:143708 // 
+asn:143709 // 
+asn:143710 // 
+asn:143711 // 
+asn:143712 // 
+asn:143713 // 
+asn:143714 // 
+asn:143715 // 
+asn:143716 // 
+asn:143717 // 
+asn:143718 // 
+asn:143719 // 
+asn:143720 // 
+asn:143721 // 
+asn:143722 // 
+asn:143723 // 
+asn:143724 // 
+asn:143725 // 
+asn:143726 // 
+asn:143727 // 
+asn:143728 // 
+asn:143729 // 
+asn:143730 // 
+asn:143731 // 
+asn:143732 // 
+asn:143733 // 
+asn:143734 // 
+asn:143735 // 
+asn:143736 // 
+asn:143737 // 
+asn:143738 // 
+asn:143739 // 
+asn:143740 // 
+asn:143741 // 
+asn:143742 // 
+asn:143743 // 
+asn:143744 // 
+asn:143745 // 
+asn:143746 // 
+asn:143747 // 
+asn:143748 // 
+asn:143749 // 
+asn:143750 // 
+asn:143751 // 
+asn:143752 // 
+asn:143753 // 
+asn:143754 // 
+asn:143755 // 
+asn:143756 // 
+asn:143757 // 
+asn:143758 // 
+asn:143759 // 
+asn:143760 // 
+asn:143761 // 
+asn:143762 // 
+asn:143763 // 
+asn:143764 // 
+asn:143765 // 
+asn:143766 // 
+asn:143767 // 
+asn:143768 // 
+asn:143769 // 
+asn:143770 // 
+asn:143771 // 
+asn:143772 // 
+asn:143773 // 
+asn:143774 // 
+asn:143775 // 
+asn:143776 // 
+asn:143777 // 
+asn:143778 // 
+asn:143779 // 
+asn:143780 // 
+asn:143781 // 
+asn:143782 // 
+asn:143783 // 
+asn:143784 // 
+asn:143785 // 
+asn:143786 // 
+asn:143787 // 
+asn:143788 // 
+asn:143789 // 
+asn:143790 // 
+asn:143791 // 
+asn:143792 // 
+asn:143793 // 
+asn:143794 // 
+asn:143795 // 
+asn:143796 // 
+asn:143797 // 
+asn:143798 // 
+asn:143799 // 
+asn:143800 // 
+asn:143801 // 
+asn:143802 // 
+asn:143803 // 
+asn:143804 // 
+asn:143805 // 
+asn:143806 // 
+asn:143807 // 
+asn:143808 // 
+asn:143809 // 
+asn:143810 // 
+asn:143811 // 
+asn:143812 // 
+asn:143813 // 
+asn:143814 // 
+asn:143815 // 
+asn:143816 // 
+asn:143817 // 
+asn:143818 // 
+asn:143819 // 
+asn:143820 // 
+asn:143821 // 
+asn:143822 // 
+asn:143823 // 
+asn:143824 // 
+asn:143825 // 
+asn:143826 // 
+asn:143827 // 
+asn:143828 // 
+asn:143829 // 
+asn:143830 // 
+asn:143831 // 
+asn:143832 // 
+asn:143833 // 
+asn:143834 // 
+asn:143835 // 
+asn:143836 // 
+asn:143837 // 
+asn:143838 // 
+asn:143839 // 
+asn:143840 // 
+asn:143841 // 
+asn:143842 // 
+asn:143843 // 
+asn:143844 // 
+asn:143845 // 
+asn:143846 // 
+asn:143847 // 
+asn:143848 // 
+asn:143849 // 
+asn:143850 // 
+asn:143851 // 
+asn:143852 // 
+asn:143853 // 
+asn:143854 // 
+asn:143855 // 
+asn:143856 // 
+asn:143857 // 
+asn:143858 // 
+asn:143859 // 
+asn:143860 // 
+asn:143861 // 
+asn:143862 // 
+asn:143863 // 
+asn:143864 // 
+asn:143865 // 
+asn:143866 // 
+asn:143867 // 
+asn:143868 // 
+asn:143869 // 
+asn:143870 // 
+asn:143871 // 
+asn:143872 // 
+asn:143873 // 
+asn:143874 // 
+asn:143875 // 
+asn:143876 // 
+asn:143877 // 
+asn:143878 // 
+asn:143879 // 
+asn:143880 // 
+asn:143881 // 
+asn:143882 // 
+asn:143883 // 
+asn:143884 // 
+asn:143885 // 
+asn:143886 // 
+asn:143887 // 
+asn:143888 // 
+asn:143889 // 
+asn:143890 // 
+asn:143891 // 
+asn:143892 // 
+asn:143893 // 
+asn:143894 // 
+asn:143895 // 
+asn:143896 // 
+asn:143897 // 
+asn:143898 // 
+asn:143899 // 
+asn:143900 // 
+asn:143901 // 
+asn:143902 // 
+asn:143903 // 
+asn:143904 // 
+asn:143905 // 
+asn:143906 // 
+asn:143907 // 
+asn:143908 // 
+asn:143909 // 
+asn:143910 // 
+asn:143911 // 
+asn:143912 // 
+asn:143913 // 
+asn:143914 // 
+asn:143915 // 
+asn:143916 // 
+asn:143917 // 
+asn:143918 // 
+asn:143919 // 
+asn:143920 // 
+asn:143921 // 
+asn:143922 // 
+asn:143923 // 
+asn:143924 // 
+asn:143925 // 
+asn:143926 // 
+asn:143927 // 
+asn:143928 // 
+asn:143929 // 
+asn:143930 // 
+asn:143931 // 
+asn:143932 // 
+asn:143933 // 
+asn:143934 // 
+asn:143935 // 
+asn:143936 // 
+asn:143937 // 
+asn:143938 // 
+asn:143939 // 
+asn:143940 // 
+asn:143941 // 
+asn:143942 // 
+asn:143943 // 
+asn:143944 // 
+asn:143945 // 
+asn:143946 // 
+asn:143947 // 
+asn:143948 // 
+asn:143949 // 
+asn:143950 // 
+asn:143951 // 
+asn:143952 // 
+asn:143953 // 
+asn:143954 // 
+asn:143955 // 
+asn:143956 // 
+asn:143957 // 
+asn:143958 // 
+asn:143959 // 
+asn:143960 // 
+asn:143961 // 
+asn:143962 // 
+asn:143963 // 
+asn:143964 // 
+asn:143965 // 
+asn:143966 // 
+asn:143967 // 
+asn:143968 // 
+asn:143969 // 
+asn:143970 // 
+asn:143971 // 
+asn:143972 // 
+asn:143973 // 
+asn:143974 // 
+asn:143975 // 
+asn:143976 // 
+asn:143977 // 
+asn:143978 // 
+asn:143979 // 
+asn:143980 // 
+asn:143981 // 
+asn:143982 // 
+asn:143983 // 
+asn:143984 // 
+asn:143985 // 
+asn:143986 // 
+asn:143987 // 
+asn:143988 // 
+asn:143989 // 
+asn:143990 // 
+asn:143991 // 
+asn:143992 // 
+asn:143993 // 
+asn:143994 // 
+asn:143995 // 
+asn:143996 // 
+asn:143997 // 
+asn:143998 // 
+asn:143999 // 
+asn:144000 // 
+asn:144001 // 
+asn:144002 // 
+asn:144003 // 
+asn:144004 // 
+asn:144005 // 
+asn:144006 // 
+asn:144007 // 
+asn:144008 // 
+asn:144009 // 
+asn:144010 // 
+asn:144011 // 
+asn:144012 // 
+asn:144013 // 
+asn:144014 // 
+asn:144015 // 
+asn:144016 // 
+asn:144017 // 
+asn:144018 // 
+asn:144019 // 
+asn:144020 // 
+asn:144021 // 
+asn:144022 // 
+asn:144023 // 
+asn:144024 // 
+asn:144025 // 
+asn:144026 // 
+asn:144027 // 
+asn:144028 // 
+asn:144029 // 
+asn:144030 // 
+asn:144031 // 
+asn:144032 // 
+asn:144033 // 
+asn:144034 // 
+asn:144035 // 
+asn:144036 // 
+asn:144037 // 
+asn:144038 // 
+asn:144039 // 
+asn:144040 // 
+asn:144041 // 
+asn:144042 // 
+asn:144043 // 
+asn:144044 // 
+asn:144045 // 
+asn:144046 // 
+asn:144047 // 
+asn:144048 // 
+asn:144049 // 
+asn:144050 // 
+asn:144051 // 
+asn:144052 // 
+asn:144053 // 
+asn:144054 // 
+asn:144055 // 
+asn:144056 // 
+asn:144057 // 
+asn:144058 // 
+asn:144059 // 
+asn:144060 // 
+asn:144061 // 
+asn:144062 // 
+asn:144063 // 
+asn:144064 // 
+asn:144065 // 
+asn:144066 // 
+asn:144067 // 
+asn:144068 // 
+asn:144069 // 
+asn:144070 // 
+asn:144071 // 
+asn:144072 // 
+asn:144073 // 
+asn:144074 // 
+asn:144075 // 
+asn:144076 // 
+asn:144077 // 
+asn:144078 // 
+asn:144079 // 
+asn:144080 // 
+asn:144081 // 
+asn:144082 // 
+asn:144083 // 
+asn:144084 // 
+asn:144085 // 
+asn:144086 // 
+asn:144087 // 
+asn:144088 // 
+asn:144089 // 
+asn:144090 // 
+asn:144091 // 
+asn:144092 // 
+asn:144093 // 
+asn:144094 // 
+asn:144095 // 
+asn:144096 // 
+asn:144097 // 
+asn:144098 // 
+asn:144099 // 
+asn:144100 // 
+asn:144101 // 
+asn:144102 // 
+asn:144103 // 
+asn:144104 // 
+asn:144105 // 
+asn:144106 // 
+asn:144107 // 
+asn:144108 // 
+asn:144109 // 
+asn:144110 // 
+asn:144111 // 
+asn:144112 // 
+asn:144113 // 
+asn:144114 // 
+asn:144115 // 
+asn:144116 // 
+asn:144117 // 
+asn:144118 // 
+asn:144119 // 
+asn:144120 // 
+asn:144121 // 
+asn:144122 // 
+asn:144123 // 
+asn:144124 // 
+asn:144125 // 
+asn:144126 // 
+asn:144127 // 
+asn:144128 // 
+asn:144129 // 
+asn:144130 // 
+asn:144131 // 
+asn:144132 // 
+asn:144133 // 
+asn:144134 // 
+asn:144135 // 
+asn:144136 // 
+asn:144137 // 
+asn:144138 // 
+asn:144139 // 
+asn:144140 // 
+asn:144141 // 
+asn:144142 // 
+asn:144143 // 
+asn:144144 // 
+asn:144145 // 
+asn:144146 // 
+asn:144147 // 
+asn:144148 // 
+asn:144149 // 
+asn:144150 // 
+asn:144151 // 
+asn:144152 // 
+asn:144153 // 
+asn:144154 // 
+asn:144155 // 
+asn:144156 // 
+asn:144157 // 
+asn:144158 // 
+asn:144159 // 
+asn:144160 // 
+asn:144161 // 
+asn:144162 // 
+asn:144163 // 
+asn:144164 // 
+asn:144165 // 
+asn:144166 // 
+asn:144167 // 
+asn:144168 // 
+asn:144169 // 
+asn:144170 // 
+asn:144171 // 
+asn:144172 // 
+asn:144173 // 
+asn:144174 // 
+asn:144175 // 
+asn:144176 // 
+asn:144177 // 
+asn:144178 // 
+asn:144179 // 
+asn:144180 // 
+asn:144181 // 
+asn:144182 // 
+asn:144183 // 
+asn:144184 // 
+asn:144185 // 
+asn:144186 // 
+asn:144187 // 
+asn:144188 // 
+asn:144189 // 
+asn:144190 // 
+asn:144191 // 
+asn:144192 // 
+asn:144193 // 
+asn:144194 // 
+asn:144195 // 
+asn:144196 // 
+asn:144197 // 
+asn:144198 // 
+asn:144199 // 
+asn:144200 // 
+asn:144201 // 
+asn:144202 // 
+asn:144203 // 
+asn:144204 // 
+asn:144205 // 
+asn:144206 // 
+asn:144207 // 
+asn:144208 // 
+asn:144209 // 
+asn:144210 // 
+asn:144211 // 
+asn:144212 // 
+asn:144213 // 
+asn:144214 // 
+asn:144215 // 
+asn:144216 // 
+asn:144217 // 
+asn:144218 // 
+asn:144219 // 
+asn:144220 // 
+asn:144221 // 
+asn:144222 // 
+asn:144223 // 
+asn:144224 // 
+asn:144225 // 
+asn:144226 // 
+asn:144227 // 
+asn:144228 // 
+asn:144229 // 
+asn:144230 // 
+asn:144231 // 
+asn:144232 // 
+asn:144233 // 
+asn:144234 // 
+asn:144235 // 
+asn:144236 // 
+asn:144237 // 
+asn:144238 // 
+asn:144239 // 
+asn:144240 // 
+asn:144241 // 
+asn:144242 // 
+asn:144243 // 
+asn:144244 // 
+asn:144245 // 
+asn:144246 // 
+asn:144247 // 
+asn:144248 // 
+asn:144249 // 
+asn:144250 // 
+asn:144251 // 
+asn:144252 // 
+asn:144253 // 
+asn:144254 // 
+asn:144255 // 
+asn:144256 // 
+asn:144257 // 
+asn:144258 // 
+asn:144259 // 
+asn:144260 // 
+asn:144261 // 
+asn:144262 // 
+asn:144263 // 
+asn:144264 // 
+asn:144265 // 
+asn:144266 // 
+asn:144267 // 
+asn:144268 // 
+asn:144269 // 
+asn:144270 // 
+asn:144271 // 
+asn:144272 // 
+asn:144273 // 
+asn:144274 // 
+asn:144275 // 
+asn:144276 // 
+asn:144277 // 
+asn:144278 // 
+asn:144279 // 
+asn:144280 // 
+asn:144281 // 
+asn:144282 // 
+asn:144283 // 
+asn:144284 // 
+asn:144285 // 
+asn:144286 // 
+asn:144287 // 
+asn:144288 // 
+asn:144289 // 
+asn:144290 // 
+asn:144291 // 
+asn:144292 // 
+asn:144293 // 
+asn:144294 // 
+asn:144295 // 
+asn:144296 // 
+asn:144297 // 
+asn:144298 // 
+asn:144299 // 
+asn:144300 // 
+asn:144301 // 
+asn:144302 // 
+asn:144303 // 
+asn:144304 // 
+asn:144305 // 
+asn:144306 // 
+asn:144307 // 
+asn:144308 // 
+asn:144309 // 
+asn:144310 // 
+asn:144311 // 
+asn:144312 // 
+asn:144313 // 
+asn:144314 // 
+asn:144315 // 
+asn:144316 // 
+asn:144317 // 
+asn:144318 // 
+asn:144319 // 
+asn:144320 // 
+asn:144321 // 
+asn:144322 // 
+asn:144323 // 
+asn:144324 // 
+asn:144325 // 
+asn:144326 // 
+asn:144327 // 
+asn:144328 // 
+asn:144329 // 
+asn:144330 // 
+asn:144331 // 
+asn:144332 // 
+asn:144333 // 
+asn:144334 // 
+asn:144335 // 
+asn:144336 // 
+asn:144337 // 
+asn:144338 // 
+asn:144339 // 
+asn:144340 // 
+asn:144341 // 
+asn:144342 // 
+asn:144343 // 
+asn:144344 // 
+asn:144345 // 
+asn:144346 // 
+asn:144347 // 
+asn:144348 // 
+asn:144349 // 
+asn:144350 // 
+asn:144351 // 
+asn:144352 // 
+asn:144353 // 
+asn:144354 // 
+asn:144355 // 
+asn:144356 // 
+asn:144357 // 
+asn:144358 // 
+asn:144359 // 
+asn:144360 // 
+asn:144361 // 
+asn:144362 // 
+asn:144363 // 
+asn:144364 // 
+asn:144365 // 
+asn:144366 // 
+asn:144367 // 
+asn:144368 // 
+asn:144369 // 
+asn:144370 // 
+asn:144371 // 
+asn:144372 // 
+asn:144373 // 
+asn:144374 // 
+asn:144375 // 
+asn:144376 // 
+asn:144377 // 
+asn:144378 // 
+asn:144379 // 
+asn:144380 // 
+asn:144381 // 
+asn:144382 // 
+asn:144383 // 
+asn:144384 // 
+asn:144385 // 
+asn:144386 // 
+asn:144387 // 
+asn:144388 // 
+asn:144389 // 
+asn:144390 // 
+asn:144391 // 
+asn:144392 // 
+asn:144393 // 
+asn:144394 // 
+asn:144395 // 
+asn:144396 // 
+asn:144397 // 
+asn:144398 // 
+asn:144399 // 
+asn:144400 // 
+asn:144401 // 
+asn:144402 // 
+asn:144403 // 
+asn:144404 // 
+asn:144405 // 
+asn:144406 // 
+asn:144407 // 
+asn:144408 // 
+asn:144409 // 
+asn:144410 // 
+asn:144411 // 
+asn:144412 // 
+asn:144413 // 
+asn:144414 // 
+asn:144415 // 
+asn:144416 // 
+asn:144417 // 
+asn:144418 // 
+asn:144419 // 
+asn:144420 // 
+asn:144421 // 
+asn:144422 // 
+asn:144423 // 
+asn:144424 // 
+asn:144425 // 
+asn:144426 // 
+asn:144427 // 
+asn:144428 // 
+asn:144429 // 
+asn:144430 // 
+asn:144431 // 
+asn:144432 // 
+asn:144433 // 
+asn:144434 // 
+asn:144435 // 
+asn:144436 // 
+asn:144437 // 
+asn:144438 // 
+asn:144439 // 
+asn:144440 // 
+asn:144441 // 
+asn:144442 // 
+asn:144443 // 
+asn:144444 // 
+asn:144445 // 
+asn:144446 // 
+asn:144447 // 
+asn:144448 // 
+asn:144449 // 
+asn:144450 // 
+asn:144451 // 
+asn:144452 // 
+asn:144453 // 
+asn:144454 // 
+asn:144455 // 
+asn:144456 // 
+asn:144457 // 
+asn:144458 // 
+asn:144459 // 
+asn:144460 // 
+asn:144461 // 
+asn:144462 // 
+asn:144463 // 
+asn:144464 // 
+asn:144465 // 
+asn:144466 // 
+asn:144467 // 
+asn:144468 // 
+asn:144469 // 
+asn:144470 // 
+asn:144471 // 
+asn:144472 // 
+asn:144473 // 
+asn:144474 // 
+asn:144475 // 
+asn:144476 // 
+asn:144477 // 
+asn:144478 // 
+asn:144479 // 
+asn:144480 // 
+asn:144481 // 
+asn:144482 // 
+asn:144483 // 
+asn:144484 // 
+asn:144485 // 
+asn:144486 // 
+asn:144487 // 
+asn:144488 // 
+asn:144489 // 
+asn:144490 // 
+asn:144491 // 
+asn:144492 // 
+asn:144493 // 
+asn:144494 // 
+asn:144495 // 
+asn:144496 // 
+asn:144497 // 
+asn:144498 // 
+asn:144499 // 
+asn:144500 // 
+asn:144501 // 
+asn:144502 // 
+asn:144503 // 
+asn:144504 // 
+asn:144505 // 
+asn:144506 // 
+asn:144507 // 
+asn:144508 // 
+asn:144509 // 
+asn:144510 // 
+asn:144511 // 
+asn:144512 // 
+asn:144513 // 
+asn:144514 // 
+asn:144515 // 
+asn:144516 // 
+asn:144517 // 
+asn:144518 // 
+asn:144519 // 
+asn:144520 // 
+asn:144521 // 
+asn:144522 // 
+asn:144523 // 
+asn:144524 // 
+asn:144525 // 
+asn:144526 // 
+asn:144527 // 
+asn:144528 // 
+asn:144529 // 
+asn:144530 // 
+asn:144531 // 
+asn:144532 // 
+asn:144533 // 
+asn:144534 // 
+asn:144535 // 
+asn:144536 // 
+asn:144537 // 
+asn:144538 // 
+asn:144539 // 
+asn:144540 // 
+asn:144541 // 
+asn:144542 // 
+asn:144543 // 
+asn:144544 // 
+asn:144545 // 
+asn:144546 // 
+asn:144547 // 
+asn:144548 // 
+asn:144549 // 
+asn:144550 // 
+asn:144551 // 
+asn:144552 // 
+asn:144553 // 
+asn:144554 // 
+asn:144555 // 
+asn:144556 // 
+asn:144557 // 
+asn:144558 // 
+asn:144559 // 
+asn:144560 // 
+asn:144561 // 
+asn:144562 // 
+asn:144563 // 
+asn:144564 // 
+asn:144565 // 
+asn:144566 // 
+asn:144567 // 
+asn:144568 // 
+asn:144569 // 
+asn:144570 // 
+asn:144571 // 
+asn:144572 // 
+asn:144573 // 
+asn:144574 // 
+asn:144575 // 
+asn:144576 // 
+asn:144577 // 
+asn:144578 // 
+asn:144579 // 
+asn:144580 // 
+asn:144581 // 
+asn:144582 // 
+asn:144583 // 
+asn:144584 // 
+asn:144585 // 
+asn:144586 // 
+asn:144587 // 
+asn:144588 // 
+asn:144589 // 
+asn:144590 // 
+asn:144591 // 
+asn:144592 // 
+asn:144593 // 
+asn:144594 // 
+asn:144595 // 
+asn:144596 // 
+asn:144597 // 
+asn:144598 // 
+asn:144599 // 
+asn:144600 // 
+asn:144601 // 
+asn:144602 // 
+asn:144603 // 
+asn:144604 // 
+asn:144605 // 
+asn:144606 // 
+asn:144607 // 
+asn:144608 // 
+asn:144609 // 
+asn:144610 // 
+asn:144611 // 
+asn:144612 // 
+asn:144613 // 
+asn:144614 // 
+asn:144615 // 
+asn:144616 // 
+asn:144617 // 
+asn:144618 // 
+asn:144619 // 
+asn:144620 // 
+asn:144621 // 
+asn:144622 // 
+asn:144623 // 
+asn:144624 // 
+asn:144625 // 
+asn:144626 // 
+asn:144627 // 
+asn:144628 // 
+asn:144629 // 
+asn:144630 // 
+asn:144631 // 
+asn:144632 // 
+asn:144633 // 
+asn:144634 // 
+asn:144635 // 
+asn:144636 // 
+asn:144637 // 
+asn:144638 // 
+asn:144639 // 
+asn:144640 // 
+asn:144641 // 
+asn:144642 // 
+asn:144643 // 
+asn:144644 // 
+asn:144645 // 
+asn:144646 // 
+asn:144647 // 
+asn:144648 // 
+asn:144649 // 
+asn:144650 // 
+asn:144651 // 
+asn:144652 // 
+asn:144653 // 
+asn:144654 // 
+asn:144655 // 
+asn:144656 // 
+asn:144657 // 
+asn:144658 // 
+asn:144659 // 
+asn:144660 // 
+asn:144661 // 
+asn:144662 // 
+asn:144663 // 
+asn:144664 // 
+asn:144665 // 
+asn:144666 // 
+asn:144667 // 
+asn:144668 // 
+asn:144669 // 
+asn:144670 // 
+asn:144671 // 
+asn:144672 // 
+asn:144673 // 
+asn:144674 // 
+asn:144675 // 
+asn:144676 // 
+asn:144677 // 
+asn:144678 // 
+asn:144679 // 
+asn:144680 // 
+asn:144681 // 
+asn:144682 // 
+asn:144683 // 
+asn:144684 // 
+asn:144685 // 
+asn:144686 // 
+asn:144687 // 
+asn:144688 // 
+asn:144689 // 
+asn:144690 // 
+asn:144691 // 
+asn:144692 // 
+asn:144693 // 
+asn:144694 // 
+asn:144695 // 
+asn:144696 // 
+asn:144697 // 
+asn:144698 // 
+asn:144699 // 
+asn:144700 // 
+asn:144701 // 
+asn:144702 // 
+asn:144703 // 
+asn:144704 // 
+asn:144705 // 
+asn:144706 // 
+asn:144707 // 
+asn:144708 // 
+asn:144709 // 
+asn:144710 // 
+asn:144711 // 
+asn:144712 // 
+asn:144713 // 
+asn:144714 // 
+asn:144715 // 
+asn:144716 // 
+asn:144717 // 
+asn:144718 // 
+asn:144719 // 
+asn:144720 // 
+asn:144721 // 
+asn:144722 // 
+asn:144723 // 
+asn:144724 // 
+asn:144725 // 
+asn:144726 // 
+asn:144727 // 
+asn:144728 // 
+asn:144729 // 
+asn:144730 // 
+asn:144731 // 
+asn:144732 // 
+asn:144733 // 
+asn:144734 // 
+asn:144735 // 
+asn:144736 // 
+asn:144737 // 
+asn:144738 // 
+asn:144739 // 
+asn:144740 // 
+asn:144741 // 
+asn:144742 // 
+asn:144743 // 
+asn:144744 // 
+asn:144745 // 
+asn:144746 // 
+asn:144747 // 
+asn:144748 // 
+asn:144749 // 
+asn:144750 // 
+asn:144751 // 
+asn:144752 // 
+asn:144753 // 
+asn:144754 // 
+asn:144755 // 
+asn:144756 // 
+asn:144757 // 
+asn:144758 // 
+asn:144759 // 
+asn:144760 // 
+asn:144761 // 
+asn:144762 // 
+asn:144763 // 
+asn:144764 // 
+asn:144765 // 
+asn:144766 // 
+asn:144767 // 
+asn:144768 // 
+asn:144769 // 
+asn:144770 // 
+asn:144771 // 
+asn:144772 // 
+asn:144773 // 
+asn:144774 // 
+asn:144775 // 
+asn:144776 // 
+asn:144777 // 
+asn:144778 // 
+asn:144779 // 
+asn:144780 // 
+asn:144781 // 
+asn:144782 // 
+asn:144783 // 
+asn:144784 // 
+asn:144785 // 
+asn:144786 // 
+asn:144787 // 
+asn:144788 // 
+asn:144789 // 
+asn:144790 // 
+asn:144791 // 
+asn:144792 // 
+asn:144793 // 
+asn:144794 // 
+asn:144795 // 
+asn:144796 // 
+asn:144797 // 
+asn:144798 // 
+asn:144799 // 
+asn:144800 // 
+asn:144801 // 
+asn:144802 // 
+asn:144803 // 
+asn:144804 // 
+asn:144805 // 
+asn:144806 // 
+asn:144807 // 
+asn:144808 // 
+asn:144809 // 
+asn:144810 // 
+asn:144811 // 
+asn:144812 // 
+asn:144813 // 
+asn:144814 // 
+asn:144815 // 
+asn:144816 // 
+asn:144817 // 
+asn:144818 // 
+asn:144819 // 
+asn:144820 // 
+asn:144821 // 
+asn:144822 // 
+asn:144823 // 
+asn:144824 // 
+asn:144825 // 
+asn:144826 // 
+asn:144827 // 
+asn:144828 // 
+asn:144829 // 
+asn:144830 // 
+asn:144831 // 
+asn:144832 // 
+asn:144833 // 
+asn:144834 // 
+asn:144835 // 
+asn:144836 // 
+asn:144837 // 
+asn:144838 // 
+asn:144839 // 
+asn:144840 // 
+asn:144841 // 
+asn:144842 // 
+asn:144843 // 
+asn:144844 // 
+asn:144845 // 
+asn:144846 // 
+asn:144847 // 
+asn:144848 // 
+asn:144849 // 
+asn:144850 // 
+asn:144851 // 
+asn:144852 // 
+asn:144853 // 
+asn:144854 // 
+asn:144855 // 
+asn:144856 // 
+asn:144857 // 
+asn:144858 // 
+asn:144859 // 
+asn:144860 // 
+asn:144861 // 
+asn:144862 // 
+asn:144863 // 
+asn:144864 // 
+asn:144865 // 
+asn:144866 // 
+asn:144867 // 
+asn:144868 // 
+asn:144869 // 
+asn:144870 // 
+asn:144871 // 
+asn:144872 // 
+asn:144873 // 
+asn:144874 // 
+asn:144875 // 
+asn:144876 // 
+asn:144877 // 
+asn:144878 // 
+asn:144879 // 
+asn:144880 // 
+asn:144881 // 
+asn:144882 // 
+asn:144883 // 
+asn:144884 // 
+asn:144885 // 
+asn:144886 // 
+asn:144887 // 
+asn:144888 // 
+asn:144889 // 
+asn:144890 // 
+asn:144891 // 
+asn:144892 // 
+asn:144893 // 
+asn:144894 // 
+asn:144895 // 
+asn:144896 // 
+asn:144897 // 
+asn:144898 // 
+asn:144899 // 
+asn:144900 // 
+asn:144901 // 
+asn:144902 // 
+asn:144903 // 
+asn:144904 // 
+asn:144905 // 
+asn:144906 // 
+asn:144907 // 
+asn:144908 // 
+asn:144909 // 
+asn:144910 // 
+asn:144911 // 
+asn:144912 // 
+asn:144913 // 
+asn:144914 // 
+asn:144915 // 
+asn:144916 // 
+asn:144917 // 
+asn:144918 // 
+asn:144919 // 
+asn:144920 // 
+asn:144921 // 
+asn:144922 // 
+asn:144923 // 
+asn:144924 // 
+asn:144925 // 
+asn:144926 // 
+asn:144927 // 
+asn:144928 // 
+asn:144929 // 
+asn:144930 // 
+asn:144931 // 
+asn:144932 // 
+asn:144933 // 
+asn:144934 // 
+asn:144935 // 
+asn:144936 // 
+asn:144937 // 
+asn:144938 // 
+asn:144939 // 
+asn:144940 // 
+asn:144941 // 
+asn:144942 // 
+asn:144943 // 
+asn:144944 // 
+asn:144945 // 
+asn:144946 // 
+asn:144947 // 
+asn:144948 // 
+asn:144949 // 
+asn:144950 // 
+asn:144951 // 
+asn:144952 // 
+asn:144953 // 
+asn:144954 // 
+asn:144955 // 
+asn:144956 // 
+asn:144957 // 
+asn:144958 // 
+asn:144959 // 
+asn:144960 // 
+asn:144961 // 
+asn:144962 // 
+asn:144963 // 
+asn:144964 // 
+asn:144965 // 
+asn:144966 // 
+asn:144967 // 
+asn:144968 // 
+asn:144969 // 
+asn:144970 // 
+asn:144971 // 
+asn:144972 // 
+asn:144973 // 
+asn:144974 // 
+asn:144975 // 
+asn:144976 // 
+asn:144977 // 
+asn:144978 // 
+asn:144979 // 
+asn:144980 // 
+asn:144981 // 
+asn:144982 // 
+asn:144983 // 
+asn:144984 // 
+asn:144985 // 
+asn:144986 // 
+asn:144987 // 
+asn:144988 // 
+asn:144989 // 
+asn:144990 // 
+asn:144991 // 
+asn:144992 // 
+asn:144993 // 
+asn:144994 // 
+asn:144995 // 
+asn:144996 // 
+asn:144997 // 
+asn:144998 // 
+asn:144999 // 
+asn:145000 // 
+asn:145001 // 
+asn:145002 // 
+asn:145003 // 
+asn:145004 // 
+asn:145005 // 
+asn:145006 // 
+asn:145007 // 
+asn:145008 // 
+asn:145009 // 
+asn:145010 // 
+asn:145011 // 
+asn:145012 // 
+asn:145013 // 
+asn:145014 // 
+asn:145015 // 
+asn:145016 // 
+asn:145017 // 
+asn:145018 // 
+asn:145019 // 
+asn:145020 // 
+asn:145021 // 
+asn:145022 // 
+asn:145023 // 
+asn:145024 // 
+asn:145025 // 
+asn:145026 // 
+asn:145027 // 
+asn:145028 // 
+asn:145029 // 
+asn:145030 // 
+asn:145031 // 
+asn:145032 // 
+asn:145033 // 
+asn:145034 // 
+asn:145035 // 
+asn:145036 // 
+asn:145037 // 
+asn:145038 // 
+asn:145039 // 
+asn:145040 // 
+asn:145041 // 
+asn:145042 // 
+asn:145043 // 
+asn:145044 // 
+asn:145045 // 
+asn:145046 // 
+asn:145047 // 
+asn:145048 // 
+asn:145049 // 
+asn:145050 // 
+asn:145051 // 
+asn:145052 // 
+asn:145053 // 
+asn:145054 // 
+asn:145055 // 
+asn:145056 // 
+asn:145057 // 
+asn:145058 // 
+asn:145059 // 
+asn:145060 // 
+asn:145061 // 
+asn:145062 // 
+asn:145063 // 
+asn:145064 // 
+asn:145065 // 
+asn:145066 // 
+asn:145067 // 
+asn:145068 // 
+asn:145069 // 
+asn:145070 // 
+asn:145071 // 
+asn:145072 // 
+asn:145073 // 
+asn:145074 // 
+asn:145075 // 
+asn:145076 // 
+asn:145077 // 
+asn:145078 // 
+asn:145079 // 
+asn:145080 // 
+asn:145081 // 
+asn:145082 // 
+asn:145083 // 
+asn:145084 // 
+asn:145085 // 
+asn:145086 // 
+asn:145087 // 
+asn:145088 // 
+asn:145089 // 
+asn:145090 // 
+asn:145091 // 
+asn:145092 // 
+asn:145093 // 
+asn:145094 // 
+asn:145095 // 
+asn:145096 // 
+asn:145097 // 
+asn:145098 // 
+asn:145099 // 
+asn:145100 // 
+asn:145101 // 
+asn:145102 // 
+asn:145103 // 
+asn:145104 // 
+asn:145105 // 
+asn:145106 // 
+asn:145107 // 
+asn:145108 // 
+asn:145109 // 
+asn:145110 // 
+asn:145111 // 
+asn:145112 // 
+asn:145113 // 
+asn:145114 // 
+asn:145115 // 
+asn:145116 // 
+asn:145117 // 
+asn:145118 // 
+asn:145119 // 
+asn:145120 // 
+asn:145121 // 
+asn:145122 // 
+asn:145123 // 
+asn:145124 // 
+asn:145125 // 
+asn:145126 // 
+asn:145127 // 
+asn:145128 // 
+asn:145129 // 
+asn:145130 // 
+asn:145131 // 
+asn:145132 // 
+asn:145133 // 
+asn:145134 // 
+asn:145135 // 
+asn:145136 // 
+asn:145137 // 
+asn:145138 // 
+asn:145139 // 
+asn:145140 // 
+asn:145141 // 
+asn:145142 // 
+asn:145143 // 
+asn:145144 // 
+asn:145145 // 
+asn:145146 // 
+asn:145147 // 
+asn:145148 // 
+asn:145149 // 
+asn:145150 // 
+asn:145151 // 
+asn:145152 // 
+asn:145153 // 
+asn:145154 // 
+asn:145155 // 
+asn:145156 // 
+asn:145157 // 
+asn:145158 // 
+asn:145159 // 
+asn:145160 // 
+asn:145161 // 
+asn:145162 // 
+asn:145163 // 
+asn:145164 // 
+asn:145165 // 
+asn:145166 // 
+asn:145167 // 
+asn:145168 // 
+asn:145169 // 
+asn:145170 // 
+asn:145171 // 
+asn:145172 // 
+asn:145173 // 
+asn:145174 // 
+asn:145175 // 
+asn:145176 // 
+asn:145177 // 
+asn:145178 // 
+asn:145179 // 
+asn:145180 // 
+asn:145181 // 
+asn:145182 // 
+asn:145183 // 
+asn:145184 // 
+asn:145185 // 
+asn:145186 // 
+asn:145187 // 
+asn:145188 // 
+asn:145189 // 
+asn:145190 // 
+asn:145191 // 
+asn:145192 // 
+asn:145193 // 
+asn:145194 // 
+asn:145195 // 
+asn:145196 // 
+asn:145197 // 
+asn:145198 // 
+asn:145199 // 
+asn:145200 // 
+asn:145201 // 
+asn:145202 // 
+asn:145203 // 
+asn:145204 // 
+asn:145205 // 
+asn:145206 // 
+asn:145207 // 
+asn:145208 // 
+asn:145209 // 
+asn:145210 // 
+asn:145211 // 
+asn:145212 // 
+asn:145213 // 
+asn:145214 // 
+asn:145215 // 
+asn:145216 // 
+asn:145217 // 
+asn:145218 // 
+asn:145219 // 
+asn:145220 // 
+asn:145221 // 
+asn:145222 // 
+asn:145223 // 
+asn:145224 // 
+asn:145225 // 
+asn:145226 // 
+asn:145227 // 
+asn:145228 // 
+asn:145229 // 
+asn:145230 // 
+asn:145231 // 
+asn:145232 // 
+asn:145233 // 
+asn:145234 // 
+asn:145235 // 
+asn:145236 // 
+asn:145237 // 
+asn:145238 // 
+asn:145239 // 
+asn:145240 // 
+asn:145241 // 
+asn:145242 // 
+asn:145243 // 
+asn:145244 // 
+asn:145245 // 
+asn:145246 // 
+asn:145247 // 
+asn:145248 // 
+asn:145249 // 
+asn:145250 // 
+asn:145251 // 
+asn:145252 // 
+asn:145253 // 
+asn:145254 // 
+asn:145255 // 
+asn:145256 // 
+asn:145257 // 
+asn:145258 // 
+asn:145259 // 
+asn:145260 // 
+asn:145261 // 
+asn:145262 // 
+asn:145263 // 
+asn:145264 // 
+asn:145265 // 
+asn:145266 // 
+asn:145267 // 
+asn:145268 // 
+asn:145269 // 
+asn:145270 // 
+asn:145271 // 
+asn:145272 // 
+asn:145273 // 
+asn:145274 // 
+asn:145275 // 
+asn:145276 // 
+asn:145277 // 
+asn:145278 // 
+asn:145279 // 
+asn:145280 // 
+asn:145281 // 
+asn:145282 // 
+asn:145283 // 
+asn:145284 // 
+asn:145285 // 
+asn:145286 // 
+asn:145287 // 
+asn:145288 // 
+asn:145289 // 
+asn:145290 // 
+asn:145291 // 
+asn:145292 // 
+asn:145293 // 
+asn:145294 // 
+asn:145295 // 
+asn:145296 // 
+asn:145297 // 
+asn:145298 // 
+asn:145299 // 
+asn:145300 // 
+asn:145301 // 
+asn:145302 // 
+asn:145303 // 
+asn:145304 // 
+asn:145305 // 
+asn:145306 // 
+asn:145307 // 
+asn:145308 // 
+asn:145309 // 
+asn:145310 // 
+asn:145311 // 
+asn:145312 // 
+asn:145313 // 
+asn:145314 // 
+asn:145315 // 
+asn:145316 // 
+asn:145317 // 
+asn:145318 // 
+asn:145319 // 
+asn:145320 // 
+asn:145321 // 
+asn:145322 // 
+asn:145323 // 
+asn:145324 // 
+asn:145325 // 
+asn:145326 // 
+asn:145327 // 
+asn:145328 // 
+asn:145329 // 
+asn:145330 // 
+asn:145331 // 
+asn:145332 // 
+asn:145333 // 
+asn:145334 // 
+asn:145335 // 
+asn:145336 // 
+asn:145337 // 
+asn:145338 // 
+asn:145339 // 
+asn:145340 // 
+asn:145341 // 
+asn:145342 // 
+asn:145343 // 
+asn:145344 // 
+asn:145345 // 
+asn:145346 // 
+asn:145347 // 
+asn:145348 // 
+asn:145349 // 
+asn:145350 // 
+asn:145351 // 
+asn:145352 // 
+asn:145353 // 
+asn:145354 // 
+asn:145355 // 
+asn:145356 // 
+asn:145357 // 
+asn:145358 // 
+asn:145359 // 
+asn:145360 // 
+asn:145361 // 
+asn:145362 // 
+asn:145363 // 
+asn:145364 // 
+asn:145365 // 
+asn:145366 // 
+asn:145367 // 
+asn:145368 // 
+asn:145369 // 
+asn:145370 // 
+asn:145371 // 
+asn:145372 // 
+asn:145373 // 
+asn:145374 // 
+asn:145375 // 
+asn:145376 // 
+asn:145377 // 
+asn:145378 // 
+asn:145379 // 
+asn:145380 // 
+asn:145381 // 
+asn:145382 // 
+asn:145383 // 
+asn:145384 // 
+asn:145385 // 
+asn:145386 // 
+asn:145387 // 
+asn:145388 // 
+asn:145389 // 
+asn:145390 // 
+asn:145391 // 
+asn:145392 // 
+asn:145393 // 
+asn:145394 // 
+asn:145395 // 
+asn:145396 // 
+asn:145397 // 
+asn:145398 // 
+asn:145399 // 
+asn:145400 // 
+asn:145401 // 
+asn:145402 // 
+asn:145403 // 
+asn:145404 // 
+asn:145405 // 
+asn:145406 // 
+asn:145407 // 
+asn:145408 // 
+asn:145409 // 
+asn:145410 // 
+asn:145411 // 
+asn:145412 // 
+asn:145413 // 
+asn:145414 // 
+asn:145415 // 
+asn:145416 // 
+asn:145417 // 
+asn:145418 // 
+asn:145419 // 
+asn:145420 // 
+asn:145421 // 
+asn:145422 // 
+asn:145423 // 
+asn:145424 // 
+asn:145425 // 
+asn:145426 // 
+asn:145427 // 
+asn:145428 // 
+asn:145429 // 
+asn:145430 // 
+asn:145431 // 
+asn:145432 // 
+asn:145433 // 
+asn:145434 // 
+asn:145435 // 
+asn:145436 // 
+asn:145437 // 
+asn:145438 // 
+asn:145439 // 
+asn:145440 // 
+asn:145441 // 
+asn:145442 // 
+asn:145443 // 
+asn:145444 // 
+asn:145445 // 
+asn:145446 // 
+asn:145447 // 
+asn:145448 // 
+asn:145449 // 
+asn:145450 // 
+asn:145451 // 
+asn:145452 // 
+asn:145453 // 
+asn:145454 // 
+asn:145455 // 
+asn:145456 // 
+asn:145457 // 
+asn:145458 // 
+asn:145459 // 
+asn:145460 // 
+asn:145461 // 
+asn:145462 // 
+asn:145463 // 
+asn:145464 // 
+asn:145465 // 
+asn:145466 // 
+asn:145467 // 
+asn:145468 // 
+asn:145469 // 
+asn:145470 // 
+asn:145471 // 
+asn:145472 // 
+asn:145473 // 
+asn:145474 // 
+asn:145475 // 
+asn:145476 // 
+asn:145477 // 
+asn:145478 // 
+asn:145479 // 
+asn:145480 // 
+asn:145481 // 
+asn:145482 // 
+asn:145483 // 
+asn:145484 // 
+asn:145485 // 
+asn:145486 // 
+asn:145487 // 
+asn:145488 // 
+asn:145489 // 
+asn:145490 // 
+asn:145491 // 
+asn:145492 // 
+asn:145493 // 
+asn:145494 // 
+asn:145495 // 
+asn:145496 // 
+asn:145497 // 
+asn:145498 // 
+asn:145499 // 
+asn:145500 // 
+asn:145501 // 
+asn:145502 // 
+asn:145503 // 
+asn:145504 // 
+asn:145505 // 
+asn:145506 // 
+asn:145507 // 
+asn:145508 // 
+asn:145509 // 
+asn:145510 // 
+asn:145511 // 
+asn:145512 // 
+asn:145513 // 
+asn:145514 // 
+asn:145515 // 
+asn:145516 // 
+asn:145517 // 
+asn:145518 // 
+asn:145519 // 
+asn:145520 // 
+asn:145521 // 
+asn:145522 // 
+asn:145523 // 
+asn:145524 // 
+asn:145525 // 
+asn:145526 // 
+asn:145527 // 
+asn:145528 // 
+asn:145529 // 
+asn:145530 // 
+asn:145531 // 
+asn:145532 // 
+asn:145533 // 
+asn:145534 // 
+asn:145535 // 
+asn:145536 // 
+asn:145537 // 
+asn:145538 // 
+asn:145539 // 
+asn:145540 // 
+asn:145541 // 
+asn:145542 // 
+asn:145543 // 
+asn:145544 // 
+asn:145545 // 
+asn:145546 // 
+asn:145547 // 
+asn:145548 // 
+asn:145549 // 
+asn:145550 // 
+asn:145551 // 
+asn:145552 // 
+asn:145553 // 
+asn:145554 // 
+asn:145555 // 
+asn:145556 // 
+asn:145557 // 
+asn:145558 // 
+asn:145559 // 
+asn:145560 // 
+asn:145561 // 
+asn:145562 // 
+asn:145563 // 
+asn:145564 // 
+asn:145565 // 
+asn:145566 // 
+asn:145567 // 
+asn:145568 // 
+asn:145569 // 
+asn:145570 // 
+asn:145571 // 
+asn:145572 // 
+asn:145573 // 
+asn:145574 // 
+asn:145575 // 
+asn:145576 // 
+asn:145577 // 
+asn:145578 // 
+asn:145579 // 
+asn:145580 // 
+asn:145581 // 
+asn:145582 // 
+asn:145583 // 
+asn:145584 // 
+asn:145585 // 
+asn:145586 // 
+asn:145587 // 
+asn:145588 // 
+asn:145589 // 
+asn:145590 // 
+asn:145591 // 
+asn:145592 // 
+asn:145593 // 
+asn:145594 // 
+asn:145595 // 
+asn:145596 // 
+asn:145597 // 
+asn:145598 // 
+asn:145599 // 
+asn:145600 // 
+asn:145601 // 
+asn:145602 // 
+asn:145603 // 
+asn:145604 // 
+asn:145605 // 
+asn:145606 // 
+asn:145607 // 
+asn:145608 // 
+asn:145609 // 
+asn:145610 // 
+asn:145611 // 
+asn:145612 // 
+asn:145613 // 
+asn:145614 // 
+asn:145615 // 
+asn:145616 // 
+asn:145617 // 
+asn:145618 // 
+asn:145619 // 
+asn:145620 // 
+asn:145621 // 
+asn:145622 // 
+asn:145623 // 
+asn:145624 // 
+asn:145625 // 
+asn:145626 // 
+asn:145627 // 
+asn:145628 // 
+asn:145629 // 
+asn:145630 // 
+asn:145631 // 
+asn:145632 // 
+asn:145633 // 
+asn:145634 // 
+asn:145635 // 
+asn:145636 // 
+asn:145637 // 
+asn:145638 // 
+asn:145639 // 
+asn:145640 // 
+asn:145641 // 
+asn:145642 // 
+asn:145643 // 
+asn:145644 // 
+asn:145645 // 
+asn:145646 // 
+asn:145647 // 
+asn:145648 // 
+asn:145649 // 
+asn:145650 // 
+asn:145651 // 
+asn:145652 // 
+asn:145653 // 
+asn:145654 // 
+asn:145655 // 
+asn:145656 // 
+asn:145657 // 
+asn:145658 // 
+asn:145659 // 
+asn:145660 // 
+asn:145661 // 
+asn:145662 // 
+asn:145663 // 
+asn:145664 // 
+asn:145665 // 
+asn:145666 // 
+asn:145667 // 
+asn:145668 // 
+asn:145669 // 
+asn:145670 // 
+asn:145671 // 
+asn:145672 // 
+asn:145673 // 
+asn:145674 // 
+asn:145675 // 
+asn:145676 // 
+asn:145677 // 
+asn:145678 // 
+asn:145679 // 
+asn:145680 // 
+asn:145681 // 
+asn:145682 // 
+asn:145683 // 
+asn:145684 // 
+asn:145685 // 
+asn:145686 // 
+asn:145687 // 
+asn:145688 // 
+asn:145689 // 
+asn:145690 // 
+asn:145691 // 
+asn:145692 // 
+asn:145693 // 
+asn:145694 // 
+asn:145695 // 
+asn:145696 // 
+asn:145697 // 
+asn:145698 // 
+asn:145699 // 
+asn:145700 // 
+asn:145701 // 
+asn:145702 // 
+asn:145703 // 
+asn:145704 // 
+asn:145705 // 
+asn:145706 // 
+asn:145707 // 
+asn:145708 // 
+asn:145709 // 
+asn:145710 // 
+asn:145711 // 
+asn:145712 // 
+asn:145713 // 
+asn:145714 // 
+asn:145715 // 
+asn:145716 // 
+asn:145717 // 
+asn:145718 // 
+asn:145719 // 
+asn:145720 // 
+asn:145721 // 
+asn:145722 // 
+asn:145723 // 
+asn:145724 // 
+asn:145725 // 
+asn:145726 // 
+asn:145727 // 
+asn:145728 // 
+asn:145729 // 
+asn:145730 // 
+asn:145731 // 
+asn:145732 // 
+asn:145733 // 
+asn:145734 // 
+asn:145735 // 
+asn:145736 // 
+asn:145737 // 
+asn:145738 // 
+asn:145739 // 
+asn:145740 // 
+asn:145741 // 
+asn:145742 // 
+asn:145743 // 
+asn:145744 // 
+asn:145745 // 
+asn:145746 // 
+asn:145747 // 
+asn:145748 // 
+asn:145749 // 
+asn:145750 // 
+asn:145751 // 
+asn:145752 // 
+asn:145753 // 
+asn:145754 // 
+asn:145755 // 
+asn:145756 // 
+asn:145757 // 
+asn:145758 // 
+asn:145759 // 
+asn:145760 // 
+asn:145761 // 
+asn:145762 // 
+asn:145763 // 
+asn:145764 // 
+asn:145765 // 
+asn:145766 // 
+asn:145767 // 
+asn:145768 // 
+asn:145769 // 
+asn:145770 // 
+asn:145771 // 
+asn:145772 // 
+asn:145773 // 
+asn:145774 // 
+asn:145775 // 
+asn:145776 // 
+asn:145777 // 
+asn:145778 // 
+asn:145779 // 
+asn:145780 // 
+asn:145781 // 
+asn:145782 // 
+asn:145783 // 
+asn:145784 // 
+asn:145785 // 
+asn:145786 // 
+asn:145787 // 
+asn:145788 // 
+asn:145789 // 
+asn:145790 // 
+asn:145791 // 
+asn:145792 // 
+asn:145793 // 
+asn:145794 // 
+asn:145795 // 
+asn:145796 // 
+asn:145797 // 
+asn:145798 // 
+asn:145799 // 
+asn:145800 // 
+asn:145801 // 
+asn:145802 // 
+asn:145803 // 
+asn:145804 // 
+asn:145805 // 
+asn:145806 // 
+asn:145807 // 
+asn:145808 // 
+asn:145809 // 
+asn:145810 // 
+asn:145811 // 
+asn:145812 // 
+asn:145813 // 
+asn:145814 // 
+asn:145815 // 
+asn:145816 // 
+asn:145817 // 
+asn:145818 // 
+asn:145819 // 
+asn:145820 // 
+asn:145821 // 
+asn:145822 // 
+asn:145823 // 
+asn:145824 // 
+asn:145825 // 
+asn:145826 // 
+asn:145827 // 
+asn:145828 // 
+asn:145829 // 
+asn:145830 // 
+asn:145831 // 
+asn:145832 // 
+asn:145833 // 
+asn:145834 // 
+asn:145835 // 
+asn:145836 // 
+asn:145837 // 
+asn:145838 // 
+asn:145839 // 
+asn:145840 // 
+asn:145841 // 
+asn:145842 // 
+asn:145843 // 
+asn:145844 // 
+asn:145845 // 
+asn:145846 // 
+asn:145847 // 
+asn:145848 // 
+asn:145849 // 
+asn:145850 // 
+asn:145851 // 
+asn:145852 // 
+asn:145853 // 
+asn:145854 // 
+asn:145855 // 
+asn:145856 // 
+asn:145857 // 
+asn:145858 // 
+asn:145859 // 
+asn:145860 // 
+asn:145861 // 
+asn:145862 // 
+asn:145863 // 
+asn:145864 // 
+asn:145865 // 
+asn:145866 // 
+asn:145867 // 
+asn:145868 // 
+asn:145869 // 
+asn:145870 // 
+asn:145871 // 
+asn:145872 // 
+asn:145873 // 
+asn:145874 // 
+asn:145875 // 
+asn:145876 // 
+asn:145877 // 
+asn:145878 // 
+asn:145879 // 
+asn:145880 // 
+asn:145881 // 
+asn:145882 // 
+asn:145883 // 
+asn:145884 // 
+asn:145885 // 
+asn:145886 // 
+asn:145887 // 
+asn:145888 // 
+asn:145889 // 
+asn:145890 // 
+asn:145891 // 
+asn:145892 // 
+asn:145893 // 
+asn:145894 // 
+asn:145895 // 
+asn:145896 // 
+asn:145897 // 
+asn:145898 // 
+asn:145899 // 
+asn:145900 // 
+asn:145901 // 
+asn:145902 // 
+asn:145903 // 
+asn:145904 // 
+asn:145905 // 
+asn:145906 // 
+asn:145907 // 
+asn:145908 // 
+asn:145909 // 
+asn:145910 // 
+asn:145911 // 
+asn:145912 // 
+asn:145913 // 
+asn:145914 // 
+asn:145915 // 
+asn:145916 // 
+asn:145917 // 
+asn:145918 // 
+asn:145919 // 
+asn:145920 // 
+asn:145921 // 
+asn:145922 // 
+asn:145923 // 
+asn:145924 // 
+asn:145925 // 
+asn:145926 // 
+asn:145927 // 
+asn:145928 // 
+asn:145929 // 
+asn:145930 // 
+asn:145931 // 
+asn:145932 // 
+asn:145933 // 
+asn:145934 // 
+asn:145935 // 
+asn:145936 // 
+asn:145937 // 
+asn:145938 // 
+asn:145939 // 
+asn:145940 // 
+asn:145941 // 
+asn:145942 // 
+asn:145943 // 
+asn:145944 // 
+asn:145945 // 
+asn:145946 // 
+asn:145947 // 
+asn:145948 // 
+asn:145949 // 
+asn:145950 // 
+asn:145951 // 
+asn:145952 // 
+asn:145953 // 
+asn:145954 // 
+asn:145955 // 
+asn:145956 // 
+asn:145957 // 
+asn:145958 // 
+asn:145959 // 
+asn:145960 // 
+asn:145961 // 
+asn:145962 // 
+asn:145963 // 
+asn:145964 // 
+asn:145965 // 
+asn:145966 // 
+asn:145967 // 
+asn:145968 // 
+asn:145969 // 
+asn:145970 // 
+asn:145971 // 
+asn:145972 // 
+asn:145973 // 
+asn:145974 // 
+asn:145975 // 
+asn:145976 // 
+asn:145977 // 
+asn:145978 // 
+asn:145979 // 
+asn:145980 // 
+asn:145981 // 
+asn:145982 // 
+asn:145983 // 
+asn:145984 // 
+asn:145985 // 
+asn:145986 // 
+asn:145987 // 
+asn:145988 // 
+asn:145989 // 
+asn:145990 // 
+asn:145991 // 
+asn:145992 // 
+asn:145993 // 
+asn:145994 // 
+asn:145995 // 
+asn:145996 // 
+asn:145997 // 
+asn:145998 // 
+asn:145999 // 
+asn:146000 // 
+asn:146001 // 
+asn:146002 // 
+asn:146003 // 
+asn:146004 // 
+asn:146005 // 
+asn:146006 // 
+asn:146007 // 
+asn:146008 // 
+asn:146009 // 
+asn:146010 // 
+asn:146011 // 
+asn:146012 // 
+asn:146013 // 
+asn:146014 // 
+asn:146015 // 
+asn:146016 // 
+asn:146017 // 
+asn:146018 // 
+asn:146019 // 
+asn:146020 // 
+asn:146021 // 
+asn:146022 // 
+asn:146023 // 
+asn:146024 // 
+asn:146025 // 
+asn:146026 // 
+asn:146027 // 
+asn:146028 // 
+asn:146029 // 
+asn:146030 // 
+asn:146031 // 
+asn:146032 // 
+asn:146033 // 
+asn:146034 // 
+asn:146035 // 
+asn:146036 // 
+asn:146037 // 
+asn:146038 // 
+asn:146039 // 
+asn:146040 // 
+asn:146041 // 
+asn:146042 // 
+asn:146043 // 
+asn:146044 // 
+asn:146045 // 
+asn:146046 // 
+asn:146047 // 
+asn:146048 // 
+asn:146049 // 
+asn:146050 // 
+asn:146051 // 
+asn:146052 // 
+asn:146053 // 
+asn:146054 // 
+asn:146055 // 
+asn:146056 // 
+asn:146057 // 
+asn:146058 // 
+asn:146059 // 
+asn:146060 // 
+asn:146061 // 
+asn:146062 // 
+asn:146063 // 
+asn:146064 // 
+asn:146065 // 
+asn:146066 // 
+asn:146067 // 
+asn:146068 // 
+asn:146069 // 
+asn:146070 // 
+asn:146071 // 
+asn:146072 // 
+asn:146073 // 
+asn:146074 // 
+asn:146075 // 
+asn:146076 // 
+asn:146077 // 
+asn:146078 // 
+asn:146079 // 
+asn:146080 // 
+asn:146081 // 
+asn:146082 // 
+asn:146083 // 
+asn:146084 // 
+asn:146085 // 
+asn:146086 // 
+asn:146087 // 
+asn:146088 // 
+asn:146089 // 
+asn:146090 // 
+asn:146091 // 
+asn:146092 // 
+asn:146093 // 
+asn:146094 // 
+asn:146095 // 
+asn:146096 // 
+asn:146097 // 
+asn:146098 // 
+asn:146099 // 
+asn:146100 // 
+asn:146101 // 
+asn:146102 // 
+asn:146103 // 
+asn:146104 // 
+asn:146105 // 
+asn:146106 // 
+asn:146107 // 
+asn:146108 // 
+asn:146109 // 
+asn:146110 // 
+asn:146111 // 
+asn:146112 // 
+asn:146113 // 
+asn:146114 // 
+asn:146115 // 
+asn:146116 // 
+asn:146117 // 
+asn:146118 // 
+asn:146119 // 
+asn:146120 // 
+asn:146121 // 
+asn:146122 // 
+asn:146123 // 
+asn:146124 // 
+asn:146125 // 
+asn:146126 // 
+asn:146127 // 
+asn:146128 // 
+asn:146129 // 
+asn:146130 // 
+asn:146131 // 
+asn:146132 // 
+asn:146133 // 
+asn:146134 // 
+asn:146135 // 
+asn:146136 // 
+asn:146137 // 
+asn:146138 // 
+asn:146139 // 
+asn:146140 // 
+asn:146141 // 
+asn:146142 // 
+asn:146143 // 
+asn:146144 // 
+asn:146145 // 
+asn:146146 // 
+asn:146147 // 
+asn:146148 // 
+asn:146149 // 
+asn:146150 // 
+asn:146151 // 
+asn:146152 // 
+asn:146153 // 
+asn:146154 // 
+asn:146155 // 
+asn:146156 // 
+asn:146157 // 
+asn:146158 // 
+asn:146159 // 
+asn:146160 // 
+asn:146161 // 
+asn:146162 // 
+asn:146163 // 
+asn:146164 // 
+asn:146165 // 
+asn:146166 // 
+asn:146167 // 
+asn:146168 // 
+asn:146169 // 
+asn:146170 // 
+asn:146171 // 
+asn:146172 // 
+asn:146173 // 
+asn:146174 // 
+asn:146175 // 
+asn:146176 // 
+asn:146177 // 
+asn:146178 // 
+asn:146179 // 
+asn:146180 // 
+asn:146181 // 
+asn:146182 // 
+asn:146183 // 
+asn:146184 // 
+asn:146185 // 
+asn:146186 // 
+asn:146187 // 
+asn:146188 // 
+asn:146189 // 
+asn:146190 // 
+asn:146191 // 
+asn:146192 // 
+asn:146193 // 
+asn:146194 // 
+asn:146195 // 
+asn:146196 // 
+asn:146197 // 
+asn:146198 // 
+asn:146199 // 
+asn:146200 // 
+asn:146201 // 
+asn:146202 // 
+asn:146203 // 
+asn:146204 // 
+asn:146205 // 
+asn:146206 // 
+asn:146207 // 
+asn:146208 // 
+asn:146209 // 
+asn:146210 // 
+asn:146211 // 
+asn:146212 // 
+asn:146213 // 
+asn:146214 // 
+asn:146215 // 
+asn:146216 // 
+asn:146217 // 
+asn:146218 // 
+asn:146219 // 
+asn:146220 // 
+asn:146221 // 
+asn:146222 // 
+asn:146223 // 
+asn:146224 // 
+asn:146225 // 
+asn:146226 // 
+asn:146227 // 
+asn:146228 // 
+asn:146229 // 
+asn:146230 // 
+asn:146231 // 
+asn:146232 // 
+asn:146233 // 
+asn:146234 // 
+asn:146235 // 
+asn:146236 // 
+asn:146237 // 
+asn:146238 // 
+asn:146239 // 
+asn:146240 // 
+asn:146241 // 
+asn:146242 // 
+asn:146243 // 
+asn:146244 // 
+asn:146245 // 
+asn:146246 // 
+asn:146247 // 
+asn:146248 // 
+asn:146249 // 
+asn:146250 // 
+asn:146251 // 
+asn:146252 // 
+asn:146253 // 
+asn:146254 // 
+asn:146255 // 
+asn:146256 // 
+asn:146257 // 
+asn:146258 // 
+asn:146259 // 
+asn:146260 // 
+asn:146261 // 
+asn:146262 // 
+asn:146263 // 
+asn:146264 // 
+asn:146265 // 
+asn:146266 // 
+asn:146267 // 
+asn:146268 // 
+asn:146269 // 
+asn:146270 // 
+asn:146271 // 
+asn:146272 // 
+asn:146273 // 
+asn:146274 // 
+asn:146275 // 
+asn:146276 // 
+asn:146277 // 
+asn:146278 // 
+asn:146279 // 
+asn:146280 // 
+asn:146281 // 
+asn:146282 // 
+asn:146283 // 
+asn:146284 // 
+asn:146285 // 
+asn:146286 // 
+asn:146287 // 
+asn:146288 // 
+asn:146289 // 
+asn:146290 // 
+asn:146291 // 
+asn:146292 // 
+asn:146293 // 
+asn:146294 // 
+asn:146295 // 
+asn:146296 // 
+asn:146297 // 
+asn:146298 // 
+asn:146299 // 
+asn:146300 // 
+asn:146301 // 
+asn:146302 // 
+asn:146303 // 
+asn:146304 // 
+asn:146305 // 
+asn:146306 // 
+asn:146307 // 
+asn:146308 // 
+asn:146309 // 
+asn:146310 // 
+asn:146311 // 
+asn:146312 // 
+asn:146313 // 
+asn:146314 // 
+asn:146315 // 
+asn:146316 // 
+asn:146317 // 
+asn:146318 // 
+asn:146319 // 
+asn:146320 // 
+asn:146321 // 
+asn:146322 // 
+asn:146323 // 
+asn:146324 // 
+asn:146325 // 
+asn:146326 // 
+asn:146327 // 
+asn:146328 // 
+asn:146329 // 
+asn:146330 // 
+asn:146331 // 
+asn:146332 // 
+asn:146333 // 
+asn:146334 // 
+asn:146335 // 
+asn:146336 // 
+asn:146337 // 
+asn:146338 // 
+asn:146339 // 
+asn:146340 // 
+asn:146341 // 
+asn:146342 // 
+asn:146343 // 
+asn:146344 // 
+asn:146345 // 
+asn:146346 // 
+asn:146347 // 
+asn:146348 // 
+asn:146349 // 
+asn:146350 // 
+asn:146351 // 
+asn:146352 // 
+asn:146353 // 
+asn:146354 // 
+asn:146355 // 
+asn:146356 // 
+asn:146357 // 
+asn:146358 // 
+asn:146359 // 
+asn:146360 // 
+asn:146361 // 
+asn:146362 // 
+asn:146363 // 
+asn:146364 // 
+asn:146365 // 
+asn:146366 // 
+asn:146367 // 
+asn:146368 // 
+asn:146369 // 
+asn:146370 // 
+asn:146371 // 
+asn:146372 // 
+asn:146373 // 
+asn:146374 // 
+asn:146375 // 
+asn:146376 // 
+asn:146377 // 
+asn:146378 // 
+asn:146379 // 
+asn:146380 // 
+asn:146381 // 
+asn:146382 // 
+asn:146383 // 
+asn:146384 // 
+asn:146385 // 
+asn:146386 // 
+asn:146387 // 
+asn:146388 // 
+asn:146389 // 
+asn:146390 // 
+asn:146391 // 
+asn:146392 // 
+asn:146393 // 
+asn:146394 // 
+asn:146395 // 
+asn:146396 // 
+asn:146397 // 
+asn:146398 // 
+asn:146399 // 
+asn:146400 // 
+asn:146401 // 
+asn:146402 // 
+asn:146403 // 
+asn:146404 // 
+asn:146405 // 
+asn:146406 // 
+asn:146407 // 
+asn:146408 // 
+asn:146409 // 
+asn:146410 // 
+asn:146411 // 
+asn:146412 // 
+asn:146413 // 
+asn:146414 // 
+asn:146415 // 
+asn:146416 // 
+asn:146417 // 
+asn:146418 // 
+asn:146419 // 
+asn:146420 // 
+asn:146421 // 
+asn:146422 // 
+asn:146423 // 
+asn:146424 // 
+asn:146425 // 
+asn:146426 // 
+asn:146427 // 
+asn:146428 // 
+asn:146429 // 
+asn:146430 // 
+asn:146431 // 
+asn:146432 // 
+asn:146433 // 
+asn:146434 // 
+asn:146435 // 
+asn:146436 // 
+asn:146437 // 
+asn:146438 // 
+asn:146439 // 
+asn:146440 // 
+asn:146441 // 
+asn:146442 // 
+asn:146443 // 
+asn:146444 // 
+asn:146445 // 
+asn:146446 // 
+asn:146447 // 
+asn:146448 // 
+asn:146449 // 
+asn:146450 // 
+asn:146451 // 
+asn:146452 // 
+asn:146453 // 
+asn:146454 // 
+asn:146455 // 
+asn:146456 // 
+asn:146457 // 
+asn:146458 // 
+asn:146459 // 
+asn:146460 // 
+asn:146461 // 
+asn:146462 // 
+asn:146463 // 
+asn:146464 // 
+asn:146465 // 
+asn:146466 // 
+asn:146467 // 
+asn:146468 // 
+asn:146469 // 
+asn:146470 // 
+asn:146471 // 
+asn:146472 // 
+asn:146473 // 
+asn:146474 // 
+asn:146475 // 
+asn:146476 // 
+asn:146477 // 
+asn:146478 // 
+asn:146479 // 
+asn:146480 // 
+asn:146481 // 
+asn:146482 // 
+asn:146483 // 
+asn:146484 // 
+asn:146485 // 
+asn:146486 // 
+asn:146487 // 
+asn:146488 // 
+asn:146489 // 
+asn:146490 // 
+asn:146491 // 
+asn:146492 // 
+asn:146493 // 
+asn:146494 // 
+asn:146495 // 
+asn:146496 // 
+asn:146497 // 
+asn:146498 // 
+asn:146499 // 
+asn:146500 // 
+asn:146501 // 
+asn:146502 // 
+asn:146503 // 
+asn:146504 // 
+asn:146505 // 
+asn:146506 // 
+asn:146507 // 
+asn:146508 // 
+asn:146509 // 
+asn:146510 // 
+asn:146511 // 
+asn:146512 // 
+asn:146513 // 
+asn:146514 // 
+asn:146515 // 
+asn:146516 // 
+asn:146517 // 
+asn:146518 // 
+asn:146519 // 
+asn:146520 // 
+asn:146521 // 
+asn:146522 // 
+asn:146523 // 
+asn:146524 // 
+asn:146525 // 
+asn:146526 // 
+asn:146527 // 
+asn:146528 // 
+asn:146529 // 
+asn:146530 // 
+asn:146531 // 
+asn:146532 // 
+asn:146533 // 
+asn:146534 // 
+asn:146535 // 
+asn:146536 // 
+asn:146537 // 
+asn:146538 // 
+asn:146539 // 
+asn:146540 // 
+asn:146541 // 
+asn:146542 // 
+asn:146543 // 
+asn:146544 // 
+asn:146545 // 
+asn:146546 // 
+asn:146547 // 
+asn:146548 // 
+asn:146549 // 
+asn:146550 // 
+asn:146551 // 
+asn:146552 // 
+asn:146553 // 
+asn:146554 // 
+asn:146555 // 
+asn:146556 // 
+asn:146557 // 
+asn:146558 // 
+asn:146559 // 
+asn:146560 // 
+asn:146561 // 
+asn:146562 // 
+asn:146563 // 
+asn:146564 // 
+asn:146565 // 
+asn:146566 // 
+asn:146567 // 
+asn:146568 // 
+asn:146569 // 
+asn:146570 // 
+asn:146571 // 
+asn:146572 // 
+asn:146573 // 
+asn:146574 // 
+asn:146575 // 
+asn:146576 // 
+asn:146577 // 
+asn:146578 // 
+asn:146579 // 
+asn:146580 // 
+asn:146581 // 
+asn:146582 // 
+asn:146583 // 
+asn:146584 // 
+asn:146585 // 
+asn:146586 // 
+asn:146587 // 
+asn:146588 // 
+asn:146589 // 
+asn:146590 // 
+asn:146591 // 
+asn:146592 // 
+asn:146593 // 
+asn:146594 // 
+asn:146595 // 
+asn:146596 // 
+asn:146597 // 
+asn:146598 // 
+asn:146599 // 
+asn:146600 // 
+asn:146601 // 
+asn:146602 // 
+asn:146603 // 
+asn:146604 // 
+asn:146605 // 
+asn:146606 // 
+asn:146607 // 
+asn:146608 // 
+asn:146609 // 
+asn:146610 // 
+asn:146611 // 
+asn:146612 // 
+asn:146613 // 
+asn:146614 // 
+asn:146615 // 
+asn:146616 // 
+asn:146617 // 
+asn:146618 // 
+asn:146619 // 
+asn:146620 // 
+asn:146621 // 
+asn:146622 // 
+asn:146623 // 
+asn:146624 // 
+asn:146625 // 
+asn:146626 // 
+asn:146627 // 
+asn:146628 // 
+asn:146629 // 
+asn:146630 // 
+asn:146631 // 
+asn:146632 // 
+asn:146633 // 
+asn:146634 // 
+asn:146635 // 
+asn:146636 // 
+asn:146637 // 
+asn:146638 // 
+asn:146639 // 
+asn:146640 // 
+asn:146641 // 
+asn:146642 // 
+asn:146643 // 
+asn:146644 // 
+asn:146645 // 
+asn:146646 // 
+asn:146647 // 
+asn:146648 // 
+asn:146649 // 
+asn:146650 // 
+asn:146651 // 
+asn:146652 // 
+asn:146653 // 
+asn:146654 // 
+asn:146655 // 
+asn:146656 // 
+asn:146657 // 
+asn:146658 // 
+asn:146659 // 
+asn:146660 // 
+asn:146661 // 
+asn:146662 // 
+asn:146663 // 
+asn:146664 // 
+asn:146665 // 
+asn:146666 // 
+asn:146667 // 
+asn:146668 // 
+asn:146669 // 
+asn:146670 // 
+asn:146671 // 
+asn:146672 // 
+asn:146673 // 
+asn:146674 // 
+asn:146675 // 
+asn:146676 // 
+asn:146677 // 
+asn:146678 // 
+asn:146679 // 
+asn:146680 // 
+asn:146681 // 
+asn:146682 // 
+asn:146683 // 
+asn:146684 // 
+asn:146685 // 
+asn:146686 // 
+asn:146687 // 
+asn:146688 // 
+asn:146689 // 
+asn:146690 // 
+asn:146691 // 
+asn:146692 // 
+asn:146693 // 
+asn:146694 // 
+asn:146695 // 
+asn:146696 // 
+asn:146697 // 
+asn:146698 // 
+asn:146699 // 
+asn:146700 // 
+asn:146701 // 
+asn:146702 // 
+asn:146703 // 
+asn:146704 // 
+asn:146705 // 
+asn:146706 // 
+asn:146707 // 
+asn:146708 // 
+asn:146709 // 
+asn:146710 // 
+asn:146711 // 
+asn:146712 // 
+asn:146713 // 
+asn:146714 // 
+asn:146715 // 
+asn:146716 // 
+asn:146717 // 
+asn:146718 // 
+asn:146719 // 
+asn:146720 // 
+asn:146721 // 
+asn:146722 // 
+asn:146723 // 
+asn:146724 // 
+asn:146725 // 
+asn:146726 // 
+asn:146727 // 
+asn:146728 // 
+asn:146729 // 
+asn:146730 // 
+asn:146731 // 
+asn:146732 // 
+asn:146733 // 
+asn:146734 // 
+asn:146735 // 
+asn:146736 // 
+asn:146737 // 
+asn:146738 // 
+asn:146739 // 
+asn:146740 // 
+asn:146741 // 
+asn:146742 // 
+asn:146743 // 
+asn:146744 // 
+asn:146745 // 
+asn:146746 // TaiKang Insurance Group 有限公司.,武汉 Operating Center
+asn:146753 // kgzxnet
+asn:146758 // 上海 Sensetime 技术开发有限公司
+asn:146771 // CCB Fintech 有限公司
+asn:146772 // 深圳 Pengcheng communication network 有限公司
+asn:146774 // Hardcore Communication Co.
+asn:146792 // 上海 Shenfu信息科技有限公司
+asn:146809 // Poly facility (北京) Technology 有限公司
+asn:146812 // Deutsche Bank (China) 有限公司 上海 Branch
+asn:146814 // Hong Kong大学 of Science and Technology, Dongchung Town,
+asn:146817 // 湖北 Feixun Network 有限公司
+asn:146822 // 深圳市 Zhongyun Shujujishu Youxiangongsi
+asn:146824 // GOLD SEA COMMUNICATIONS 有限公司
+asn:146827 // 北京 XunTong Communication Service 有限公司
+asn:146834 // 四川 XunYou Network Technologe 有限公司
+asn:146842 // ChinaDataCom 有限公司
+asn:146845 // 上海 Longjing信息科技有限公司
+asn:146966 // 中国电信
+asn:147008 // 深圳 Dianjiang Technology 有限公司
+asn:147038 // 中国电信
+asn:148969 // 中国电信
+asn:148981 // 中国电信
+asn:149056 // 哈尔滨 Liangyue 网络科技有限公司
+asn:149057 // 深圳 Moerin Technology 有限公司
+asn:149163 // 宜昌 Shuangsen 网络科技Ltd
+asn:149178 // 中国电信
+asn:149292 // 上海 YanFu Technology 有限公司
+asn:149475 // 南京天开信息技术有限公司
+asn:149506 // YousaFan LTD
+asn:149513 // 91440300MA5DH1CC86
+asn:149648 // 福州 Lefeng Networks Technology 有限公司
+asn:149790 // Octopus 云计算(上海) 有限公司
+asn:149793 // Xin Yang Bai Xing Network Tecnology 有限公司
+asn:149795 // XiaoJin233 Network
+asn:149837 // 中国电信
+asn:149979 // 中国电信
+asn:150145 // 中国电信
+asn:150173 // Polo云计算(Hong Kong) Limited
+asn:151397 // 中国电信
+asn:151464 // 上海 Luogu 网络科技有限公司
+asn:151493 // 北京 Kouding Technology 有限公司
+asn:151640 // Bengbu Qingye Technology
+asn:151674 // Cheng Yijia
+asn:151814 // Guo Chuang Xin Xing (北京) Technology 有限公司
+asn:151823 // 中国电信
+asn:152092 // 河南 Angran 云计算Technology 有限公司
+asn:205794 // JINZE YANG
+asn:206729 // Vincent Yang
+asn:208679 // YIKAI-ZHAO
+asn:210041 // Licheng MAO
+asn:210426 // Liang Zhu 【未广播中国大陆IP】
+asn:210714 // Wang Yongjin 【未广播中国大陆IP】
+asn:210903 // 承德青曜网络技术服务有限公司
+asn:210934 // YAO PEI 【未广播中国大陆IP】
+asn:211481 // JINGQUAN LI
+asn:211571 // Xin Zhao
+asn:211843 // 南京天开信息技术有限公司
+asn:212237 // Changgong Zhang

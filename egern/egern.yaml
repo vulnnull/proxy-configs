@@ -256,6 +256,15 @@ rules:
   - rule_set:
       match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/China.list
       policy: 🔒 国内服务
+  - rule_set:
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/ChinaMedia.list
+      policy: 🔒 国内服务
+  - rule_set:
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/ChinaASN.list
+      policy: 🔒 国内服务
+  - rule_set:
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/ChinaCIDR.list
+      policy: 🔒 国内服务
 
   # 兜底
   - default:
@@ -274,26 +283,22 @@ mitm:
       - "*.live.com"
       - "*.office.com"
 
-# 模块配置
 modules:
-  - name: Sub-Store
-    url: https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Egern.yaml
-    enabled: true
-  - name: WeatherKit
-    url: https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.sgmodule
-    enabled: true
+- url: https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Egern.yaml
+  enabled: true
+- url: https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.sgmodule
+  enabled: true
 
-# 小组件（自建仓库）
 scriptings:
-  - generic:
-      name: 和风天气小组件
-      script_url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/widget/Weather_Widget.js
-      timeout: 120
-  - generic:
-      name: 机场订阅小组件
-      script_url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/widget/Sub_Widget.js
-      timeout: 120
-  - generic:
-      name: 万年历小组件
-      script_url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/widget/CN_Cal.js
-      timeout: 120
+- generic:
+    name: 和风天气小组件
+    script_url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/widget/Weather_Widget.js
+    timeout: 120
+- generic:
+    name: 机场订阅小组件
+    script_url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/widget/Sub_Widget.js
+    timeout: 120
+- generic:
+    name: 万年历小组件
+    script_url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/widget/CN_Cal.js
+    timeout: 120
