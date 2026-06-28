@@ -167,9 +167,6 @@ policy_groups:
   - select:
       name: 🔒 国内服务
       policies: [DIRECT]
-  - select:
-      name: 🛑 广告拦截
-      policies: [REJECT, DIRECT]
 
 # 路由规则
 rules:
@@ -185,11 +182,6 @@ rules:
   - rule_set:
       match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/Lan.list
       policy: DIRECT
-
-  # 广告
-  - rule_set:
-      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/egern/Rule/AdBlock.yaml
-      policy: 🛑 广告拦截
 
   # Apple 服务（直连优先）
   - rule_set:
