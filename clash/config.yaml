@@ -348,7 +348,7 @@ rule-providers:
   China:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml
+    url: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/yaml/China.yaml
     path: ./ruleset/China.yaml
     interval: 86400
 

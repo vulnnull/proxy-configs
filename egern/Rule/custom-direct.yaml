@@ -1,0 +1,25 @@
+# Generated from source/custom-direct.txt
+# Total: 16 rules
+
+domain_set:
+  - api-hub.taichuos.com
+  - api.modrouter.online
+
+domain_suffix_set:
+  - minimaxi.com
+  - minimax.chat
+  - bigmodel.cn
+  - z.ai
+  - fnos.net
+  - transnull.cn
+  - qq.com
+  - apple.com
+  - todesk.com
+  - vpsairobot.com
+  - cn
+
+domain_keyword_set:
+  - weixin
+  - alipay
+  - tencent
+

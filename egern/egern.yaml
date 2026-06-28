@@ -239,6 +239,11 @@ rules:
       policy: 🔒 国内服务
       no_resolve: true
 
+  # 国内域名规则集（自有仓库同步）
+  - rule_set:
+      match: https://raw.githubusercontent.com/vulnnull/proxy-configs/main/rules/list/China.list
+      policy: 🔒 国内服务
+
   # 兜底
   - default:
       policy: 自选策略

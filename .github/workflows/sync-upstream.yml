@@ -28,6 +28,34 @@ jobs:
           done
 
           # ═══════════════════════════════
+          # Rabbit-Spec China → source/China.txt + 规则生成
+          # ═══════════════════════════════
+          curl -sL --connect-timeout 15 --max-time 60 \
+            "https://raw.githubusercontent.com/Rabbit-Spec/Surge/refs/heads/Master/Rules/China.list" \
+            -o /tmp/China_download.list
+
+          python3 -c "
+          import re
+          lines = open('/tmp/China_download.list').readlines()
+          out = []
+          for line in lines:
+              line = line.rstrip('\n\r')
+              if line.startswith('#') or not line.strip():
+                  out.append(line); continue
+              m = re.match(r'^(DOMAIN-SUFFIX|DOMAIN|DOMAIN-KEYWORD|IP-CIDR|IP-CIDR6|USER-AGENT),(.+)', line)
+              if not m: continue
+              rtype, val = m.group(1), m.group(2)
+              if rtype == 'DOMAIN-SUFFIX':   out.append(val)
+              elif rtype == 'DOMAIN':        out.append(f'={val}')
+              elif rtype == 'DOMAIN-KEYWORD': out.append(f'~{val}')
+              elif rtype == 'IP-CIDR':       out.append(f'ip:{val}')
+              elif rtype == 'IP-CIDR6':      out.append(f'ip6:{val}')
+              elif rtype == 'USER-AGENT':    out.append(f'ua:{val}')
+          with open('rules/source/China.txt', 'w') as f:
+              f.write('\n'.join(out) + '\n')
+          "
+
+          # ═══════════════════════════════
           # Shadowrocket 特有 → sr-rules/rule/
           # ═══════════════════════════════
           SR="GitLab Atlassian China Global"

@@ -1,0 +1,7 @@
+# Generated from source/custom-proxy.txt
+# Total: 2 rules
+
+domain_suffix_set:
+  - linux.do
+  - nodeseek.com
+

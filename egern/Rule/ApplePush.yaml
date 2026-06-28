@@ -1,0 +1,9 @@
+# Generated from source/ApplePush.txt
+# Total: 4 rules
+
+domain_suffix_set:
+  - push.apple.com
+  - gateway.push.apple.com
+  - api.push.apple.com
+  - sandbox.push.apple.com
+
