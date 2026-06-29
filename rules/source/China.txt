@@ -1,7 +1,7 @@
 # NAME: 深巷有喵的「China」规则
 # AUTHOR: Rabbit-Spec
 # REPO: https://github.com/Rabbit-Spec/Surge
-# UPDATED: 2026.06.28 05:11:45
+# UPDATED: 2026.06.29 05:10:27
 # TOTAL: 3759
 
 # ======= 手动维护规则 ========
@@ -3736,10 +3736,6 @@ ip:185.188.34.0/24,no-resolve
 ip:185.188.35.0/24,no-resolve
 ip:203.205.238.0/23,no-resolve
 ip:203.205.254.0/23,no-resolve
-ip6:2a0b:b580::/48,no-resolve
-ip6:2a0b:b581::/48,no-resolve
-ip6:2a0b:b582::/48,no-resolve
-ip6:2a0b:b583::/48,no-resolve
 ua:%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
 ua:%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*
 ua:%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*

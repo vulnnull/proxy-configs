@@ -1,5 +1,5 @@
 # Generated from source/China.txt
-# Total: 3728 rules
+# Total: 3724 rules
 
 domain_set:
   - analytics.strava.com
@@ -3732,10 +3732,4 @@ ip_cidr_set:
   - '185.188.35.0/24,no-resolve'
   - '203.205.238.0/23,no-resolve'
   - '203.205.254.0/23,no-resolve'
-
-ip_cidr6_set:
-  - '2a0b:b580::/48,no-resolve'
-  - '2a0b:b581::/48,no-resolve'
-  - '2a0b:b582::/48,no-resolve'
-  - '2a0b:b583::/48,no-resolve'
 
