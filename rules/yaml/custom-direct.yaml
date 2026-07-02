@@ -13,6 +13,7 @@ payload:
   - 'api.modrouter.online'
   - '+.vpsairobot.com'
   - '+.deepseek.com'
+  - '+.7r.fit'
   - '~weixin'
   - '~alipay'
   - '~tencent'

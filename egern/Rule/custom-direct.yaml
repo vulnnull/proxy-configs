@@ -1,5 +1,5 @@
 # Generated from source/custom-direct.txt
-# Total: 17 rules
+# Total: 18 rules
 
 domain_set:
   - api-hub.taichuos.com
@@ -17,6 +17,7 @@ domain_suffix_set:
   - todesk.com
   - vpsairobot.com
   - deepseek.com
+  - 7r.fit
   - cn
 
 domain_keyword_set:

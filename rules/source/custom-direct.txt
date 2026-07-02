@@ -12,6 +12,7 @@ todesk.com
 =api.modrouter.online
 vpsairobot.com
 deepseek.com
+7r.fit
 # 国内大厂 Keyword
 ~weixin
 ~alipay
