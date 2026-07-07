@@ -1,3 +1,9 @@
 # Generated from source/custom-proxy.txt
 DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,nodeseek.com
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN,registry-1.docker.io
+DOMAIN,auth.docker.io
+DOMAIN,production.cloudflare.docker.com
+DOMAIN-KEYWORD,docker-images-prod

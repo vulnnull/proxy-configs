@@ -1,7 +1,17 @@
 # Generated from source/custom-proxy.txt
-# Total: 2 rules
+# Total: 8 rules
+
+domain_set:
+  - registry-1.docker.io
+  - auth.docker.io
+  - production.cloudflare.docker.com
 
 domain_suffix_set:
   - linux.do
   - nodeseek.com
+  - docker.com
+  - docker.io
+
+domain_keyword_set:
+  - docker-images-prod
 
