@@ -7,6 +7,7 @@ payload:
   - '+.1password.com'
   - '+.1passwordusercontent.com'
   - '+.avermedia.com'
+  - '~sleep.pokemon'
   - 'analytics.strava.com'
   - 'blzddist1-a.akamaihd.net'
   - 'cdn.angruo.com'

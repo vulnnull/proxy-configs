@@ -1,5 +1,5 @@
 # Generated from source/China.txt
-# Total: 3724 rules
+# Total: 3725 rules
 
 domain_set:
   - analytics.strava.com
@@ -3704,6 +3704,7 @@ domain_suffix_set:
   - zzdtec.com
 
 domain_keyword_set:
+  - sleep.pokemon
   - .tmall.com
   - alicdn
   - alipay
