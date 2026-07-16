@@ -1,5 +1,5 @@
 # Generated from source/China.txt
-# Total: 3725 rules
+# Total: 3726 rules
 
 domain_set:
   - analytics.strava.com
@@ -28,6 +28,7 @@ domain_suffix_set:
   - 1password.com
   - 1passwordusercontent.com
   - avermedia.com
+  - test-ipv6.com
   - 00cdn.com
   - 0123456789.com
   - 0379home.com
