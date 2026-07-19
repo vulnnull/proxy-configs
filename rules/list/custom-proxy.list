@@ -7,3 +7,4 @@ DOMAIN,registry-1.docker.io
 DOMAIN,auth.docker.io
 DOMAIN,production.cloudflare.docker.com
 DOMAIN-KEYWORD,docker-images-prod
+DOMAIN-SUFFIX,jina.ai

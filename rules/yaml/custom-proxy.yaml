@@ -8,3 +8,4 @@ payload:
   - 'auth.docker.io'
   - 'production.cloudflare.docker.com'
   - '~docker-images-prod'
+  - '+.jina.ai'

@@ -1,5 +1,5 @@
 # Generated from source/custom-proxy.txt
-# Total: 8 rules
+# Total: 9 rules
 
 domain_set:
   - registry-1.docker.io
@@ -11,6 +11,7 @@ domain_suffix_set:
   - nodeseek.com
   - docker.com
   - docker.io
+  - jina.ai
 
 domain_keyword_set:
   - docker-images-prod
