@@ -80,15 +80,9 @@ def generate():
             # ── list 格式 (Surge/Egern/Shadowrocket) ──
             list_lines.append(f"{rtype},{value}")
 
-            # ── yaml 格式 (Clash rule-provider) ──
-            if rtype == "DOMAIN-SUFFIX":
-                yaml_payload.append(f"  - '+.{value}'")
-            elif rtype == "DOMAIN":
-                yaml_payload.append(f"  - '{value}'")
-            elif rtype == "DOMAIN-KEYWORD":
-                yaml_payload.append(f"  - '~{value}'")
-            elif rtype in ("IP-CIDR", "IP-CIDR6", "IP-ASN", "PROCESS-NAME"):
-                yaml_payload.append(f"  - '{rtype},{value}'")
+            # ── yaml 格式 (Clash rule-provider classical) ──
+            # 统一用 TYPE,VALUE 全格式，mihomo/Clash/Surge 全兼容
+            yaml_payload.append(f"  - '{rtype},{value}'")
 
             # ── Egern 原生 yaml ──
             if rtype == "DOMAIN":

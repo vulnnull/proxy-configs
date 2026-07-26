@@ -1,6 +1,6 @@
 # Generated from source/ApplePush.txt
 payload:
-  - '+.push.apple.com'
-  - '+.gateway.push.apple.com'
-  - '+.api.push.apple.com'
-  - '+.sandbox.push.apple.com'
+  - 'DOMAIN-SUFFIX,push.apple.com'
+  - 'DOMAIN-SUFFIX,gateway.push.apple.com'
+  - 'DOMAIN-SUFFIX,api.push.apple.com'
+  - 'DOMAIN-SUFFIX,sandbox.push.apple.com'
