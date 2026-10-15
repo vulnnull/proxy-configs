@@ -2,7 +2,6 @@
 payload:
   - 'DOMAIN-SUFFIX,immersivetranslate.com'
   - 'DOMAIN-SUFFIX,petkit.com'
-  - 'DOMAIN-SUFFIX,rtesvc.com'
   - 'DOMAIN-SUFFIX,asus.com'
   - 'DOMAIN-SUFFIX,agilebits.com'
   - 'DOMAIN-SUFFIX,1password.com'
@@ -11,6 +10,7 @@ payload:
   - 'DOMAIN-KEYWORD,sleep.pokemon'
   - 'DOMAIN,cdp.cloud.unity3d.com'
   - 'DOMAIN,config.uca.cloud.unity3d.com'
+  - 'DOMAIN,umami.mao.fan'
   - 'DOMAIN,analytics.strava.com'
   - 'DOMAIN,blzddist1-a.akamaihd.net'
   - 'DOMAIN,cdn.angruo.com'

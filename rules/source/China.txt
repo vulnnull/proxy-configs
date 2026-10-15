@@ -1,7 +1,7 @@
 # NAME: 深巷有喵的「China」规则
 # AUTHOR: Rabbit-Spec
 # REPO: https://github.com/Rabbit-Spec/Surge
-# UPDATED: 2026.10.12 07:32:35
+# UPDATED: 2026.10.15 07:05:24
 # TOTAL: 3763
 
 # ======= 手动维护规则 ========
@@ -9,7 +9,6 @@
 immersivetranslate.com
 # 小佩宠物
 petkit.com
-rtesvc.com
 # ASUS
 asus.com
 # 1Password
@@ -23,7 +22,8 @@ avermedia.com
 # 鹅鸭杀
 =cdp.cloud.unity3d.com
 =config.uca.cloud.unity3d.com
-
+# 猫点饭
+=umami.mao.fan
 # ======= 上游同步规则 ========
 =analytics.strava.com
 =blzddist1-a.akamaihd.net

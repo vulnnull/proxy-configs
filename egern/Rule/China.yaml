@@ -4,6 +4,7 @@
 domain_set:
   - cdp.cloud.unity3d.com
   - config.uca.cloud.unity3d.com
+  - umami.mao.fan
   - analytics.strava.com
   - blzddist1-a.akamaihd.net
   - cdn.angruo.com
@@ -25,7 +26,6 @@ domain_set:
 domain_suffix_set:
   - immersivetranslate.com
   - petkit.com
-  - rtesvc.com
   - asus.com
   - agilebits.com
   - 1password.com
