@@ -1,5 +1,5 @@
 # Generated from source/China.txt
-# Total: 3728 rules
+# Total: 3730 rules
 
 domain_set:
   - cdp.cloud.unity3d.com
@@ -26,6 +26,8 @@ domain_set:
 domain_suffix_set:
   - immersivetranslate.com
   - petkit.com
+  - petkit.cn
+  - rtesvc.com
   - asus.com
   - agilebits.com
   - 1password.com
